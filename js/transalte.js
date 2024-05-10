@@ -1,0 +1,432 @@
+const translations = {
+  arabic: {
+    en: "العربية",
+    ar: "English",
+  },
+  home: {
+    en: "Home",
+    ar: "الصفحة الرئيسية",
+  },
+  about: {
+    en: "About",
+    ar: "حولنا",
+  },
+
+  aboutus: {
+    en: "About us",
+    ar: "معلومات عنا",
+  },
+
+  blog: {
+    en: "Blog",
+    ar: "مدونة",
+  },
+
+  careers: {
+    en: "Careers",
+    ar: "وظائف",
+  },
+  contact: {
+    en: "Contact",
+    ar: "اتصل بنا",
+  },
+  contactus: {
+    en: "Contact us",
+    ar: "اتصل بنا",
+  },
+  innovative: {
+    en: "Innovative AI Solution",
+    ar: "حل الذكاء الاصطناعي المبتكر",
+  },
+  simplify: {
+    en: "to Simplify Your Life,",
+    ar: "لتبسيط حياتك،",
+  },
+  empower: {
+    en: "Empower Your Business.",
+    ar: "تمكين عملك.",
+  },
+  leverages: {
+    en: `GAIM leverages sophisticated Data Engineering and Artificial
+    Intelligence algorithms to craft unique solutions that simplify
+    daily hassles and empower businesses.`,
+    ar: `يستفيد غيم من بنية البيانات المتطورة والهندسة الاصطناعية
+    خوارزميات الذكاء لصياغة حلول فريدة من نوعها تبسط
+    المتاعب اليومية وتمكين الشركات.`,
+  },
+
+  explore: {
+    en: "Explore our amazing",
+    ar: "اكتشف لدينا",
+  },
+
+  products: {
+    en: "Products",
+    ar: "منتجات",
+  },
+
+  services: {
+    en: "Services",
+    ar: "خدمات",
+  },
+
+  and: {
+    en: "and",
+    ar: "و",
+  },
+  amazing: {
+    ar: "مذهلة",
+  },
+  personal: {
+    en: "Your personal assistant",
+    ar: "مساعدك الشخصي",
+  },
+
+  ghain: {
+    en: "Ghain",
+    ar: "غيم",
+  },
+
+  can: {
+    en: "can help you to find:",
+    ar: "يمكن أن تساعدك في العثور على:",
+  },
+
+  healthcare: {
+    en: "Healthcare professionals",
+    ar: "متخصصو الرعاية الصحية",
+  },
+
+  pands: {
+    en: "Products & services",
+    ar: "المنتجات والخدمات",
+  },
+
+  laws: {
+    en: "Laws & regulations",
+    ar: "القوانين واللوائح",
+  },
+  government: {
+    en: "Government services",
+    ar: "خدمات حكومية",
+  },
+  events: {
+    en: "Events & attractions",
+    ar: "الأحداث والمعالم السياحية",
+  },
+  latest: {
+    en: "Latest news matching your interests",
+    ar: "آخر الأخبار التي تطابق اهتماماتك",
+  },
+
+  live: {
+    en: "Ghain is live!",
+    ar: "غيم حي!",
+  },
+
+  chatghain: {
+    en: "Chat to Ghain now!",
+    ar: "الدردشة مع غيم الآن!",
+  },
+
+  start: {
+    en: " You can start using it for free,",
+    ar: "يمكنك البدء في استخدامه مجانًا،",
+  },
+  tiers: {
+    en: "and explore different usage tiers.",
+    ar: "واستكشف مستويات الاستخدام المختلفة.",
+  },
+
+  more: {
+    en: "Learn more",
+    ar: `تعرف اكثر`,
+  },
+  werempower: {
+    en: "We empower companies to",
+    ar: "نحن نمكن الشركات من",
+  },
+  informed: {
+    en: "make informed decisions ",
+    ar: "اتخاذ قرارات مستنيرة",
+  },
+  throughmarket: {
+    en: `Through tailored market research, we utilize AI to
+    unearth actionable insights into consumer behavior and
+    trends,`,
+    ar: `من خلال أبحاث السوق المخصصة، نستخدم الذكاء الاصطناعي لتحقيق
+    اكتشاف رؤى قابلة للتنفيذ في سلوك المستهلك و
+    اتجاهات،`,
+  },
+  guidebusiness: {
+    en: "We guide businesses through the maze of",
+    ar: "نحن نوجه الشركات عبر متاهة",
+  },
+
+  aiint: {
+    en: "AI integration",
+    ar: "تكامل الذكاء الاصطناعي",
+  },
+
+  weoffer: {
+    en: "We offer",
+    ar: "نحن نقدم",
+  },
+
+  customai: {
+    en: "custom AI solution",
+    ar: "حل الذكاء الاصطناعي المخصص",
+  },
+  development: {
+    en: "development",
+    ar: "تطوير",
+  },
+  ourteam: {
+    en: `Our team of experts is passionate about adding value to
+    your business.`,
+    ar: `فريق الخبراء لدينا متحمس لإضافة قيمة إلى
+    عملك.`,
+  },
+
+  reach: {
+    en: "Reach out to GAIM to book a meeting or demo.",
+    ar: "تواصل مع غيم لحجز اجتماع أو عرض توضيحي.",
+  },
+  contactus: {
+    en: "Contact us",
+    ar: "اتصل بنا",
+  },
+  ourservices: {
+    en: "Our Services",
+    ar: "خدماتنا",
+  },
+  aboutgaim: {
+    en: "About",
+    ar: "عن",
+  },
+  gaim: {
+    en: "Gaim",
+    ar: "غيم",
+  },
+
+  forefront: {
+    en: "At the forefront of AI innovation, Gaim revolutionizes how individuals and professionals access and interact with information. We're dedicated to creating cutting-edge AI solutions that transform daily hassles into intuitive, seamless experiences. Our flagship products exemplify our commitment to enhancing productivity, accuracy, and ecision-making across various domains.",
+    ar: "في طليعة ابتكارات الذكاء الاصطناعي، تُحدث Gaim ثورة في كيفية وصول الأفراد والمهنيين إلى المعلومات والتفاعل معها. نحن ملتزمون بإنشاء حلول الذكاء الاصطناعي المتطورة التي تحول المتاعب اليومية إلى تجارب سلسة وبديهية. تجسد منتجاتنا الرئيسية التزامنا بتعزيز الإنتاجية والدقة واتخاذ القرار في مختلف المجالات.",
+  },
+  explorforefront: {
+    en: `Explore the forefront of AI innovation with insights from
+    industry experts and pioneers`,
+    ar: `اكتشف طليعة ابتكارات الذكاء الاصطناعي مع رؤى من
+    خبراء ورواد الصناعة`,
+  },
+  something: {
+    en: "Something about AI",
+    ar: "شيء عن الذكاء الاصطناعي",
+  },
+  insights: {
+    en: "Insights",
+    ar: "أفكار",
+  },
+  copyright: {
+    en: "Copyright © 2024 GAIM Tech. LLC. All rights reserved.",
+    ar: "حقوق الطبع والنشر © 2024 GAIM Tech. ذ م م. كل الحقوق محفوظة.",
+  },
+
+  infotitle: {
+    en: `We're not just anticipating the future; we're building it.
+    `,
+    ar: "نحن لا نتوقع المستقبل فقط؛ نحن نبنيه.",
+  },
+
+  infotitle21: {
+    en: "Join us in navigating the ",
+    ar: "انضم إلينا في تنقل",
+  },
+  infotitle22: {
+    en: "possibilities of tomorrow, today. ",
+    ar: "إمكانيات الغد، اليوم.",
+  },
+
+  gaimc: {
+    en: "GAIM",
+    ar: "غيم",
+  },
+  founded: {
+    en: "was founded in",
+    ar: "تم انشاءه في",
+  },
+  2023: {
+    en: "2023",
+    ar: "٢٠٢٣",
+  },
+  byteam: {
+    en: "by a team of passionate",
+    ar: "من قبل فريق شغوف",
+  },
+  omanis: {
+    en: "Omanis",
+    ar: "عمانيون",
+  },
+  who: {
+    en: `who chose to leverage their multidisciplinary skill set to
+    add the maximum value to everybody around them and help
+    empower local businesses.`,
+    ar: `لذين اختاروا الاستفادة من مهاراتهم متعددة التخصصات
+    إضافة الحد الأقصى من القيمة إلى كل من حولهم ومساعدتهم
+    تمكين الشركات المحلية.`,
+  },
+  team: {
+    en: "Team",
+    ar: "فريق",
+  },
+  founding: {
+    en: "Our founding team combines expertise in AI, physics, and project management, forming a talented and multidisciplinary force. Their diverse skills allow us to navigate complex challenges and innovate at the forefront of technology.",
+    ar: "يجمع فريقنا المؤسس بين الخبرة في الذكاء الاصطناعي والفيزياء وإدارة المشاريع، مما يشكل قوة موهوبة ومتعددة التخصصات. تتيح لنا مهاراتهم المتنوعة التغلب على التحديات المعقدة والابتكار في طليعة التكنولوجيا.",
+  },
+  jabir: {
+    en: "Jabir Al Salami, PhD",
+    ar: "د. جابر السلامي",
+  },
+  ceo: {
+    en: "Chief Executive Officer",
+    ar: "الرئيس التنفيذي",
+  },
+  ali: {
+    en: "Ali Al Khaifi, PMP",
+    ar: "علي الخايفي",
+  },
+  coo: {
+    en: "Chief Operations Officer",
+    ar: "كبير مسؤولي العمليات",
+  },
+  values: {
+    en: "Values",
+    ar: "قيمنا",
+  },
+  vision: {
+    en: "Vission",
+    ar: "رؤيتنا",
+  },
+  our: {
+    en: "Our",
+    ar: "",
+  },
+  rooted: {
+    en: "Our company, rooted in local culture, prioritizes innovation and empowerment, aiming to revolutionize interactions with local data through advanced AI. We strive to create remarkable products that enrich lives, embodying Oman's spirit of ingenuity and progress.",
+    ar: "تعطي شركتنا، المتجذرة في الثقافة المحلية، الأولوية للابتكار والتمكين، بهدف إحداث ثورة في التفاعلات مع البيانات المحلية من خلال الذكاء الاصطناعي المتقدم. نحن نسعى جاهدين لإنشاء منتجات رائعة تثري الحياة، وتجسد روح الإبداع والتقدم في عمان.",
+  },
+
+  mission: {
+    en: "Mission",
+    ar: "مهمتنا",
+  },
+  simplifylives: {
+    en: "Simplify lives and empower businesses by unlocking the full potential of local data with AI",
+    ar: "قم بتبسيط الحياة وتمكين الشركات من خلال إطلاق الإمكانات الكاملة للبيانات المحلية باستخدام الذكاء الاصطناعي",
+  },
+  beacompany: {
+    en: "Be a company that makes amazing products leveraging and developing cutting-edge technologies that everybody uses to make their lives richer and easier.",
+    ar: "كن شركة تصنع منتجات مذهلة تستفيد من أحدث التقنيات وتطورها والتي يستخدمها الجميع لجعل حياتهم أكثر ثراءً وسهولة.",
+  },
+  technology: {
+    en: "Technology",
+    ar: "تكنولوجيا",
+  },
+  heart: {
+    en: `At the heart of our innovations lies a commitment to harnessing AI
+    technology, driving progress and efficiency in every facet of
+    modern life. Our solutions are designed to meet the dynamic needs
+    of individuals and businesses, making the complex simple and the
+    ordinary extraordinary.`,
+    ar: `في قلب ابتكاراتنا يكمن الالتزام بتسخير الذكاء الاصطناعي
+    التكنولوجيا، ودفع التقدم والكفاءة في كل جانب من جوانب
+    حياة عصرية. تم تصميم حلولنا لتلبية الاحتياجات الديناميكية
+    للأفراد والشركات، مما يجعل المعقد بسيطًا و
+    عادية غير عادية.`,
+  },
+  ourtech: {
+    en: "Our AI Technology",
+    ar: "تكنولوجيا الذكاء الاصطناعي لدينا",
+  },
+  ourprop: {
+    en: `Our proprietary AI technology leverages innovative
+    algorithms for advanced data mining and natural language
+    processing. This enables us to extract meaningful insights
+    from vast datasets and understand complex user queries,
+    driving personalized and efficient solutions.`,
+    ar: `تعمل تقنية الذكاء الاصطناعي الخاصة بنا على تعزيز الابتكار
+    خوارزميات لاستخراج البيانات المتقدمة واللغة الطبيعية
+    يعالج. وهذا يتيح لنا استخلاص رؤى ذات معنى
+    من مجموعات البيانات الضخمة وفهم استعلامات المستخدم المعقدة،
+    قيادة الحلول الشخصية والفعالة.`,
+  },
+  research: {
+    en: "Research and Development",
+    ar: "البحث والتطوير",
+  },
+  ourrd: {
+    en: ` Our R&D team is dedicated to pushing the boundaries of AI,
+    focusing on continuous improvement of our algorithms and
+    exploring new ways to apply AI in everyday life. Their work
+    ensures our technology stays at the cutting edge.`,
+    ar: `فريق البحث والتطوير لدينا ملتزم بدفع حدود الذكاء الاصطناعي،
+    التركيز على التحسين المستمر لخوارزمياتنا و
+    استكشاف طرق جديدة لتطبيق الذكاء الاصطناعي في الحياة اليومية. عملهم
+    يضمن بقاء التكنولوجيا لدينا في طليعة.`,
+  },
+  data: {
+    en: "Data Security and Privacy",
+    ar: "أمن البيانات والخصوصية",
+  },
+  wepri: {
+    en: `We prioritize data security and privacy, employing robust
+    measures to protect our users' information. Our commitment
+    to these principles is unwavering, ensuring trust and
+    integrity in all our operations.`,
+    ar: `نحن نعطي الأولوية لأمن البيانات والخصوصية، ونستخدم القوة
+    تدابير لحماية معلومات مستخدمينا. التزامنا
+    لهذه المبادئ لا يتزعزع، وضمان الثقة و
+    النزاهة في جميع عملياتنا.`,
+  },
+};
+
+function toggleLanguage() {
+  const lang = localStorage.getItem("language") || "en";
+  const newLang = lang === "en" ? "ar" : "en";
+  localStorage.setItem("language", newLang);
+  renderTranslations(newLang);
+  window.location.reload(); // Add this line to reload the page
+}
+
+function renderTranslations(lang) {
+  const elements = document.querySelectorAll("[data-key]");
+  elements.forEach((element) => {
+    const key = element.dataset.key;
+    const translation = getTranslation(key, lang);
+    element.textContent = translation;
+  });
+
+  // Set direction and lang of the root element based on language
+  const htmlElement = document.querySelector("html");
+  htmlElement.dir = lang === "ar" ? "rtl" : "ltr";
+  htmlElement.lang = lang;
+}
+
+function getTranslation(key, lang) {
+  if (translations.hasOwnProperty(key)) {
+    if (translations[key].hasOwnProperty(lang)) {
+      return translations[key][lang];
+    } else {
+      return translations[key].en;
+    }
+  } else {
+    return null;
+  }
+}
+
+document.getElementById("lang-Btn").addEventListener("click", toggleLanguage);
+document
+  .getElementById("mobile-btn-ar")
+  .addEventListener("click", toggleLanguage);
+
+renderTranslations(localStorage.getItem("language") || "en");
