@@ -121,6 +121,20 @@
 					}
 				}
 			}
+			function openAccordion(name) {
+				console.log(document.getElementById(name))
+
+				// document.getElementById(name).style.display = "block";
+				document.getElementById(name).classList.toggle('active')
+
+				document.getElementById(`for-${name}`).classList.add('active')
+				var otherTabButtons = document.getElementsByClassName('accordion-button')
+				for (i = 0; i < otherTabButtons.length; i++) {
+					if(otherTabButtons[i].id !== `for-${name}`){
+						otherTabButtons[i].classList.remove('active')
+					}
+				}
+			}
 
 			function switchPricing(cat) {
 				
@@ -825,13 +839,13 @@
       <div class="container large tab-container only-tablet-n-laptop">
 				<div class="tabs ">
 					<button id="for-character1" class="tab-button first active" onclick="openTab('character1')">
-						<p data-key="intelligent"></p>
+						<p data-key="intelligent">Intelligent</p>
 					</button>
 					<button id="for-character2" class="tab-button middle" onclick="openTab('character2')">
-						<p data-key="knowledgable"></p>
+						<p data-key="knowledgable">Knowledgable</p>
 					</button>
 					<button id="for-character3" class="tab-button last" onclick="openTab('character3')">
-						<p data-key="uniqueToYou"></p>
+						<p data-key="uniqueToYou">Unique to you</p>
 					</button>
 				</div>
 				<div id="character1" class="character tab-content text-paragraph-grid-holder">
@@ -868,6 +882,52 @@
 
 
 			<div class="container large tab-container only-mobile">
+				<div class="text-paragraph-grid-holder accordion">
+					<div id="for-character1-mobi" class="accordion-button active first" onclick="openAccordion('character1-mobi')">
+						<p data-key="intelligent">Intelligent</p>
+					</div>
+					<div id="character1-mobi" class="character tab-content mobi active">
+						<div class="tab-content-col text">
+							<h3 data-key="intelligentTitle"></h3>
+							<p data-key="intelligentDesc"></p>
+						</div>
+						<div class="tab-content-col image">
+							<img src="./images/phone-frame.png" alt="phone-frame">
+						</div>
+					</div>
+				</div>
+
+				<div class="text-paragraph-grid-holder accordion">
+					<div id="for-character2-mobi"  class="accordion-button middle" onclick="openAccordion('character2-mobi')">
+						<p data-key="knowledgable">Knowledgable</p>
+					</div>
+					<div id="character2-mobi" class="character tab-content mobi">
+						<div class="tab-content-col text">
+							<h3 data-key="knowledgableTitle"></h3>
+							<p data-key="knowledgableDesc"></p>
+						</div>
+						<div class="tab-content-col image">
+							<img src="./images/Group 66.png" alt="phone-frame">
+						</div>
+					</div>
+				</div>
+				
+				<div class="text-paragraph-grid-holder accordion">
+					<div id="for-character3-mobi"  class="accordion-button last" onclick="openAccordion('character3-mobi')">
+						<p data-key="uniqueToYou">Unique to you</p>
+					</div>
+					<div id="character3-mobi" class="character tab-content mobi" >
+						<div class="tab-content-col text">
+							<h3 data-key="uniqueToYouTitle"></h3>
+							<p data-key="uniqueToYouDesc"></p>
+						</div>
+						<div class="tab-content-col image">
+							<img src="./images/Group 67.png" alt="phone-frame">
+						</div>
+					</div>
+				</div>
+
+
 			</div>
 		</div>
 
@@ -924,7 +984,7 @@
                 </li>
                 <li class="list-item-with-checkicon">Core integrations</li>
               </ul>
-              <div class="pricing-button-holder relative">
+              <div class="pricing-button-holder">
                 <a
                   href="/contact"
                   class="main-button white-button pricing w-inline-block"
@@ -1007,7 +1067,7 @@
                 <li class="list-item-with-checkicon">Weekly Reports</li>
                 <li class="list-item-with-checkicon">All features included</li>
               </ul>
-              <div class="pricing-button-holder relative">
+              <div class="pricing-button-holder">
                 <a
                   href="/contact"
                   class="main-button white-button pricing w-inline-block"

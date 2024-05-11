@@ -106,6 +106,43 @@ html[lang="ar"]  .tab-button.last {
 	border-left: 1px solid #858585;
 }
 
+.accordion {
+	display: block;
+}
+/* .accordion-button {
+	display: flex;
+	align-items: center;
+	padding: 0.5em 1em;
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+	transition: background-color 0.3s;
+	background-color: #fff;
+	font-weight: 600;
+	height: 60px;
+	p {
+		margin: 0;
+		color: #000;
+	}	
+
+}
+.accordion-button:hover {
+	color: #333;
+}
+.accordion-button.active {
+	background-color: #EF7123;
+	border-color: #EF7123;
+	color: #fff;
+	p {
+		color: #fff;
+	}	
+}
+.accordion-button.first {
+	border-radius: 10px 10px 0 0;
+}
+.accordion-button.last {
+	border-radius: 0 0 10px 10px;
+}  */
 
 
 .tab-content {
@@ -114,6 +151,7 @@ html[lang="ar"]  .tab-button.last {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 1.5rem;
+	transition: all 0.3s ease-in-out;
 }
 .tab-content-col.text {
 	padding: 3rem;
@@ -130,6 +168,17 @@ html[lang="ar"]  .tab-button.last {
 		display: block;
 		max-height: 480px;
 	}
+}
+
+.tab-content.mobi {
+	height: 0;
+	transition: height 1s ease-in-out;
+	visibility: hidden;
+
+}
+.tab-content.mobi.active {
+	height: 100%;
+	visibility: visible;
 }
 
 html[lang="ar"] .tab-content-col.image img {
@@ -164,7 +213,19 @@ html[lang="ar"] .tab-content-col.image img {
 	.tab-container.only-mobile {
 		display: block;
 	}
+	.tab-content-col.text {
+		padding: 1rem;
+	}
+	.tab-content-col.image {
+		padding-top: 1rem;
+	}
+	.tab-content-col.image img {
+		max-height: 200px;
+	}
 }
+
+
+
 
 
 .pricing-switch {

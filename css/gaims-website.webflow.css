@@ -7144,22 +7144,46 @@ blockquote {
 
 .accordion-button {
   grid-column-gap: 10px;
-  background-color: #2d2d2d;
+  background-color: #fff;
+  color: #000;
   border-radius: 10px;
   flex: 0 auto;
   justify-content: center;
   align-items: center;
-  padding: 12px;
+  /* padding: 12px; */
   text-decoration: none;
   transition: box-shadow 0.4s;
   display: flex;
-  box-shadow: inset 0 -2px #000, 0 12px 24px rgba(45, 32, 17, 0.4),
-    0 4px 8px rgba(45, 32, 17, 0.32), 0 1.50259px 3px rgba(45, 32, 17, 0.24);
+  border: 1px solid #858585;
+  /* box-shadow: inset 0 -2px #000, 0 12px 24px rgba(45, 32, 17, 0.4),
+    0 4px 8px rgba(45, 32, 17, 0.32), 0 1.50259px 3px rgba(45, 32, 17, 0.24); */
+  p {
+    color: #000;
+    margin: 0;
+  }
 }
 
 .accordion-button:hover {
   box-shadow: inset 0 0 #000, 0 12px 24px rgba(45, 32, 17, 0.4),
     0 4px 8px rgba(45, 32, 17, 0.32), 0 1.50259px 3px rgba(45, 32, 17, 0.24);
+}
+
+.accordion-button.active {
+	background-color: #EF7123;
+	border-color: #EF7123;
+	color: #fff;
+	p {
+		color: #fff;
+	}	
+}
+.accordion-button.first {
+	border-radius: 10px 10px 0 0;
+}
+.accordion-button.middle {
+  border-radius: 0;
+}
+.accordion-button.last {
+	border-radius: 0 0 10px 10px;
 }
 
 .vectors-arrow-wrapper {
