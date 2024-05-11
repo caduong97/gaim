@@ -15,6 +15,8 @@
   --notification-bg: #001b38;
   --secondary-text-color: #413c3a;
   --border-color: #e8e3dc;
+
+
 }
 
 html[lang="ar"] [data-key] {
@@ -1448,16 +1450,40 @@ blockquote {
   gap: 10px;
   align-items: center;
   justify-content: center;
-  padding: 15px;
+  align-items: center;
+  padding: 5px 10px 5px 5px;
   padding-block: 10px;
-  border-radius: 15px;
+  border-radius: 10px;
   background-color: #fbfaf9;
+  height: 50px;
+}
+.wp-link.black {
+  background-color: #2D2D2D;
+  color: #ffffff;
+  padding: 3px 15px 3px 3px;
+  img {
+    width: 42px; 
+    height: 42px;
+  }
 }
 
 .chat-row2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.chat-row3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  @media (max-width: 450px) {
+    margin-top: 15px;
+    flex-wrap: wrap;
+    .wp-link {
+      margin-top: 10px;
+    }
+  }
 }
 
 .section.dark-section {
@@ -1475,7 +1501,7 @@ blockquote {
 
 .section.overflow-hidden.ghost-white-color,
 .section.ghost-white-color {
-  background-color: #faf9f8;
+  background-color: #FAF9F8;
 }
 
 .section.trusted-by {
@@ -1510,8 +1536,11 @@ blockquote {
   justify-content: space-between;
   gap: 50px;
 }
+.container.large {
+  max-width: 1450px;
+}
 
-.container.big-container {
+.container.extra-large {
   max-width: none;
   padding-top: 0;
 }
@@ -1632,7 +1661,6 @@ blockquote {
 }
 
 .container.features-container {
-  padding-bottom: 2em;
 }
 
 .nav-menu-container {
@@ -1675,6 +1703,10 @@ blockquote {
 .hero-section.ghost-white-color {
   background-color: #faf9f8;
 }
+.feature-section {
+  padding-top: 80px;
+}
+
 
 .nav-menu {
   z-index: 2;
@@ -1844,6 +1876,9 @@ blockquote {
 
 .content.relative {
   position: relative;
+}
+.content.pricing {
+  min-height: 550px;
 }
 
 .grey-text {
@@ -4792,7 +4827,6 @@ blockquote {
   border-style: none;
   border-radius: 24px;
   position: relative;
-  background-color: #f3f3f3;
 }
 
 .pricing-item.active-pricing-item.pricing-page {
@@ -4805,10 +4839,10 @@ blockquote {
   height: 90%;
   padding-top: 2em;
   padding-bottom: 3em;
-  padding-left: 2.5em;
+  /* padding-left: 2.5em; */
   position: relative;
   top: 2%;
-  left: -5%;
+  /* left: -5%; */
 }
 
 .pricing-item.first {
@@ -4817,7 +4851,7 @@ blockquote {
   padding-bottom: 3em;
   position: relative;
   top: 2%;
-  left: 5%;
+  /* left: 5%; */
 }
 
 .pricing-features-holders {
@@ -4850,13 +4884,14 @@ blockquote {
   grid-column-gap: 50px;
   grid-row-gap: 50px;
   grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .pricing-grid.pricing-page {
-  grid-column-gap: 0em;
+  grid-column-gap: 2em;
   grid-row-gap: 0em;
   margin-top: 8.3em;
+  margin-bottom: 5rem;
   position: relative;
 }
 
@@ -4875,7 +4910,7 @@ blockquote {
 }
 
 .pricing-button-holder.relative {
-  width: 95%;
+  width: 100%;
   position: relative;
   top: -6%;
 }
@@ -4887,11 +4922,11 @@ blockquote {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-
   padding-bottom: 1em;
   display: flex;
-  height: 100%;
-  background-color: #f3f3f3;
+  /* height: 100%; */
+  background-color: #fff;
+  margin-bottom: 2rem;
 }
 
 .price-holder.price-holder-active {
@@ -5512,11 +5547,13 @@ blockquote {
   width: 100%;
   height: 100%;
   border-radius: 44px;
-  padding-right: 50px;
-  padding-left: 50px;
+  /* padding-right: 50px;
+  padding-left: 50px; */
   transform: none;
   background-color: #ffff;
-  max-width: 600px;
+  max-width: 1000px;
+  margin: auto;
+
 }
 
 .hero-dashboard-image-holder.about {
@@ -5872,6 +5909,14 @@ blockquote {
     inset 0 0 rgba(240, 240, 239, 0.7), 0 3px 3px rgba(209, 205, 199, 0.24);
 }
 
+.main-button.black-button {
+  color: #fff;
+  background-color: #000;
+  box-shadow: 0 0 0 1px #000, 0 1px 2px rgba(0, 0, 0, 0.32),
+    inset 0 -2px rgba(0, 0, 0, 0.7), 0 3px 3px rgba(0, 0, 0, 0.24);
+}
+
+
 .main-button.large {
   background-color: #413c3a;
   background-image: url("../images/Play-Icon.svg");
@@ -5920,6 +5965,7 @@ blockquote {
   align-items: center;
   padding: 11px 20px;
   display: flex;
+  width: 100%;
 }
 
 .main-button.contact-button {
@@ -6112,6 +6158,9 @@ blockquote {
 
 .logo-2 {
   max-width: 150px;
+  @media (max-width: 640px) {
+    margin: auto auto 30px auto;
+  }
 }
 
 .center-container {
@@ -6193,8 +6242,28 @@ blockquote {
   position: relative;
 }
 
+.features-image-holder {
+  width: 100%;
+  height: auto;
+  border-radius: 24px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #e8e3dc;
+  border-radius: 20px;
+  box-sizing: border-box;
+  @media (max-width: 768px) {
+    padding: 10px 10px;
+    
+  }
+}
+
 .features-image {
-  height: 564px;
+  height: 100%;
+  max-height: 454px;
 }
 
 .features-image.second {
@@ -6214,6 +6283,7 @@ blockquote {
   width: 100%;
   height: 100%;
   perspective: 1500px;
+  object-fit: contain;
 }
 
 .design-ui-image.second {
@@ -6294,18 +6364,21 @@ blockquote {
 }
 
 .dynamic-collaboration {
+  height: 55px;
   grid-column-gap: 10px;
-  background-color: rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 1);
   border: 1px solid #ebe7e0;
   border-radius: 999px;
   flex: 0 auto;
   justify-content: flex-start;
   align-items: center;
-  padding: 10px 16px;
+  padding: 10px 30px;
   text-decoration: none;
   display: flex;
-  box-shadow: inset 0 -3px rgba(240, 240, 239, 0.8),
-    0 3px 4px rgba(209, 205, 199, 0.24), 0 1px 2px rgba(209, 205, 199, 0.32);
+  /* box-shadow: inset 0 -3px rgba(240, 240, 239, 0.8),
+    0 3px 4px rgba(209, 205, 199, 0.24), 0 1px 2px rgba(209, 205, 199, 0.32); */
+  box-shadow: 0px 2px 6px 0px #00000040;
+
 }
 
 .dynamic-collaboration._1.dark {
@@ -7539,6 +7612,7 @@ blockquote {
   z-index: 1;
   position: relative;
   top: -31px;
+  height: 104%;
 }
 
 .main-filter-holder {
@@ -8379,7 +8453,6 @@ blockquote {
   }
 
   .container.features-container {
-    padding-bottom: 2em;
   }
 
   .template-cards-wrapper {
@@ -8929,6 +9002,10 @@ blockquote {
 
   .feature-grid {
     grid-template-columns: 5fr;
+    /* use below class to force 2nd col to be 1st row when the grid wraps at this breakpoint  */
+    .order-1-wrapper {
+      grid-row: 1 !important; 
+    }
   }
 
   .feature-grid.second {
@@ -9487,7 +9564,6 @@ blockquote {
 
   .container.features-container {
     padding-top: 2em;
-    padding-bottom: 2em;
   }
 
   .nav-menu-container {
@@ -11201,9 +11277,8 @@ blockquote {
   }
 
   .hero-dashboard-image-holder {
-    max-width: 1000px;
-    padding-right: 30px;
-    padding-left: 30px;
+    /* padding-right: 30px;
+    padding-left: 30px; */
   }
 
   .flex-col {

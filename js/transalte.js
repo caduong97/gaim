@@ -11,7 +11,10 @@ const translations = {
     en: "About",
     ar: "حولنا",
   },
-
+  products: {
+    en: "Products",
+    ar: "منتجات",
+  },
   aboutus: {
     en: "About us",
     ar: "معلومات عنا",
@@ -118,12 +121,28 @@ const translations = {
     en: "Latest news matching your interests",
     ar: "آخر الأخبار التي تطابق اهتماماتك",
   },
+  andmore: {
+    en: "...and much more!",
+    ar: "...وأكثر من ذلك بكثير!",
+  },
+
+  productPageHero: {
+    en: "Ghain is your AI-powered best friend who can help you find the most accurate and latest information.",
+    ar: "غيم هو صديقك المفضل مدعوم بالذكاء الاصطناعي الذي يمكنه مساعدتك في العثور على أدق وأحدث المعلومات.",
+  },
 
   live: {
     en: "Ghain is live!",
     ar: "غيم حي!",
   },
-
+  chatcta: {
+    en: "You can chat to it casually on your",
+    ar: "يمكنك الدردشة معه بشكل عادي على",
+  },
+  chatapp: {
+    en: "favorite messaging app.",
+    ar: "تطبيق المراسلة المفضل لديك.",
+  },
   chatghain: {
     en: "Chat to Ghain now!",
     ar: "الدردشة مع غيم الآن!",
@@ -388,6 +407,79 @@ const translations = {
     لهذه المبادئ لا يتزعزع، وضمان الثقة و
     النزاهة في جميع عملياتنا.`,
   },
+  pricing: {
+    en: "Pricing",
+    ar: "التسعير",
+  },
+  monthly: {
+    en: "Monthly",
+    ar: "شهري",
+  },
+  annually: {
+    en: "Annually",
+    ar: "سنوي",
+  },
+  freeTier: {
+    en: "Free Tier",
+    ar: "الطبقة المجانية",
+  },
+  plusTier: {
+    en: "Plus Tier",
+    ar: "الطبقة بلس",
+  },
+  premiumTier: {
+    en: "Premium Tier",
+    ar: "الطبقة الممتازة",
+  },
+  freeTierPrice: {
+    en: "0/Month",
+    ar: "0/شهر",
+  },
+  plusTierPrice: {
+    en: "4.5/Month",
+    ar: "4.5/شهر",
+  },
+  premiumTierPrice: {
+    en: "8/Month",
+    ar: "8/شهر",
+  },
+
+  intelligent: {
+    en: "Intelligent",
+    ar: "ذكي",
+  },
+  knowledgable: {
+    en: "Knowledgable",
+    ar: "متعلم",
+  },
+  uniqueToYou: {
+    en: "Unique to you",
+    ar: "فريد لك",
+  },
+  intelligentTitle: {
+    en: "Engage in natural and delightful conversations with your personal assistant Ghain.",
+    ar: "شارك في محادثات طبيعية وممتعة مع مساعدك الشخصي غيم.",
+  },
+  knowledgableTitle: {
+    en: "Ghain has access to a wide array of information across different domains.",
+    ar: "غيم لديه وصول إلى مجموعة واسعة من المعلومات في مجالات مختلفة.",
+  },
+  uniqueToYouTitle: {
+    en: "As you continue to talk to Ghain, it gets to know you better.",
+    ar: "كلما واصلت الحديث مع غيم، يتعرف عليك أكثر.",
+  },
+  intelligentDesc: {
+    en: "You can talk to Ghain like you’d talk to your knowledgeable best friend, in any language you choose!",
+    ar: "يمكنك التحدث إلى غيم كما تتحدث إلى صديقك المعرف، باللغة التي تختارها!",
+  },
+  knowledgableDesc: {
+    en: "Powered by the latest advances in Agentic Artificial Intelligence, it draws from a vast knowledge base, delivering accurate, comprehensive, and up-to-date data. If it doesn’t know, it will scour the internet in real-time to try its best to find accurate answers to your questions!",
+    ar: "مدعومًا بأحدث التطورات في الذكاء الاصطناعي الوكيل، يستمد من قاعدة معرفية واسعة، ويقدم بيانات دقيقة وشاملة ومحدثة. إذا لم يكن يعرف، فسيقوم بتصفح الإنترنت في الوقت الحقيقي لمحاولة العثور على إجابات دقيقة على أسئلتك!",
+  },
+  uniqueToYouDesc: {
+    en: "You can choose to receive tailored suggestions based on your preferences and past interactions. From updates on recent news that may matter to you, to event recommendations and new product suggestions, Ghain adapts to your needs, offering genuinely personalized assistance.",
+    ar: "يمكنك اختيار تلقي اقتراحات مصممة خصيصًا استنادًا إلى تفضيلاتك وتفاعلاتك السابقة. من التحديثات حول الأخبار الأخيرة التي قد تكون مهمة بالنسبة لك، إلى توصيات الأحداث واقتراحات المنتجات الجديدة، يتكيف غيم مع احتياجاتك، مقدمًا مساعدة شخصية حقًا.",
+  }
 };
 
 function toggleLanguage() {

@@ -47,6 +47,7 @@
       rel="stylesheet"
       type="text/css"
     />
+    <link href="css/customization.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link
       href="https://fonts.gstatic.com"
@@ -102,6 +103,36 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+
+		<script type="text/javascript">
+			function openTab(name) {
+				var i;
+				var x = document.getElementsByClassName("character");
+				for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";
+				}
+				document.getElementById(name).style.display = "grid";
+				
+				document.getElementById(`for-${name}`).classList.add('active')
+				var otherTabButtons = document.getElementsByClassName('tab-button')
+				for (i = 0; i < otherTabButtons.length; i++) {
+					if(otherTabButtons[i].id !== `for-${name}`){
+						otherTabButtons[i].classList.remove('active')
+					}
+				}
+			}
+
+			function switchPricing(cat) {
+				
+				document.getElementById(cat).classList.add('active')
+				var otherTabButtons = document.getElementsByClassName('pricing-switch-button')
+				for (i = 0; i < otherTabButtons.length; i++) {
+					if(otherTabButtons[i].id !== cat){
+						otherTabButtons[i].classList.remove('active')
+					}
+				}
+			}
+		</script>
   </head>
   <body>
     <div
@@ -262,7 +293,8 @@
     <div class="main-nav-up-holder">
       <div class="nav-size-animation-trigger"></div>
     </div>
-    <div
+
+    <!-- <div
       data-w-id="775cac5c-1aa2-262a-db52-01cc6bff5d44"
       class="hero-section ghost-white-color section"
     >
@@ -331,8 +363,24 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- HERO SECTION -->
     <div class="section ghost-white-color">
       <div class="container large">
         <div
@@ -341,12 +389,12 @@
         >
           <div
             id="w-node-_53e7f305-7734-ecac-e664-170bcda12b5e-e6dd7e48"
-            class="financial-holder"
+            class="features-image-holder"
           >
-            <div class="features-image">
+            <div class="features-image" style="margin-bottom: 1rem;">
               <img
                 class="design-ui-image"
-                src="/images/section2-img.png"
+                src="/images/Gaim illustrations 1.png"
                 alt="Saas Webflow Template - Whistler - Designed by Azwedo.com and Wedoflow.com"
                 style="
                   -webkit-transform: translate3d(0, 0, 0) scale3d(0.7, 0.7, 1)
@@ -365,10 +413,24 @@
                 loading="lazy"
               />
             </div>
+            <div class="chat-row3">
+              <div style="font-weight: bold; max-width: 200px">
+                <span data-key="chatcta"></span>
+                <span class="orange-text" data-key="chatapp"></span>
+              </div>
+              <a href="#" class="wp-link black">
+                <img
+                  src="./images/whatsapp-icon-free-png 1.png"
+                  alt="whatsapp-icon"
+                />
+
+                <div data-key="chatghain">Chat to Ghain now!</div>
+              </a>
+            </div>
           </div>
           <div
             id="w-node-_8be33c84-6bc8-3600-e9aa-c78a0ab4335c-e6dd7e48"
-            class="grid-items-wrapper"
+            class="grid-items-wrapper order-1-wrapper"
           >
             <div class="grid-item-text-container">
               <div
@@ -386,12 +448,18 @@
                 "
                 class="grid-item-text-holder"
               >
-                <img src="/images/Ghain_logo 1.png" alt="logo" class="logo-2" />
+                <img
+                  src="/images/Ghain_logo 1.png"
+                  alt="logo"
+                  class="logo-2"
+                  style="margin-bottom: 30px"
+                />
 
-                <div class="title-big">
-                  <span data-key="personal"> Your personal assistant </span>
+                <div class="title-big text-align-center-only-tablet-n-mobile">
+                  <!-- <span data-key="personal"> Your personal assistant </span>
                   <span class="orange-text" data-key="Ghain">Ghain</span>
-                  <span data-key="can">can help you to find: </span>
+                  <span data-key="can">can help you to find: </span> -->
+                  <span data-key="productPageHero"></span>
                 </div>
 
                 <div class="key-features">
@@ -502,7 +570,7 @@
                       Events & attractions
                     </div>
                   </div>
-                  <div class="dynamic-collaboration _6">
+                  <!-- <div class="dynamic-collaboration _6">
                     <svg
                       width="24"
                       height="24"
@@ -527,34 +595,27 @@
                     <div class="inside-text" data-key="latest">
                       Latest news matching your interests
                     </div>
+                  </div> -->
+									<div class="dynamic-collaboration _6">
+                    
+                    <div class="inside-text" data-key="andmore" style="font-weight: 400; color: #ff7a1c;">
+                      ...and much more!
+                    </div>
                   </div>
                 </div>
-                <div class="chat-ghain">
+
+
+                <!-- <div class="chat-ghain">
                   <div class="chat-row1">
                     <div style="font-weight: bold" data-key="live">
                       Ghain is live!
                     </div>
                     <a href="#" class="wp-link">
-                      <svg
-                        width="27"
-                        height="26"
-                        viewBox="0 0 27 26"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M13.2 0C6.0203 0 0.199997 5.8203 0.199997 13C0.199997 15.0262 0.663564 16.9442 1.49043 18.6536L0.199997 25L6.61505 24.2113C8.54625 25.348 10.797 26 13.2 26H13.6333C20.813 26 26.6333 20.1797 26.6333 13C26.6333 5.8203 20.813 0 13.6333 0H13.2Z"
-                          fill="#6DB14B"
-                        />
-                        <path
-                          d="M7.3177 6.45258H10.6444C10.795 6.45258 10.9393 6.51137 11.0458 6.61604C11.1523 6.7207 11.2121 6.86265 11.2121 7.01067C11.1935 7.75494 11.3207 8.49579 11.5868 9.19281C11.7014 9.42614 11.7266 9.69226 11.6577 9.94238C11.5889 10.1925 11.4307 10.4098 11.2121 10.5546L10.0483 11.6707C10.5643 12.6614 11.239 13.564 12.0466 14.344C12.8336 15.1508 13.748 15.8274 14.7545 16.3476L15.8899 15.2035C16.4576 14.6454 16.7187 14.6454 17.2751 14.8351C17.9841 15.0967 18.7377 15.2218 19.4948 15.2035C19.6431 15.2103 19.7835 15.2713 19.8885 15.3745C19.9935 15.4777 20.0555 15.6157 20.0625 15.7616V19.032C20.0555 19.1778 19.9935 19.3159 19.8885 19.4191C19.7835 19.5223 19.6431 19.5833 19.4948 19.5901C16.1553 19.4471 12.9899 18.0861 10.616 15.7727C8.25915 13.4414 6.87412 10.3281 6.73297 7.04415C6.73432 6.89054 6.79584 6.74334 6.90474 6.63317C7.01364 6.52299 7.16154 6.45831 7.3177 6.45258Z"
-                          stroke="white"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                      </svg>
+                      <img
+                        src="./images/whatsapp-icon-free-png 1.png"
+                        alt="whatsapp-icon"
+                        style="width: 27px; height: 26px"
+                      />
 
                       <div data-key="chatghain">Chat to Ghain now!</div>
                     </a>
@@ -574,7 +635,7 @@
                       Learn more
                     </div>
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -582,7 +643,415 @@
       </div>
     </div>
 
-    <div class="section" style="background-color: #faf9f8">
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- VIDEO SECTION -->
+    <div
+      data-w-id="775cac5c-1aa2-262a-db52-01cc6bff5d44"
+      class="hero-section ghost-white-color section"
+    >
+      <div class="container features-container oem-s-mobile">
+        <div
+          data-w-id="64f58f39-fa3d-3e7f-252e-4ce5f2a7831e"
+          style="
+            transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg)
+              rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+            transform-style: preserve-3d;
+            opacity: 1;
+          "
+          class="hero-dashboard-main-holder features"
+        >
+          <div
+            class="blury-orange-holder features"
+            style="
+              transform: translate3d(0px, 5%, 0px) scale3d(1, 1, 1)
+                rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+              transform-style: preserve-3d;
+              opacity: 1;
+            "
+          >
+            <img
+              src="./images/FooterHERO-Orange-line.svg"
+              loading="lazy"
+              alt="Saas Webflow Template - Whistler - Designed by Azwedo.com and Wedoflow.com"
+              class="blury-orange-image"
+            />
+          </div>
+
+          <div class="hero-dashboard-image-holder">
+            <div
+              data-poster-url="https://assets-global.website-files.com/65c0e0ba43da67dca6c13b2f/65cf34682ed4d52a790427a9_pexels-treedeo-footage-8552830 (2160p)-poster-00001.jpg"
+              data-video-urls="https://assets-global.website-files.com/65c0e0ba43da67dca6c13b2f/65cf34682ed4d52a790427a9_pexels-treedeo-footage-8552830 (2160p)-transcode.mp4,https://assets-global.website-files.com/65c0e0ba43da67dca6c13b2f/65cf34682ed4d52a790427a9_pexels-treedeo-footage-8552830 (2160p)-transcode.webm"
+              data-autoplay="true"
+              data-loop="true"
+              data-wf-ignore="true"
+              class="hero-dashboard-app-image w-background-video w-background-video-atom"
+              style="
+                will-change: transform;
+                transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1)
+                  rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+                transform-style: preserve-3d;
+              "
+            >
+              <video
+                id="dfa47d0c-26b3-d260-73f8-de1399a4057e-video"
+                autoplay=""
+                loop=""
+                style="
+                  background-image: url('https://assets-global.website-files.com/65c0e0ba43da67dca6c13b2f/65cf34682ed4d52a790427a9_pexels-treedeo-footage-8552830 (2160p)-poster-00001.jpg');
+                "
+                muted=""
+                playsinline=""
+                data-wf-ignore="true"
+                data-object-fit="cover"
+              >
+                <source
+                  src="https://assets-global.website-files.com/65c0e0ba43da67dca6c13b2f/65cf34682ed4d52a790427a9_pexels-treedeo-footage-8552830 (2160p)-transcode.mp4"
+                  data-wf-ignore="true"
+                />
+                <source
+                  src="https://assets-global.website-files.com/65c0e0ba43da67dca6c13b2f/65cf34682ed4d52a790427a9_pexels-treedeo-footage-8552830 (2160p)-transcode.webm"
+                  data-wf-ignore="true"
+                />
+              </video>
+              <noscript>
+                <style>
+                  [data-wf-bgvideo-fallback-img] {
+                    display: none;
+                  }
+                  @media (prefers-reduced-motion: reduce) {
+                    [data-wf-bgvideo-fallback-img] {
+                      position: absolute;
+                      z-index: -100;
+                      display: inline-block;
+                      height: 100%;
+                      width: 100%;
+                      object-fit: cover;
+                    }
+                  }
+                </style>
+                <img
+                  data-wf-bgvideo-fallback-img="true"
+                  src="https://assets-global.website-files.com/65c0e0ba43da67dca6c13b2f/65cf34682ed4d52a790427a9_pexels-treedeo-footage-8552830 (2160p)-poster-00001.jpg"
+                  alt=""
+                />
+              </noscript>
+              <div aria-live="polite">
+                <button
+                  type="button"
+                  data-w-bg-video-control="true"
+                  aria-controls="dfa47d0c-26b3-d260-73f8-de1399a4057e-video"
+                  class="w-backgroundvideo-backgroundvideoplaypausebutton w-background-video--control"
+                >
+                  <span class="play-state"
+                    ><img
+                      src="./images/Pause-Icon.svg"
+                      loading="lazy"
+                      alt="Pause video" /></span
+                  ><span hidden=""
+                    ><img
+                      loading="lazy"
+                      alt="Play video"
+                      src="./images/Play-Icon-Black.svg"
+                  /></span>
+                </button>
+              </div>
+            </div>
+            <a
+              href="features.html"
+              class="video-play-lightbox w-inline-block w-lightbox"
+              aria-label="open lightbox"
+              aria-haspopup="dialog"
+              ><script type="application/json" class="w-json">
+                {
+                  "items": [
+                    {
+                      "url": "https://www.youtube.com/watch?v=sWRUzxINCoA",
+                      "originalUrl": "https://www.youtube.com/watch?v=sWRUzxINCoA",
+                      "width": 940,
+                      "height": 528,
+                      "thumbnailUrl": "https://i.ytimg.com/vi/sWRUzxINCoA/hqdefault.jpg",
+                      "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FsWRUzxINCoA%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DsWRUzxINCoA&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FsWRUzxINCoA%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube\" width=\"940\" height=\"528\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture;\" allowfullscreen=\"true\"></iframe>",
+                      "type": "video"
+                    }
+                  ],
+                  "group": ""
+                }
+              </script></a
+            >
+            <div class="white-overlay features">
+              <div class="button-holder-center features">
+                <a
+                  href="https://www.youtube.com/watch?v=sWRUzxINCoA"
+                  class="main-button features w-inline-block"
+                  ><div>Watch: Whistler in 90 seconds</div></a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- <div
+            class="bg-orange-color-line features"
+            style="
+              opacity: 0;
+              will-change: transform;
+              transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
+                rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+              transform-style: preserve-3d;
+            "
+          ></div> -->
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+		<!-- ACCORDION/TAB SECTION -->
+		<div class="section feature-section  ghost-white-color" style="display: block;">
+      <div class="container large tab-container only-tablet-n-laptop">
+				<div class="tabs ">
+					<button id="for-character1" class="tab-button first active" onclick="openTab('character1')">
+						<p data-key="intelligent"></p>
+					</button>
+					<button id="for-character2" class="tab-button middle" onclick="openTab('character2')">
+						<p data-key="knowledgable"></p>
+					</button>
+					<button id="for-character3" class="tab-button last" onclick="openTab('character3')">
+						<p data-key="uniqueToYou"></p>
+					</button>
+				</div>
+				<div id="character1" class="character tab-content text-paragraph-grid-holder">
+					<div class="tab-content-col text">
+						<h3 data-key="intelligentTitle"></h3>
+						<p data-key="intelligentDesc"></p>
+					</div>
+					<div class="tab-content-col image">
+						<img src="./images/phone-frame.png" alt="phone-frame">
+					</div>
+				</div>
+				
+				<div id="character2" class="character tab-content" style="display:none">
+					<div class="tab-content-col text">
+						<h3 data-key="knowledgableTitle"></h3>
+						<p data-key="knowledgableDesc"></p>
+					</div>
+					<div class="tab-content-col image">
+						<img src="./images/Group 66.png" alt="phone-frame">
+					</div>
+				</div>
+				
+				<div id="character3" class="character tab-content" style="display:none">
+					<div class="tab-content-col text">
+						<h3 data-key="uniqueToYouTitle"></h3>
+						<p data-key="uniqueToYouDesc"></p>
+					</div>
+					<div class="tab-content-col image">
+						<img src="./images/Group 67.png" alt="phone-frame">
+					</div>
+				</div>
+					
+			</div>
+
+
+			<div class="container large tab-container only-mobile">
+			</div>
+		</div>
+
+
+
+
+
+
+    <!-- PRICING SECTION -->
+    <div class="section feature-section">
+      <div class="container large">
+				<div class="center-tittle">
+          <div class="title-big" data-key="pricing">Our Services</div>
+        </div>
+				<div class="center-tittle" style="margin-top: 2rem;">
+					<div class="pricing-switch">
+						<button id="monthly" class="pricing-switch-button active" data-key="monthly" onclick="switchPricing('monthly')" >Monthly</button>
+						<button id="annually" class="pricing-switch-button" data-key="annually" onclick="switchPricing('annually')">Annually</button>
+					</div>
+				</div>
+
+        <div
+          data-w-id="c205b795-77df-1c2a-4739-5fb368660cae"
+          style="
+            opacity: 1;
+            transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+              rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+            transform-style: preserve-3d;
+          "
+          class="w-layout-grid pricing-grid pricing-page"
+        >
+          <div
+            id="w-node-c205b795-77df-1c2a-4739-5fb368660caf-174b0fe2"
+            class="content pricing"
+          >
+            <div class="pricing-item first">
+              <div class="pricing-type" data-key="freeTier"></div>
+              <div class="price-holder">
+								<div>
+									<span class="price">OMR</span>
+									<span class="small-gray-text" data-key="freeTierPrice">0/Month</span>
+								</div>
+               
+                <p class="black-paragraph">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Maecenas massa massa id.
+                </p>
+              </div>
+              <ul role="list" class="list">
+                <li class="list-item-with-checkicon">2 editable boards</li>
+                <li class="list-item-with-checkicon">Premium templates</li>
+                <li class="list-item-with-checkicon">
+                  Anonymous board viewers
+                </li>
+                <li class="list-item-with-checkicon">Core integrations</li>
+              </ul>
+              <div class="pricing-button-holder relative">
+                <a
+                  href="/contact"
+                  class="main-button white-button pricing w-inline-block"
+                  ><div>Sign up</div></a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            id="w-node-c205b795-77df-1c2a-4739-5fb368660cc7-174b0fe2"
+            class="content pricing"
+          >
+            <div class="middle-pricing-holder">
+              <div
+                data-w-id="c205b795-77df-1c2a-4739-5fb368660cc8"
+                class="pricing-item active-pricing-item pricing-page"
+              >
+                <div class="pricing-type pricing-type-active" data-key="plusTier"></div>
+                <div class="price-holder price-holder-active">
+                  <div>
+										<span class="price">OMR</span>
+										<span class="small-gray-text" data-key="plusTierPrice">4.5/Month</span>
+									</div>
+                  <p class="black-paragraph">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Maecenas massa massa id.
+                  </p>
+                </div>
+                <ul role="list" class="list">
+                  <li class="list-item-with-checkicon active-pricing-list-item">
+                    Everything in Starter +
+                  </li>
+                  <li class="list-item-with-checkicon active-pricing-list-item">
+                    Access to SaaS
+                  </li>
+                  <li class="list-item-with-checkicon active-pricing-list-item">
+                    Analytics and more
+                  </li>
+                  <li class="list-item-with-checkicon active-pricing-list-item">
+                    Anonymous board viewers
+                  </li>
+                </ul>
+                <div class="pricing-button-holder">
+                  <div
+                    data-w-id="c205b795-77df-1c2a-4739-5fb368660ce1"
+                    class="main-button-holder pricing"
+                  >
+                    <a
+                      href="/contact"
+                      class="main-button pricing black-button w-inline-block"
+                      ><div>Request Access</div></a
+                    >
+                  </div>
+                </div>
+                <div class="blury-gradient-bg pricing" style="opacity: 1"></div>
+              </div>
+            </div>
+          </div>
+          <div
+            id="w-node-c205b795-77df-1c2a-4739-5fb368660ce6-174b0fe2"
+            class="content pricing"
+          >
+            <div class="pricing-item last">
+              <div class="pricing-type" data-key="premiumTier"></div>
+              <div class="pricing-features-holders last">
+                <div class="price-holder">
+                  <div>
+										<span class="price">OMR</span>
+										<span class="small-gray-text" data-key="premiumTierPrice">8/Month</span>
+									</div>
+                  <p class="black-paragraph">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Maecenas massa massa id.
+                  </p>
+                </div>
+              </div>
+              <ul role="list" class="list">
+                <li class="list-item-with-checkicon">Everything in Teams +</li>
+                <li class="list-item-with-checkicon">24/7 Support</li>
+                <li class="list-item-with-checkicon">Weekly Reports</li>
+                <li class="list-item-with-checkicon">All features included</li>
+              </ul>
+              <div class="pricing-button-holder relative">
+                <a
+                  href="/contact"
+                  class="main-button white-button pricing w-inline-block"
+                  ><div>Sign up</div></a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- <div
+            class="blury-orange-holder pricing"
+            style="
+              transform: translate3d(0px, 5%, 0px) scale3d(1, 1, 1)
+                rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+              transform-style: preserve-3d;
+              opacity: 1;
+            "
+          >
+            <img
+              src="https://assets-global.website-files.com/65c0e0ba43da67dca6c13b2f/65c0f9b63e39ff0ecc1ba689_Footer%26HERO%20Orange%20line.svg"
+              loading="lazy"
+              alt="Saas Webflow Template - Whistler - Designed by Azwedo.com and Wedoflow.com"
+              class="blury-orange-image"
+            />
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="section" style="background-color: #faf9f8">
       <div class="container">
         <div class="center-tittle">
           <div class="title-big" data-key="ourservices">Our Services</div>
@@ -852,6 +1321,7 @@
         </div>
       </div>
     </div>
+
     <div class="section" style="background-color: #f3f3f3">
       <div class="container">
         <div class="center-tittle">
@@ -949,7 +1419,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="footer" style="background-color: #f3f3f3">
       <div class="container footer-container">

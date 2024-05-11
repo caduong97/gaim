@@ -90048,6 +90048,66 @@ Webflow.require("ix2").init({
                 locked: true,
               },
             },
+            {
+              id: "a-123-n-16",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 500,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".dynamic-collaboration._6",
+                  selectorGuids: [
+                    "a70cb8c4-59ae-8f9b-6082-1c59cc74a83b",
+                    "f557b90e-b965-8449-2075-9c78b722e553",
+                  ],
+                },
+                xValue: 35,
+                xUnit: "deg",
+                yUnit: "DEG",
+                zUnit: "DEG",
+              },
+            },
+            {
+              id: "a-123-n-17",
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 500,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".dynamic-collaboration._6",
+                  selectorGuids: [
+                    "a70cb8c4-59ae-8f9b-6082-1c59cc74a83b",
+                    "f557b90e-b965-8449-2075-9c78b722e553",
+                  ],
+                },
+                value: 0,
+                unit: "",
+              },
+            },
+            {
+              id: "a-123-n-18",
+              actionTypeId: "TRANSFORM_SCALE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 500,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".dynamic-collaboration._6",
+                  selectorGuids: [
+                    "a70cb8c4-59ae-8f9b-6082-1c59cc74a83b",
+                    "f557b90e-b965-8449-2075-9c78b722e553",
+                  ],
+                },
+                xValue: 0.7,
+                yValue: 0.7,
+                locked: true,
+              },
+            },
           ],
         },
         {
@@ -90341,6 +90401,66 @@ Webflow.require("ix2").init({
                 target: {
                   useEventTarget: "CHILDREN",
                   selector: ".dynamic-collaboration._5",
+                  selectorGuids: [
+                    "a70cb8c4-59ae-8f9b-6082-1c59cc74a83b",
+                    "f557b90e-b965-8449-2075-9c78b722e553",
+                  ],
+                },
+                xValue: 0,
+                xUnit: "deg",
+                yUnit: "DEG",
+                zUnit: "DEG",
+              },
+            },
+            {
+              id: "a-123-n-30",
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 1000,
+                easing: "ease",
+                duration: 1000,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".dynamic-collaboration._6",
+                  selectorGuids: [
+                    "a70cb8c4-59ae-8f9b-6082-1c59cc74a83b",
+                    "f557b90e-b965-8449-2075-9c78b722e553",
+                  ],
+                },
+                value: 1,
+                unit: "",
+              },
+            },
+            {
+              id: "a-123-n-31",
+              actionTypeId: "TRANSFORM_SCALE",
+              config: {
+                delay: 1000,
+                easing: "ease",
+                duration: 1000,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".dynamic-collaboration._6",
+                  selectorGuids: [
+                    "a70cb8c4-59ae-8f9b-6082-1c59cc74a83b",
+                    "f557b90e-b965-8449-2075-9c78b722e553",
+                  ],
+                },
+                xValue: 1,
+                yValue: 1,
+                locked: true,
+              },
+            },
+            {
+              id: "a-123-n-32",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 1000,
+                easing: "ease",
+                duration: 1000,
+                target: {
+                  useEventTarget: "CHILDREN",
+                  selector: ".dynamic-collaboration._6",
                   selectorGuids: [
                     "a70cb8c4-59ae-8f9b-6082-1c59cc74a83b",
                     "f557b90e-b965-8449-2075-9c78b722e553",
