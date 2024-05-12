@@ -7124,10 +7124,10 @@ html[lang="ar"] .list-item-with-checkicon {
   right: 0%;
 }
 .faq-block.first .gradient-line {
-  border-radius: 26px 26px 0 0;
+  border-radius: 15px 15px 0 0;
 }
 .faq-block.last .bg-blury-faq {
-  border-radius: 0 0 26px 26px;
+  border-radius: 0 0 15px 15px;
 
 }
 
@@ -7154,14 +7154,14 @@ html[lang="ar"] .list-item-with-checkicon {
   transition: background-color 0.35s;
 }
 .faq-block.last .faq-content {
-  border-radius: 0 0 26px 26px;
+  border-radius: 0 0 15px 15px;
 
 }
 
 .faq-block {
   cursor: pointer;
   border: 1px solid #e8e3dc;
-  border-radius: 26px;
+  border-radius: 15px;
   transition: background-color 0.5s;
   position: relative;
 }
@@ -7174,13 +7174,13 @@ html[lang="ar"] .list-item-with-checkicon {
   background-color: #111;
 }
 .faq-block.first {
-  border-radius: 26px 26px 0 0;
+  border-radius: 15px 15px 0 0;
 }
 .faq-block.middle {
   border-radius: 0;
 }
 .faq-block.last {
-  border-radius: 0 0 26px 26px;
+  border-radius: 0 0 15px 15px;
 }
 
 .faq-answer {
@@ -7200,7 +7200,7 @@ html[lang="ar"] .list-item-with-checkicon {
 .bg-blury-faq {
   z-index: -2;
   height: 100%;
-  border-radius: 26px;
+  border-radius: 16px;
   position: absolute;
   top: 0%;
   bottom: 0%;
@@ -10692,7 +10692,9 @@ html[lang="ar"] .list-item-with-checkicon {
     grid-row-gap: 15px;
     flex-direction: column;
     align-items: flex-start; */
+    padding: 0.7rem;
     padding-left: 1rem;
+    
   }
 
   .faq-question-text {
