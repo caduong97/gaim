@@ -430,6 +430,10 @@ const translations = {
     en: "Request Access",
     ar: "طلب الوصول",
   },
+  comingsoon: {
+    en: "Coming Soon",
+    ar: "قريبا",
+  },
   freeTier: {
     en: "Free Tier",
     ar: "الطبقة المجانية",
