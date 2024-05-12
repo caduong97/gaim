@@ -104,49 +104,62 @@
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
 
-		<script type="text/javascript">
-			function openTab(name) {
-				var i;
-				var x = document.getElementsByClassName("character");
-				for (i = 0; i < x.length; i++) {
-					x[i].style.display = "none";
-				}
-				document.getElementById(name).style.display = "grid";
-				
-				document.getElementById(`for-${name}`).classList.add('active')
-				var otherTabButtons = document.getElementsByClassName('tab-button')
-				for (i = 0; i < otherTabButtons.length; i++) {
-					if(otherTabButtons[i].id !== `for-${name}`){
-						otherTabButtons[i].classList.remove('active')
-					}
-				}
-			}
-			function openAccordion(name) {
-				console.log(document.getElementById(name))
+    <script type="text/javascript">
+      function openTab(name) {
+        var i;
+        var x = document.getElementsByClassName("character");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        document.getElementById(name).style.display = "grid";
 
-				// document.getElementById(name).style.display = "block";
-				document.getElementById(name).classList.toggle('active')
+        document.getElementById(`for-${name}`).classList.add("active");
+        var otherTabButtons = document.getElementsByClassName("tab-button");
+        for (i = 0; i < otherTabButtons.length; i++) {
+          if (otherTabButtons[i].id !== `for-${name}`) {
+            otherTabButtons[i].classList.remove("active");
+          }
+        }
+      }
+      function openAccordion(name) {
+        console.log(document.getElementById(name));
 
-				document.getElementById(`for-${name}`).classList.add('active')
-				var otherTabButtons = document.getElementsByClassName('accordion-button')
-				for (i = 0; i < otherTabButtons.length; i++) {
-					if(otherTabButtons[i].id !== `for-${name}`){
-						otherTabButtons[i].classList.remove('active')
-					}
-				}
-			}
+        // document.getElementById(name).style.display = "block";
+        // document.getElementById(name).classList.toggle('active')
+        // 			height: 100%;
+        // visibility: visible;
 
-			function switchPricing(cat) {
-				
-				document.getElementById(cat).classList.add('active')
-				var otherTabButtons = document.getElementsByClassName('pricing-switch-button')
-				for (i = 0; i < otherTabButtons.length; i++) {
-					if(otherTabButtons[i].id !== cat){
-						otherTabButtons[i].classList.remove('active')
-					}
-				}
-			}
-		</script>
+        document.getElementById(name).style.height == "100%"
+					? document.getElementById(name).style.height = "0"
+					: document.getElementById(name).style.height = "100%";
+        document.getElementById(name).style.visibility == "visible"
+					? document.getElementById(name).style.visibility = "hidden"
+					: document.getElementById(name).style.visibility = "visible";
+
+        document.getElementById(`for-${name}`).classList.add("active");
+        var otherTabButtons =
+          document.getElementsByClassName("accordion-button");
+        for (i = 0; i < otherTabButtons.length; i++) {
+          if (otherTabButtons[i].id !== `for-${name}`) {
+            otherTabButtons[i].classList.remove("active");
+            // otherTabButtons[i].style.height = "0";
+            // otherTabButtons[i].style.visibility = "hidden";
+          }
+        }
+      }
+
+      function switchPricing(cat) {
+        document.getElementById(cat).classList.add("active");
+        var otherTabButtons = document.getElementsByClassName(
+          "pricing-switch-button"
+        );
+        for (i = 0; i < otherTabButtons.length; i++) {
+          if (otherTabButtons[i].id !== cat) {
+            otherTabButtons[i].classList.remove("active");
+          }
+        }
+      }
+    </script>
   </head>
   <body>
     <div
@@ -384,18 +397,8 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
     <!-- HERO SECTION -->
-    <div class="section ghost-white-color">
+    <div class="section hero-section ghost-white-color">
       <div class="container large">
         <div
           data-w-id="8be33c84-6bc8-3600-e9aa-c78a0ab4335b"
@@ -405,7 +408,7 @@
             id="w-node-_53e7f305-7734-ecac-e664-170bcda12b5e-e6dd7e48"
             class="features-image-holder"
           >
-            <div class="features-image" style="margin-bottom: 1rem;">
+            <div class="features-image" style="margin-bottom: 1rem">
               <img
                 class="design-ui-image"
                 src="./images/Gaim illustrations 1.png"
@@ -429,8 +432,8 @@
             </div>
             <div class="chat-row3">
               <div style="font-weight: bold; max-width: 200px">
-                <span data-key="chatcta"></span>
-                <span class="orange-text" data-key="chatapp"></span>
+                <span data-key="chatcta">You can chat to it casually on your</span>
+                <span class="orange-text" data-key="chatapp">favorite messaging app.</span>
               </div>
               <a href="#" class="wp-link black">
                 <img
@@ -466,14 +469,17 @@
                   src="./images/Ghain_logo 1.png"
                   alt="logo"
                   class="logo-2"
-                  style="margin-bottom: 30px"
+                  style="margin-bottom: 1rem"
                 />
 
-                <div class="title-big text-align-center-only-tablet-n-mobile">
+                <div
+                  class="title-big text-align-center-only-tablet-n-mobile"
+                  style="margin-bottom: 1rem"
+                >
                   <!-- <span data-key="personal"> Your personal assistant </span>
                   <span class="orange-text" data-key="Ghain">Ghain</span>
                   <span data-key="can">can help you to find: </span> -->
-                  <span data-key="productPageHero"></span>
+                  <span data-key="productPageHero">Ghain is your AI-powered best friend who can help you find the most accurate and latest information.</span>
                 </div>
 
                 <div class="key-features">
@@ -610,14 +616,16 @@
                       Latest news matching your interests
                     </div>
                   </div> -->
-									<div class="dynamic-collaboration _6">
-                    
-                    <div class="inside-text" data-key="andmore" style="font-weight: 400; color: #ff7a1c;">
+                  <div class="dynamic-collaboration _6">
+                    <div
+                      class="inside-text"
+                      data-key="andmore"
+                      style="font-weight: 400; color: #ff7a1c"
+                    >
                       ...and much more!
                     </div>
                   </div>
                 </div>
-
 
                 <!-- <div class="chat-ghain">
                   <div class="chat-row1">
@@ -662,17 +670,11 @@
 
 
 
-
-
-
-
-
-
-
     <!-- VIDEO SECTION -->
     <div
       data-w-id="775cac5c-1aa2-262a-db52-01cc6bff5d44"
       class="hero-section ghost-white-color section"
+      style="padding-top: 0; margin-top: 0"
     >
       <div class="container features-container oem-s-mobile">
         <div
@@ -683,7 +685,7 @@
             transform-style: preserve-3d;
             opacity: 1;
           "
-          class="hero-dashboard-main-holder features"
+          class="hero-dashboard-main-holder products"
         >
           <div
             class="blury-orange-holder features"
@@ -808,7 +810,7 @@
                 <a
                   href="https://www.youtube.com/watch?v=sWRUzxINCoA"
                   class="main-button features w-inline-block"
-                  ><div>Watch: Whistler in 90 seconds</div></a
+                  ><div data-key="demoVideoDesc">Watch: Ghain in 90 seconds</div></a
                 >
               </div>
             </div>
@@ -832,104 +834,302 @@
 
 
 
-
-
-		<!-- ACCORDION/TAB SECTION -->
-		<div class="section feature-section  ghost-white-color" style="display: block;">
+    <!-- ACCORDION/TAB SECTION -->
+    <div
+      class="section feature-section ghost-white-color"
+      style="display: block; padding-top: 0;"
+    >
+			<!-- TAB - ONLY IN TABLET & DESKTOP -->
       <div class="container large tab-container only-tablet-n-laptop">
-				<div class="tabs ">
-					<button id="for-character1" class="tab-button first active" onclick="openTab('character1')">
-						<p data-key="intelligent">Intelligent</p>
-					</button>
-					<button id="for-character2" class="tab-button middle" onclick="openTab('character2')">
-						<p data-key="knowledgable">Knowledgable</p>
-					</button>
-					<button id="for-character3" class="tab-button last" onclick="openTab('character3')">
-						<p data-key="uniqueToYou">Unique to you</p>
-					</button>
-				</div>
-				<div id="character1" class="character tab-content text-paragraph-grid-holder">
-					<div class="tab-content-col text">
-						<h3 data-key="intelligentTitle"></h3>
-						<p data-key="intelligentDesc"></p>
-					</div>
-					<div class="tab-content-col image">
-						<img src="./images/phone-frame.png" alt="phone-frame">
-					</div>
-				</div>
-				
-				<div id="character2" class="character tab-content" style="display:none">
-					<div class="tab-content-col text">
-						<h3 data-key="knowledgableTitle"></h3>
-						<p data-key="knowledgableDesc"></p>
-					</div>
-					<div class="tab-content-col image">
-						<img src="./images/Group 66.png" alt="phone-frame">
-					</div>
-				</div>
-				
-				<div id="character3" class="character tab-content" style="display:none">
-					<div class="tab-content-col text">
-						<h3 data-key="uniqueToYouTitle"></h3>
-						<p data-key="uniqueToYouDesc"></p>
-					</div>
-					<div class="tab-content-col image">
-						<img src="./images/Group 67.png" alt="phone-frame">
-					</div>
-				</div>
-					
-			</div>
+        <div class="tabs">
+          <button
+            id="for-character1"
+            class="tab-button first active"
+            onclick="openTab('character1')"
+          >
+            <p data-key="intelligent">Intelligent</p>
+          </button>
+          <button
+            id="for-character2"
+            class="tab-button middle"
+            onclick="openTab('character2')"
+          >
+            <p data-key="knowledgable">Knowledgable</p>
+          </button>
+          <button
+            id="for-character3"
+            class="tab-button last"
+            onclick="openTab('character3')"
+          >
+            <p data-key="uniqueToYou">Unique to you</p>
+          </button>
+        </div>
+        <div
+          id="character1"
+          class="character tab-content text-paragraph-grid-holder"
+        >
+          <div class="tab-content-col text">
+            <h3 data-key="intelligentTitle"></h3>
+            <p data-key="intelligentDesc"></p>
+          </div>
+          <div class="tab-content-col image">
+            <img src="./images/phone-frame.png" alt="phone-frame" />
+          </div>
+        </div>
+
+        <div
+          id="character2"
+          class="character tab-content"
+          style="display: none"
+        >
+          <div class="tab-content-col text">
+            <h3 data-key="knowledgableTitle"></h3>
+            <p data-key="knowledgableDesc"></p>
+          </div>
+          <div class="tab-content-col image">
+            <img src="./images/Group 66.png" alt="phone-frame" />
+          </div>
+        </div>
+
+        <div
+          id="character3"
+          class="character tab-content"
+          style="display: none"
+        >
+          <div class="tab-content-col text">
+            <h3 data-key="uniqueToYouTitle"></h3>
+            <p data-key="uniqueToYouDesc"></p>
+          </div>
+          <div class="tab-content-col image">
+            <img src="./images/Group 67.png" alt="phone-frame" />
+          </div>
+        </div>
+      </div>
+			<!-- END OF TAB -->
+
+      <!-- <div class="container large tab-container only-mobile">
+        <div class="text-paragraph-grid-holder accordion">
+          <div
+            id="for-character1-mobi"
+            class="accordion-button active first"
+            onclick="openAccordion('character1-mobi')"
+          >
+            <p data-key="intelligent">Intelligent</p>
+          </div>
+          <div id="character1-mobi" class="character tab-content mobi">
+            <div class="tab-content-col text">
+              <h3 data-key="intelligentTitle"></h3>
+              <p data-key="intelligentDesc"></p>
+            </div>
+            <div class="tab-content-col image">
+              <img src="./images/phone-frame.png" alt="phone-frame" />
+            </div>
+          </div>
+        </div>
+
+        <div class="text-paragraph-grid-holder accordion">
+          <div
+            id="for-character2-mobi"
+            class="accordion-button middle"
+            onclick="openAccordion('character2-mobi')"
+          >
+            <p data-key="knowledgable">Knowledgable</p>
+          </div>
+          <div id="character2-mobi" class="character tab-content mobi">
+            <div class="tab-content-col text">
+              <h3 data-key="knowledgableTitle"></h3>
+              <p data-key="knowledgableDesc"></p>
+            </div>
+            <div class="tab-content-col image">
+              <img src="./images/Group 66.png" alt="phone-frame" />
+            </div>
+          </div>
+        </div>
+
+        <div class="text-paragraph-grid-holder accordion">
+          <div
+            id="for-character3-mobi"
+            class="accordion-button last"
+            onclick="openAccordion('character3-mobi')"
+          >
+            <p data-key="uniqueToYou">Unique to you</p>
+          </div>
+          <div id="character3-mobi" class="character tab-content mobi">
+            <div class="tab-content-col text">
+              <h3 data-key="uniqueToYouTitle"></h3>
+              <p data-key="uniqueToYouDesc"></p>
+            </div>
+            <div class="tab-content-col image">
+              <img src="./images/Group 67.png" alt="phone-frame" />
+            </div>
+          </div>
+        </div>
+      </div> -->
 
 
-			<div class="container large tab-container only-mobile">
-				<div class="text-paragraph-grid-holder accordion">
-					<div id="for-character1-mobi" class="accordion-button active first" onclick="openAccordion('character1-mobi')">
-						<p data-key="intelligent">Intelligent</p>
-					</div>
-					<div id="character1-mobi" class="character tab-content mobi active">
-						<div class="tab-content-col text">
-							<h3 data-key="intelligentTitle"></h3>
-							<p data-key="intelligentDesc"></p>
-						</div>
-						<div class="tab-content-col image">
-							<img src="./images/phone-frame.png" alt="phone-frame">
-						</div>
-					</div>
-				</div>
+			<!-- ACCORDION - ONLY IN MOBILE -->
+			<div class="container tab-container only-mobile">
+        
+        <div class="faq-holder">
+          <div class="faq-container">
+            <div
+              class="faq-block first"
+              style="
+                opacity: 1;
+                transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
+                  rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+                transform-style: preserve-3d;
+              "
+            >
+							<div class="faq-heading first">
+								<div class="faq-question-text" data-key="intelligent">Intelligent</div>
+								<div class="accordion-button" style="background-color: transparent; border: none;">
+									<img
+										src="./images/Chevron-Down-Black.png"
+										loading="lazy"
+										width="15.999999046325684"
+										height="16"
+										alt=""
+										class="vectors-arrow-wrapper"
+										style="
+											height: 100%; width: auto; object-fit: contain;
+											transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
+												rotateX(0deg) rotateY(0deg) rotateZ(0deg)
+												skew(0deg, 0deg);
+											transform-style: preserve-3d;
+										"
+									/>
+								</div>
+							</div>
+              <div class="gradient-line" style="opacity: 1"></div>
+              <div class="bg-blury-faq" style="opacity: 1"></div>
+              <div class="faq-content" style="padding: 0;">
+								
+                <div class="faq-answer-holder" style="width: 1080px">
+                  <!-- <div class="faq-answer">
+                    London, England, United Kingdom<br />Engineering • Full time
+                  </div> -->
+									<div class="character tab-content">
+										<div class="tab-content-col text">
+											<h3 data-key="intelligentTitle"></h3>
+											<p data-key="intelligentDesc"></p>
+										</div>
+										<div class="tab-content-col image">
+											<img src="./images/phone-frame.png" alt="phone-frame" />
+										</div>
+									</div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="faq-block middle"
+              style="
+                opacity: 1;
+                transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
+                  rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+                transform-style: preserve-3d;
+              "
+            >
+							<div class="faq-heading">
+								<div class="faq-question-text" data-key="knowledgable">Knowledgable</div>
+								<div class="accordion-button" style="background-color: transparent; border: none;">
+									<img
+										src="./images/Chevron-Down-Black.png"
+										loading="lazy"
+										width="15.999999046325684"
+										height="16"
+										alt=""
+										class="vectors-arrow-wrapper"
+										style="
+											height: 100%; width: auto; object-fit: contain;
+											transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
+												rotateX(0deg) rotateY(0deg) rotateZ(0deg)
+												skew(0deg, 0deg);
+											transform-style: preserve-3d;
+										"
+									/>
+								</div>
+							</div>
+              <div class="gradient-line" style="opacity: 0"></div>
+              <div class="bg-blury-faq" style="opacity: 1"></div>
+              <div class="faq-content" style="padding: 0;">
+                
+                <div class="faq-answer-holder" style="height: 0px">
+									<div class="character tab-content">
+										<div class="tab-content-col text">
+											<h3 data-key="knowledgableTitle"></h3>
+											<p data-key="knowledgableDesc"></p>
+										</div>
+										<div class="tab-content-col image">
+											<img src="./images/Group 66.png" alt="phone-frame" />
+										</div>
+									</div>
+                  <!-- <div class="faq-answer">
+                    London, England, United Kingdom<br />Engineering • Full time
+                  </div> -->
+                </div>
+              </div>
+            </div>
+            <div
+              class="faq-block last"
+              style="
+                opacity: 1;
+                transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
+                  rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+                transform-style: preserve-3d;
+              "
+            >
+							<div class="faq-heading">
+								<div class="faq-question-text" data-key="uniqueToYou">Unique to you</div>
+								<div class="accordion-button" style="background-color: transparent; border: none;">
+									<img
+										src="./images/Chevron-Down-Black.png"
+										loading="lazy"
+										width="15.999999046325684"
+										height="16"
+										alt=""
+										class="vectors-arrow-wrapper"
+										style="
+											height: 100%; width: auto; object-fit: contain;
+											transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
+												rotateX(0deg) rotateY(0deg) rotateZ(0deg)
+												skew(0deg, 0deg);
+											transform-style: preserve-3d;
+										"
+									/>
+								</div>
+							</div>
+              <div class="gradient-line" style="opacity: 0"></div>
+              <div class="bg-blury-faq" style="opacity: 1"></div>
+              <div class="faq-content" style="padding: 0;">
+                
+                <div class="faq-answer-holder" style="height: 0px">
+                  <!-- <div class="faq-answer">
+                    London, England, United Kingdom<br />Engineering • Full time
+                  </div> -->
+									<div class="character tab-content">
+										<div class="tab-content-col text">
+											<h3 data-key="uniqueToYouTitle"></h3>
+											<p data-key="uniqueToYouDesc"></p>
+										</div>
+										<div class="tab-content-col image">
+											<img src="./images/Group 67.png" alt="phone-frame" />
+										</div>
+									</div>
+                </div>
+								
+              </div>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+			<!-- END OF ACCORDION -->
 
-				<div class="text-paragraph-grid-holder accordion">
-					<div id="for-character2-mobi"  class="accordion-button middle" onclick="openAccordion('character2-mobi')">
-						<p data-key="knowledgable">Knowledgable</p>
-					</div>
-					<div id="character2-mobi" class="character tab-content mobi">
-						<div class="tab-content-col text">
-							<h3 data-key="knowledgableTitle"></h3>
-							<p data-key="knowledgableDesc"></p>
-						</div>
-						<div class="tab-content-col image">
-							<img src="./images/Group 66.png" alt="phone-frame">
-						</div>
-					</div>
-				</div>
-				
-				<div class="text-paragraph-grid-holder accordion">
-					<div id="for-character3-mobi"  class="accordion-button last" onclick="openAccordion('character3-mobi')">
-						<p data-key="uniqueToYou">Unique to you</p>
-					</div>
-					<div id="character3-mobi" class="character tab-content mobi" >
-						<div class="tab-content-col text">
-							<h3 data-key="uniqueToYouTitle"></h3>
-							<p data-key="uniqueToYouDesc"></p>
-						</div>
-						<div class="tab-content-col image">
-							<img src="./images/Group 67.png" alt="phone-frame">
-						</div>
-					</div>
-				</div>
+    </div>
 
 
-			</div>
-		</div>
+
 
 
 
@@ -939,15 +1139,29 @@
     <!-- PRICING SECTION -->
     <div class="section feature-section">
       <div class="container large">
-				<div class="center-tittle">
+        <div class="center-tittle">
           <div class="title-big" data-key="pricing">Our Services</div>
         </div>
-				<div class="center-tittle" style="margin-top: 2rem;">
-					<div class="pricing-switch">
-						<button id="monthly" class="pricing-switch-button active" data-key="monthly" onclick="switchPricing('monthly')" >Monthly</button>
-						<button id="annually" class="pricing-switch-button" data-key="annually" onclick="switchPricing('annually')">Annually</button>
-					</div>
-				</div>
+        <div class="center-tittle" style="margin-top: 2rem">
+          <div class="pricing-switch">
+            <button
+              id="monthly"
+              class="pricing-switch-button active"
+              data-key="monthly"
+              onclick="switchPricing('monthly')"
+            >
+              Monthly
+            </button>
+            <button
+              id="annually"
+              class="pricing-switch-button"
+              data-key="annually"
+              onclick="switchPricing('annually')"
+            >
+              Annually
+            </button>
+          </div>
+        </div>
 
         <div
           data-w-id="c205b795-77df-1c2a-4739-5fb368660cae"
@@ -966,29 +1180,29 @@
             <div class="pricing-item first">
               <div class="pricing-type" data-key="freeTier"></div>
               <div class="price-holder">
-								<div>
-									<span class="price">OMR</span>
-									<span class="small-gray-text" data-key="freeTierPrice">0/Month</span>
-								</div>
-               
-                <p class="black-paragraph">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Maecenas massa massa id.
+                <div>
+                  <span class="price">OMR</span>
+                  <span class="small-gray-text" data-key="freeTierPrice"
+                    >0/Month</span
+                  >
+                </div>
+
+                <p class="black-paragraph" data-key="freeTierDesc">
+                  Get access to Ghain for free.
                 </p>
               </div>
               <ul role="list" class="list">
-                <li class="list-item-with-checkicon">2 editable boards</li>
-                <li class="list-item-with-checkicon">Premium templates</li>
-                <li class="list-item-with-checkicon">
-                  Anonymous board viewers
+                <li class="list-item-with-checkicon" data-key="freeTierFeature1">Up to X messages per day</li>
+                <li class="list-item-with-checkicon" data-key="freeTierFeature2">Fewer topics</li>
+                <li class="list-item-with-checkicon" data-key="freeTierFeature3">
+                  Limited personalization
                 </li>
-                <li class="list-item-with-checkicon">Core integrations</li>
               </ul>
               <div class="pricing-button-holder">
                 <a
                   href="/contact"
                   class="main-button white-button pricing w-inline-block"
-                  ><div>Sign up</div></a
+                  ><div data-key="signup">Sign up</div></a
                 >
               </div>
             </div>
@@ -1002,29 +1216,30 @@
                 data-w-id="c205b795-77df-1c2a-4739-5fb368660cc8"
                 class="pricing-item active-pricing-item pricing-page"
               >
-                <div class="pricing-type pricing-type-active" data-key="plusTier"></div>
+                <div
+                  class="pricing-type pricing-type-active"
+                  data-key="plusTier"
+                ></div>
                 <div class="price-holder price-holder-active">
                   <div>
-										<span class="price">OMR</span>
-										<span class="small-gray-text" data-key="plusTierPrice">4.5/Month</span>
-									</div>
-                  <p class="black-paragraph">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Maecenas massa massa id.
+                    <span class="price">OMR</span>
+                    <span class="small-gray-text" data-key="plusTierPrice"
+                      >4.5/Month</span
+                    >
+                  </div>
+                  <p class="black-paragraph" data-key="plusTierDesc">
+                    Our most popular tier.
                   </p>
                 </div>
                 <ul role="list" class="list">
-                  <li class="list-item-with-checkicon active-pricing-list-item">
-                    Everything in Starter +
+                  <li class="list-item-with-checkicon active-pricing-list-item" data-key="plusTierFeature1">
+                    Up to XX messages per day
                   </li>
-                  <li class="list-item-with-checkicon active-pricing-list-item">
-                    Access to SaaS
+                  <li class="list-item-with-checkicon active-pricing-list-item" data-key="plusTierFeature2">
+                    Access to premium topics
                   </li>
-                  <li class="list-item-with-checkicon active-pricing-list-item">
-                    Analytics and more
-                  </li>
-                  <li class="list-item-with-checkicon active-pricing-list-item">
-                    Anonymous board viewers
+                  <li class="list-item-with-checkicon active-pricing-list-item" data-key="plusTierFeature3">
+                    High level of personalization
                   </li>
                 </ul>
                 <div class="pricing-button-holder">
@@ -1035,7 +1250,7 @@
                     <a
                       href="/contact"
                       class="main-button pricing black-button w-inline-block"
-                      ><div>Request Access</div></a
+                      ><div data-key="requestAccess">Request Access</div></a
                     >
                   </div>
                 </div>
@@ -1052,64 +1267,35 @@
               <div class="pricing-features-holders last">
                 <div class="price-holder">
                   <div>
-										<span class="price">OMR</span>
-										<span class="small-gray-text" data-key="premiumTierPrice">8/Month</span>
-									</div>
-                  <p class="black-paragraph">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Maecenas massa massa id.
+                    <span class="price">OMR</span>
+                    <span class="small-gray-text" data-key="premiumTierPrice"
+                      >8/Month</span
+                    >
+                  </div>
+                  <p class="black-paragraph" data-key="premiumTierDesc">
+                    Get unlimited daily messages, and all the features of Ghain, plus early access to new features and topics.
                   </p>
                 </div>
               </div>
               <ul role="list" class="list">
-                <li class="list-item-with-checkicon">Everything in Teams +</li>
-                <li class="list-item-with-checkicon">24/7 Support</li>
-                <li class="list-item-with-checkicon">Weekly Reports</li>
-                <li class="list-item-with-checkicon">All features included</li>
+                <li class="list-item-with-checkicon" data-key="premiumTierFeature1">Unlimited daily messages</li>
+                <li class="list-item-with-checkicon" data-key="premiumTierFeature2">All topics</li>
+                <li class="list-item-with-checkicon" data-key="premiumTierFeature3">In addition to early access to experimental features</li>
+                <li class="list-item-with-checkicon" data-key="premiumTierFeature4">Maximum level of personalization</li>
               </ul>
               <div class="pricing-button-holder">
                 <a
                   href="/contact"
                   class="main-button white-button pricing w-inline-block"
-                  ><div>Sign up</div></a
+                  ><div data-key="signup">Sign up</div></a
                 >
               </div>
             </div>
           </div>
-          <!-- <div
-            class="blury-orange-holder pricing"
-            style="
-              transform: translate3d(0px, 5%, 0px) scale3d(1, 1, 1)
-                rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-              transform-style: preserve-3d;
-              opacity: 1;
-            "
-          >
-            <img
-              src="https://assets-global.website-files.com/65c0e0ba43da67dca6c13b2f/65c0f9b63e39ff0ecc1ba689_Footer%26HERO%20Orange%20line.svg"
-              loading="lazy"
-              alt="Saas Webflow Template - Whistler - Designed by Azwedo.com and Wedoflow.com"
-              class="blury-orange-image"
-            />
-          </div> -->
+          
         </div>
       </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <!-- <div class="section" style="background-color: #faf9f8">
       <div class="container">
@@ -1611,10 +1797,10 @@
           </div>
         </div>
 
-        <div
+        <!-- <div
           id="w-node-_38525bc7-d3ba-6fe4-3df6-17cb7676c4ff-0a144c54"
           class="footer-line"
-        ></div>
+        ></div> -->
       </div>
     </div>
     <script

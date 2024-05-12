@@ -67,10 +67,10 @@
 	border: 1px solid #858585;
 	font-weight: 600;
 	height: 60px;
-	p {
-		margin: 0;
-		color: #000;
-	}	
+}
+.tab-button p {
+	margin: 0;
+	color: #000;
 }
 .tab-button:hover {
 	color: #333;
@@ -91,9 +91,9 @@
 	background-color: #EF7123;
 	border-color: #EF7123;
 	color: #fff;
-	p {
-		color: #fff;
-	}	
+}
+.tab-button.active p {
+	color: #fff;
 }
 html[lang="ar"]  .tab-button.first {
 	border-radius: 0 10px 0 0;
@@ -155,7 +155,9 @@ html[lang="ar"]  .tab-button.last {
 }
 .tab-content-col.text {
 	padding: 3rem;
-
+}
+.tab-content-col.text h3 {
+	margin-bottom: 1.8rem;
 }
 .tab-content-col.image {
 	display: flex;
@@ -163,13 +165,13 @@ html[lang="ar"]  .tab-button.last {
 	@media (max-width: 640px) {
 		max-height: 300px;
 	}
-	img {
-		margin: auto auto 0 auto;
-		display: block;
-		max-height: 480px;
-	}
-}
 
+}
+.tab-content-col.image img {
+	margin: auto auto 0 auto;
+	display: block;
+	max-height: 480px;
+}
 .tab-content.mobi {
 	height: 0;
 	transition: height 1s ease-in-out;
@@ -206,7 +208,7 @@ html[lang="ar"] .tab-content-col.image img {
 		max-height: 300px;
 	}
 }
-@media (max-width: 320px) {
+@media (max-width: 375px) {
 	.tab-container.only-tablet-n-laptop {
 		display: none;
 	}

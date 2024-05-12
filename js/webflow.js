@@ -70916,6 +70916,50 @@ Webflow.require("ix2").init({
       },
       createdOn: 1707317173372,
     },
+    "e-453a": {
+      id: "e-453a",
+      name: "",
+      animationType: "custom",
+      eventTypeId: "SCROLL_INTO_VIEW",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-12",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-454",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        selector: ".pricing-grid",
+        originalId:
+          "65f025c2e1bfcfdbe6dd7e48|f53b25eb-d473-30b4-18a9-74f8fd49810a",
+        appliesTo: "CLASS",
+      },
+      targets: [
+        {
+          selector: ".pricing-grid",
+          originalId:
+            "65f025c2e1bfcfdbe6dd7e48|f53b25eb-d473-30b4-18a9-74f8fd49810a",
+          appliesTo: "CLASS",
+        },
+      ],
+      config: {
+        loop: false,
+        playInReverse: false,
+        scrollOffsetValue: 0,
+        scrollOffsetUnit: "%",
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1707317173372,
+    },
     "e-455": {
       id: "e-455",
       name: "",

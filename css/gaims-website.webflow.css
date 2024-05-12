@@ -1460,11 +1460,17 @@ blockquote {
 .wp-link.black {
   background-color: #2D2D2D;
   color: #ffffff;
-  padding: 3px 15px 3px 3px;
-  img {
-    width: 42px; 
-    height: 42px;
-  }
+  padding: 3px; 
+  padding-right: 15px;
+  justify-content: space-between;
+}
+html[lang="ar"] .wp-link.black {
+  padding-left: 15px;
+  padding-right: 3px;
+}
+.wp-link.black img {
+  width: 42px; 
+  height: 42px;
 }
 
 .chat-row2 {
@@ -1477,14 +1483,19 @@ blockquote {
   justify-content: space-between;
   align-items: center;
   padding-top: 10px;
-  @media (max-width: 450px) {
+  
+}
+@media (max-width: 450px) {
+  .chat-row3 {
     margin-top: 15px;
     flex-wrap: wrap;
-    .wp-link {
-      margin-top: 10px;
-    }
+    justify-content: center;
+  }
+  .chat-row3 .wp-link {
+    margin-top: 10px;
   }
 }
+
 
 .section.dark-section {
   color: #fff;
@@ -1878,7 +1889,7 @@ blockquote {
   position: relative;
 }
 .content.pricing {
-  min-height: 550px;
+  min-height: 600px;
 }
 
 .grey-text {
@@ -4802,11 +4813,20 @@ blockquote {
   padding-bottom: 0;
   padding-left: 25px;
 }
-
+html[lang="ar"] ul {
+  padding-right: 0;
+}
+html[lang="ar"] .list-item-with-checkicon {
+  background-position: center right;
+  padding-left: 0;
+  padding-right: 25px;
+  
+}
 .list-item-with-checkicon.active-pricing-list-item {
   color: #000;
   background-image: url("../images/Tick-Icon.svg");
 }
+
 
 .pricing-item {
   height: 100%;
@@ -5533,6 +5553,9 @@ blockquote {
 .hero-dashboard-main-holder.features {
   margin-top: 9em;
 }
+.hero-dashboard-main-holder.products {
+  margin-top: 0em;
+}
 
 .hero-dashboard-main-holder._3 {
   width: 90%;
@@ -6188,7 +6211,7 @@ blockquote {
 }
 
 .key-features {
-  width: 100%;
+  /* width: 100%; */
   grid-column-gap: 1em;
   grid-row-gap: 1em;
   flex-direction: row;
@@ -7044,7 +7067,7 @@ blockquote {
 .faq-container {
   z-index: 2;
   width: 100%;
-  grid-row-gap: 32px;
+  /* grid-row-gap: 32px; */
   flex-direction: column;
   display: flex;
 }
@@ -7054,8 +7077,17 @@ blockquote {
   grid-row-gap: 30px;
   justify-content: space-between;
   align-items: center;
-  padding-left: 50px;
+  padding: 1rem 1rem 1rem 50px ;
   display: flex;
+}
+.faq-heading.first {
+  border-radius: 26px 26px 0 0;
+}
+.faq-heading.middle {
+  border-radius: 0;
+}
+.faq-heading.last {
+  border-radius: 0 0 26px 26px;
 }
 
 .gradient-line {
@@ -7069,7 +7101,7 @@ blockquote {
     #dcacff
   );
   opacity: 0;
-  border-radius: 26px;
+  /* border-radius: 26px; */
   margin: -1px;
   position: absolute;
   top: 0%;
@@ -7077,6 +7109,14 @@ blockquote {
   left: 0%;
   right: 0%;
 }
+.faq-block.first .gradient-line {
+  border-radius: 26px 26px 0 0;
+}
+.faq-block.last .bg-blury-faq {
+  border-radius: 0 0 26px 26px;
+
+}
+
 
 .faq-holder {
   flex-direction: column;
@@ -7095,9 +7135,13 @@ blockquote {
 
 .faq-content {
   background-color: #fff;
-  border-radius: 26px;
+  /* border-radius: 26px; */
   padding: 32px 32px 32px 0;
   transition: background-color 0.35s;
+}
+.faq-block.last .faq-content {
+  border-radius: 0 0 26px 26px;
+
 }
 
 .faq-block {
@@ -7114,6 +7158,15 @@ blockquote {
 
 .faq-block:active {
   background-color: #111;
+}
+.faq-block.first {
+  border-radius: 26px 26px 0 0;
+}
+.faq-block.middle {
+  border-radius: 0;
+}
+.faq-block.last {
+  border-radius: 0 0 26px 26px;
 }
 
 .faq-answer {
@@ -7145,6 +7198,7 @@ blockquote {
 .accordion-button {
   grid-column-gap: 10px;
   background-color: #fff;
+  /* background-color: transparent; */
   color: #000;
   border-radius: 10px;
   flex: 0 auto;
@@ -7164,8 +7218,8 @@ blockquote {
 }
 
 .accordion-button:hover {
-  box-shadow: inset 0 0 #000, 0 12px 24px rgba(45, 32, 17, 0.4),
-    0 4px 8px rgba(45, 32, 17, 0.32), 0 1.50259px 3px rgba(45, 32, 17, 0.24);
+  /* box-shadow: inset 0 0 #000, 0 12px 24px rgba(45, 32, 17, 0.4),
+    0 4px 8px rgba(45, 32, 17, 0.32), 0 1.50259px 3px rgba(45, 32, 17, 0.24); */
 }
 
 .accordion-button.active {
@@ -8948,7 +9002,7 @@ blockquote {
   }
 
   .pricing-grid.pricing-page {
-    display: flex;
+    /* display: flex; */
   }
 
   .heading-3-style {
@@ -9026,10 +9080,10 @@ blockquote {
 
   .feature-grid {
     grid-template-columns: 5fr;
-    /* use below class to force 2nd col to be 1st row when the grid wraps at this breakpoint  */
-    .order-1-wrapper {
-      grid-row: 1 !important; 
-    }
+  }
+  /* use below class to force 2nd col to be 1st row when the grid wraps at this breakpoint  */
+  .feature-grid .order-1-wrapper {
+    grid-row: 1 !important; 
   }
 
   .feature-grid.second {
@@ -10620,11 +10674,11 @@ blockquote {
   }
 
   .faq-heading {
-    grid-column-gap: 15px;
+    /* grid-column-gap: 15px;
     grid-row-gap: 15px;
     flex-direction: column;
-    align-items: flex-start;
-    padding-left: 0;
+    align-items: flex-start; */
+    padding-left: 1rem;
   }
 
   .faq-question-text {
@@ -10637,7 +10691,7 @@ blockquote {
   }
 
   .faq-block {
-    border-radius: 26px;
+    /* border-radius: 26px; */
     padding: 0;
   }
 
@@ -10650,7 +10704,7 @@ blockquote {
   }
 
   .accordion-button {
-    order: -1;
+    /* order: -1; */
     padding: 15px;
   }
 
@@ -11397,6 +11451,7 @@ html[lang="ar"] .nav-dropdown-item {
 }
 @media only screen and (max-width: 570px) {
   .key-features {
+    width: 100%;
     grid-template-columns: 1fr;
   }
 

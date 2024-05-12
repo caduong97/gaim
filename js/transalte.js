@@ -419,6 +419,14 @@ const translations = {
     en: "Annually",
     ar: "سنوي",
   },
+  signup: {
+    en: "Sign up",
+    ar: "سجل",
+  },
+  requestAccess: {
+    en: "Request Access",
+    ar: "طلب الوصول",
+  },
   freeTier: {
     en: "Free Tier",
     ar: "الطبقة المجانية",
@@ -442,6 +450,62 @@ const translations = {
   premiumTierPrice: {
     en: "8/Month",
     ar: "8/شهر",
+  },
+  freeTierDesc: {
+    en: "Get access to Ghain for free.",
+    ar: "احصل على وصول إلى غيم مجانًا."
+  },
+  plusTierDesc: {
+    en: "Our most popular tier.",
+    ar: "طبقتنا الأكثر شعبية."
+  },
+  premiumTierDesc: {
+    en: "Get unlimited daily messages, and all the features of Ghain, plus early access to new features and topics.",
+    ar: "احصل على رسائل يومية غير محدودة، وجميع ميزات غيم، بالإضافة إلى الوصول المبكر إلى الميزات والمواضيع الجديدة."
+  },
+  freeTierFeature1: {
+    en: "Up to X messages per day",
+    ar: "حتى X رسالة في اليوم"
+  },
+  freeTierFeature2: {
+    en: "Fewer topics",
+    ar: "أقل عدد من المواضيع"
+  },
+  freeTierFeature3: {
+    en: "Limited personalization",
+    ar: "تخصيص محدود"
+  },
+  plusTierFeature1: {
+    en: "Up to XX messages per day",
+    ar: "حتى XX رسالة في اليوم"
+  },
+  plusTierFeature2: {
+    en: "Access to premium topics",
+    ar: "الوصول إلى المواضيع المميزة"
+  },
+  plusTierFeature3: {
+    en: "High level of personalization",
+    ar: "مستوى عالٍ من التخصيص"
+  },
+  premiumTierFeature1: {
+    en: "Unlimited daily messages",
+    ar: "رسائل يومية غير محدودة"
+  },
+  premiumTierFeature2: {
+    en: "All topics",
+    ar: "جميع المواضيع"
+  },
+  premiumTierFeature3: {
+    en: "In addition to early access to experimental features",
+    ar: "بالإضافة إلى الوصول المبكر إلى الميزات التجريبية"
+  },
+  premiumTierFeature4: {
+    en: "Maximum level of personalization",
+    ar: "أقصى مستوى من التخصيص"
+  },
+  demoVideoDesc: {
+    en: "Watch: Ghain in 90 seconds",
+    ar: "شاهد: غيم في 90 ثانية"
   },
 
   intelligent: {
