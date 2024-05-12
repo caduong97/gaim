@@ -1483,14 +1483,25 @@ html[lang="ar"] .wp-link.black {
   justify-content: space-between;
   align-items: center;
   padding-top: 10px;
-  
+  font-size: 18px;
 }
-@media (max-width: 450px) {
+.chat-row-text {
+  font-weight: bold;
+  font-size: 18px;
+  max-width: 280px;
+  flex: 1;
+}
+@media (max-width: 650px) {
   .chat-row3 {
     margin-top: 15px;
     flex-wrap: wrap;
     justify-content: center;
   }
+  .chat-row-text {
+    flex:none;
+    text-align: center;
+  }
+
   .chat-row3 .wp-link {
     margin-top: 10px;
   }
@@ -1955,7 +1966,7 @@ html[lang="ar"] .wp-link.black {
 .copyright {
   color: gray;
   font-family: Inter, sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.4;
   text-align: start;
 }
@@ -5754,6 +5765,9 @@ html[lang="ar"] .list-item-with-checkicon {
 
 .orange-text {
   color: var(--orange-text-color);
+}
+.dark-grey-text {
+  color: #403C3A;
 }
 
 .main-features-grid-holder {

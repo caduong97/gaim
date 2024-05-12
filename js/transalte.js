@@ -126,11 +126,14 @@ const translations = {
     ar: "...وأكثر من ذلك بكثير!",
   },
 
-  productPageHero: {
-    en: "Ghain is your AI-powered best friend who can help you find the most accurate and latest information.",
-    ar: "غيم هو صديقك المفضل مدعوم بالذكاء الاصطناعي الذي يمكنه مساعدتك في العثور على أدق وأحدث المعلومات.",
+  productPageHero1: {
+    en: "Ghain is your AI-powered best friend",
+    ar: "غيم هو صديقك الأفضل مدعوم بالذكاء الاصطناعي",
   },
-
+  productPageHero2: {
+    en: "who can help you find the most accurate and latest information.",
+    ar: "الذي يمكنه مساعدتك في العثور على أدق وأحدث المعلومات.",
+  },
   live: {
     en: "Ghain is live!",
     ar: "غيم حي!",
@@ -520,17 +523,29 @@ const translations = {
     en: "Unique to you",
     ar: "فريد لك",
   },
-  intelligentTitle: {
-    en: "Engage in natural and delightful conversations with your personal assistant Ghain.",
-    ar: "شارك في محادثات طبيعية وممتعة مع مساعدك الشخصي غيم.",
+  intelligentTitle1: {
+    en: "Engage in natural and delightful conversations",
+    ar: "تفاعل في محادثات طبيعية وممتعة",
   },
-  knowledgableTitle: {
-    en: "Ghain has access to a wide array of information across different domains.",
-    ar: "غيم لديه وصول إلى مجموعة واسعة من المعلومات في مجالات مختلفة.",
+  intelligentTitle2: {
+    en: "with your personal assistant Ghain.",
+    ar: "مع مساعدك الشخصي غيم.",
   },
-  uniqueToYouTitle: {
-    en: "As you continue to talk to Ghain, it gets to know you better.",
-    ar: "كلما واصلت الحديث مع غيم، يتعرف عليك أكثر.",
+  knowledgableTitle1: {
+    en: "Ghain has access to a",
+    ar: "غيم لديه وصول إلى",
+  },
+  knowledgableTitle2: {
+    en: "wide array of information across different domains.",
+    ar: "مجموعة واسعة من المعلومات عبر مجالات مختلفة",
+  },
+  uniqueToYouTitle1: {
+    en: "As you continue to talk to Ghain,",
+    ar: "كما تستمر في الحديث إلى غيم،",
+  },
+  uniqueToYouTitle2: {
+    en: " it gets to know you better.",
+    ar: "يتعرف عليك بشكل أفضل.",
   },
   intelligentDesc: {
     en: "You can talk to Ghain like you’d talk to your knowledgeable best friend, in any language you choose!",

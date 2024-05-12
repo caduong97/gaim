@@ -66,7 +66,7 @@
 	background-color: #fff;
 	border: 1px solid #858585;
 	font-weight: 600;
-	height: 60px;
+	height: 76px;
 }
 .tab-button p {
 	margin: 0;
@@ -195,6 +195,9 @@ html[lang="ar"] .tab-content-col.image img {
 	.tab-content-col.image {
 		padding-top: 2rem;
 	}
+	.tab-button {
+		height: 60px;
+	}
 }
 @media (max-width: 640px) {
 	.text-align-center-only-tablet-n-mobile {
@@ -206,6 +209,9 @@ html[lang="ar"] .tab-content-col.image img {
 	}
 	.tab-content-col.image img {
 		max-height: 300px;
+	}
+	.tab-button {
+		height: 56px;
 	}
 }
 @media (max-width: 375px) {

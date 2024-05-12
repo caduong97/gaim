@@ -130,11 +130,11 @@
         // visibility: visible;
 
         document.getElementById(name).style.height == "100%"
-					? document.getElementById(name).style.height = "0"
-					: document.getElementById(name).style.height = "100%";
+          ? (document.getElementById(name).style.height = "0")
+          : (document.getElementById(name).style.height = "100%");
         document.getElementById(name).style.visibility == "visible"
-					? document.getElementById(name).style.visibility = "hidden"
-					: document.getElementById(name).style.visibility = "visible";
+          ? (document.getElementById(name).style.visibility = "hidden")
+          : (document.getElementById(name).style.visibility = "visible");
 
         document.getElementById(`for-${name}`).classList.add("active");
         var otherTabButtons =
@@ -392,11 +392,6 @@
       </div>
     </div> -->
 
-
-
-
-
-
     <!-- HERO SECTION -->
     <div class="section hero-section ghost-white-color">
       <div class="container large">
@@ -431,9 +426,13 @@
               />
             </div>
             <div class="chat-row3">
-              <div style="font-weight: bold; max-width: 200px">
-                <span data-key="chatcta">You can chat to it casually on your</span>
-                <span class="orange-text" data-key="chatapp">favorite messaging app.</span>
+              <div class="chat-row-text">
+                <span data-key="chatcta"
+                  >You can chat to it casually on your</span
+                >
+                <span class="orange-text" data-key="chatapp"
+                  >favorite messaging app.</span
+                >
               </div>
               <a href="#" class="wp-link black">
                 <img
@@ -479,7 +478,13 @@
                   <!-- <span data-key="personal"> Your personal assistant </span>
                   <span class="orange-text" data-key="Ghain">Ghain</span>
                   <span data-key="can">can help you to find: </span> -->
-                  <span data-key="productPageHero">Ghain is your AI-powered best friend who can help you find the most accurate and latest information.</span>
+                  <span data-key="productPageHero1">
+                    Ghain is your AI-powered best friend</span
+                  >
+									<span data-key="productPageHero2" class="dark-grey-text">
+                    who can help you find
+                    the most accurate and latest information.</span
+                  >
                 </div>
 
                 <div class="key-features">
@@ -665,11 +670,6 @@
       </div>
     </div>
 
-
-
-
-
-
     <!-- VIDEO SECTION -->
     <div
       data-w-id="775cac5c-1aa2-262a-db52-01cc6bff5d44"
@@ -810,7 +810,9 @@
                 <a
                   href="https://www.youtube.com/watch?v=sWRUzxINCoA"
                   class="main-button features w-inline-block"
-                  ><div data-key="demoVideoDesc">Watch: Ghain in 90 seconds</div></a
+                  ><div data-key="demoVideoDesc">
+                    Watch: Ghain in 90 seconds
+                  </div></a
                 >
               </div>
             </div>
@@ -829,17 +831,12 @@
       </div>
     </div>
 
-
-
-
-
-
     <!-- ACCORDION/TAB SECTION -->
     <div
       class="section feature-section ghost-white-color"
-      style="display: block; padding-top: 0;"
+      style="display: block; padding-top: 0"
     >
-			<!-- TAB - ONLY IN TABLET & DESKTOP -->
+      <!-- TAB - ONLY IN TABLET & DESKTOP -->
       <div class="container large tab-container only-tablet-n-laptop">
         <div class="tabs">
           <button
@@ -869,8 +866,13 @@
           class="character tab-content text-paragraph-grid-holder"
         >
           <div class="tab-content-col text">
-            <h3 data-key="intelligentTitle"></h3>
-            <p data-key="intelligentDesc"></p>
+            <h3>
+							<span data-key="intelligentTitle1"></span>
+							<span data-key="intelligentTitle2" class="dark-grey-text"></span>
+						</h3>
+            <p data-key="intelligentDesc">
+							You can talk to Ghain like you’d talk to your knowledgeable best friend, in any language you choose!
+						</p>
           </div>
           <div class="tab-content-col image">
             <img src="./images/phone-frame.png" alt="phone-frame" />
@@ -883,8 +885,14 @@
           style="display: none"
         >
           <div class="tab-content-col text">
-            <h3 data-key="knowledgableTitle"></h3>
-            <p data-key="knowledgableDesc"></p>
+            <h3>
+							<span data-key="knowledgableTitle1"></span>
+							<span data-key="knowledgableTitle2" class="dark-grey-text"></span>
+
+						</h3>
+            <p data-key="knowledgableDesc">
+							Powered by the latest advances in Agentic Artificial Intelligence, it draws from a vast knowledge base, delivering accurate, comprehensive, and up-to-date data. If it doesn’t know, it will scour the internet in real-time to try its best to find accurate answers to your questions!
+						</p>
           </div>
           <div class="tab-content-col image">
             <img src="./images/Group 66.png" alt="phone-frame" />
@@ -897,15 +905,20 @@
           style="display: none"
         >
           <div class="tab-content-col text">
-            <h3 data-key="uniqueToYouTitle"></h3>
-            <p data-key="uniqueToYouDesc"></p>
+            <h3>
+							<span data-key="uniqueToYouTitle1" class="dark-grey-text"></span>
+							<span data-key="uniqueToYouTitle2"></span>
+						</h3>
+            <p data-key="uniqueToYouDesc">
+							You can choose to receive tailored suggestions based on your preferences and past interactions. From updates on recent news that may matter to you, to event recommendations and new product suggestions, Ghain adapts to your needs, offering genuinely personalized assistance.
+						</p>
           </div>
           <div class="tab-content-col image">
             <img src="./images/Group 67.png" alt="phone-frame" />
           </div>
         </div>
       </div>
-			<!-- END OF TAB -->
+      <!-- END OF TAB -->
 
       <!-- <div class="container large tab-container only-mobile">
         <div class="text-paragraph-grid-holder accordion">
@@ -966,10 +979,8 @@
         </div>
       </div> -->
 
-
-			<!-- ACCORDION - ONLY IN MOBILE -->
-			<div class="container tab-container only-mobile">
-        
+      <!-- ACCORDION - ONLY IN MOBILE -->
+      <div class="container tab-container only-mobile">
         <div class="faq-holder">
           <div class="faq-container">
             <div
@@ -981,43 +992,49 @@
                 transform-style: preserve-3d;
               "
             >
-							<div class="faq-heading first">
-								<div class="faq-question-text" data-key="intelligent">Intelligent</div>
-								<div class="accordion-button" style="background-color: transparent; border: none;">
-									<img
-										src="./images/Chevron-Down-Black.png"
-										loading="lazy"
-										width="15.999999046325684"
-										height="16"
-										alt=""
-										class="vectors-arrow-wrapper"
-										style="
-											height: 100%; width: auto; object-fit: contain;
-											transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
-												rotateX(0deg) rotateY(0deg) rotateZ(0deg)
-												skew(0deg, 0deg);
-											transform-style: preserve-3d;
-										"
-									/>
-								</div>
-							</div>
+              <div class="faq-heading first">
+                <div class="faq-question-text" data-key="intelligent">
+                  Intelligent
+                </div>
+                <div
+                  class="accordion-button"
+                  style="background-color: transparent; border: none"
+                >
+                  <img
+                    src="./images/Chevron-Down-Black.png"
+                    loading="lazy"
+                    width="15.999999046325684"
+                    height="16"
+                    alt=""
+                    class="vectors-arrow-wrapper"
+                    style="
+                      height: 100%;
+                      width: auto;
+                      object-fit: contain;
+                      transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
+                        rotateX(0deg) rotateY(0deg) rotateZ(0deg)
+                        skew(0deg, 0deg);
+                      transform-style: preserve-3d;
+                    "
+                  />
+                </div>
+              </div>
               <div class="gradient-line" style="opacity: 1"></div>
               <div class="bg-blury-faq" style="opacity: 1"></div>
-              <div class="faq-content" style="padding: 0;">
-								
+              <div class="faq-content" style="padding: 0">
                 <div class="faq-answer-holder" style="width: 1080px">
                   <!-- <div class="faq-answer">
                     London, England, United Kingdom<br />Engineering • Full time
                   </div> -->
-									<div class="character tab-content">
-										<div class="tab-content-col text">
-											<h3 data-key="intelligentTitle"></h3>
-											<p data-key="intelligentDesc"></p>
-										</div>
-										<div class="tab-content-col image">
-											<img src="./images/phone-frame.png" alt="phone-frame" />
-										</div>
-									</div>
+                  <div class="character tab-content">
+                    <div class="tab-content-col text">
+                      <h3 data-key="intelligentTitle"></h3>
+                      <p data-key="intelligentDesc"></p>
+                    </div>
+                    <div class="tab-content-col image">
+                      <img src="./images/phone-frame.png" alt="phone-frame" />
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -1030,40 +1047,46 @@
                 transform-style: preserve-3d;
               "
             >
-							<div class="faq-heading">
-								<div class="faq-question-text" data-key="knowledgable">Knowledgable</div>
-								<div class="accordion-button" style="background-color: transparent; border: none;">
-									<img
-										src="./images/Chevron-Down-Black.png"
-										loading="lazy"
-										width="15.999999046325684"
-										height="16"
-										alt=""
-										class="vectors-arrow-wrapper"
-										style="
-											height: 100%; width: auto; object-fit: contain;
-											transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
-												rotateX(0deg) rotateY(0deg) rotateZ(0deg)
-												skew(0deg, 0deg);
-											transform-style: preserve-3d;
-										"
-									/>
-								</div>
-							</div>
+              <div class="faq-heading">
+                <div class="faq-question-text" data-key="knowledgable">
+                  Knowledgable
+                </div>
+                <div
+                  class="accordion-button"
+                  style="background-color: transparent; border: none"
+                >
+                  <img
+                    src="./images/Chevron-Down-Black.png"
+                    loading="lazy"
+                    width="15.999999046325684"
+                    height="16"
+                    alt=""
+                    class="vectors-arrow-wrapper"
+                    style="
+                      height: 100%;
+                      width: auto;
+                      object-fit: contain;
+                      transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
+                        rotateX(0deg) rotateY(0deg) rotateZ(0deg)
+                        skew(0deg, 0deg);
+                      transform-style: preserve-3d;
+                    "
+                  />
+                </div>
+              </div>
               <div class="gradient-line" style="opacity: 0"></div>
               <div class="bg-blury-faq" style="opacity: 1"></div>
-              <div class="faq-content" style="padding: 0;">
-                
+              <div class="faq-content" style="padding: 0">
                 <div class="faq-answer-holder" style="height: 0px">
-									<div class="character tab-content">
-										<div class="tab-content-col text">
-											<h3 data-key="knowledgableTitle"></h3>
-											<p data-key="knowledgableDesc"></p>
-										</div>
-										<div class="tab-content-col image">
-											<img src="./images/Group 66.png" alt="phone-frame" />
-										</div>
-									</div>
+                  <div class="character tab-content">
+                    <div class="tab-content-col text">
+                      <h3 data-key="knowledgableTitle"></h3>
+                      <p data-key="knowledgableDesc"></p>
+                    </div>
+                    <div class="tab-content-col image">
+                      <img src="./images/Group 66.png" alt="phone-frame" />
+                    </div>
+                  </div>
                   <!-- <div class="faq-answer">
                     London, England, United Kingdom<br />Engineering • Full time
                   </div> -->
@@ -1079,62 +1102,57 @@
                 transform-style: preserve-3d;
               "
             >
-							<div class="faq-heading">
-								<div class="faq-question-text" data-key="uniqueToYou">Unique to you</div>
-								<div class="accordion-button" style="background-color: transparent; border: none;">
-									<img
-										src="./images/Chevron-Down-Black.png"
-										loading="lazy"
-										width="15.999999046325684"
-										height="16"
-										alt=""
-										class="vectors-arrow-wrapper"
-										style="
-											height: 100%; width: auto; object-fit: contain;
-											transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
-												rotateX(0deg) rotateY(0deg) rotateZ(0deg)
-												skew(0deg, 0deg);
-											transform-style: preserve-3d;
-										"
-									/>
-								</div>
-							</div>
+              <div class="faq-heading">
+                <div class="faq-question-text" data-key="uniqueToYou">
+                  Unique to you
+                </div>
+                <div
+                  class="accordion-button"
+                  style="background-color: transparent; border: none"
+                >
+                  <img
+                    src="./images/Chevron-Down-Black.png"
+                    loading="lazy"
+                    width="15.999999046325684"
+                    height="16"
+                    alt=""
+                    class="vectors-arrow-wrapper"
+                    style="
+                      height: 100%;
+                      width: auto;
+                      object-fit: contain;
+                      transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
+                        rotateX(0deg) rotateY(0deg) rotateZ(0deg)
+                        skew(0deg, 0deg);
+                      transform-style: preserve-3d;
+                    "
+                  />
+                </div>
+              </div>
               <div class="gradient-line" style="opacity: 0"></div>
               <div class="bg-blury-faq" style="opacity: 1"></div>
-              <div class="faq-content" style="padding: 0;">
-                
+              <div class="faq-content" style="padding: 0">
                 <div class="faq-answer-holder" style="height: 0px">
                   <!-- <div class="faq-answer">
                     London, England, United Kingdom<br />Engineering • Full time
                   </div> -->
-									<div class="character tab-content">
-										<div class="tab-content-col text">
-											<h3 data-key="uniqueToYouTitle"></h3>
-											<p data-key="uniqueToYouDesc"></p>
-										</div>
-										<div class="tab-content-col image">
-											<img src="./images/Group 67.png" alt="phone-frame" />
-										</div>
-									</div>
+                  <div class="character tab-content">
+                    <div class="tab-content-col text">
+                      <h3 data-key="uniqueToYouTitle"></h3>
+                      <p data-key="uniqueToYouDesc"></p>
+                    </div>
+                    <div class="tab-content-col image">
+                      <img src="./images/Group 67.png" alt="phone-frame" />
+                    </div>
+                  </div>
                 </div>
-								
               </div>
             </div>
           </div>
         </div>
-       
       </div>
-			<!-- END OF ACCORDION -->
-
+      <!-- END OF ACCORDION -->
     </div>
-
-
-
-
-
-
-
-
 
     <!-- PRICING SECTION -->
     <div class="section feature-section">
@@ -1192,9 +1210,22 @@
                 </p>
               </div>
               <ul role="list" class="list">
-                <li class="list-item-with-checkicon" data-key="freeTierFeature1">Up to X messages per day</li>
-                <li class="list-item-with-checkicon" data-key="freeTierFeature2">Fewer topics</li>
-                <li class="list-item-with-checkicon" data-key="freeTierFeature3">
+                <li
+                  class="list-item-with-checkicon"
+                  data-key="freeTierFeature1"
+                >
+                  Up to X messages per day
+                </li>
+                <li
+                  class="list-item-with-checkicon"
+                  data-key="freeTierFeature2"
+                >
+                  Fewer topics
+                </li>
+                <li
+                  class="list-item-with-checkicon"
+                  data-key="freeTierFeature3"
+                >
                   Limited personalization
                 </li>
               </ul>
@@ -1232,13 +1263,22 @@
                   </p>
                 </div>
                 <ul role="list" class="list">
-                  <li class="list-item-with-checkicon active-pricing-list-item" data-key="plusTierFeature1">
+                  <li
+                    class="list-item-with-checkicon active-pricing-list-item"
+                    data-key="plusTierFeature1"
+                  >
                     Up to XX messages per day
                   </li>
-                  <li class="list-item-with-checkicon active-pricing-list-item" data-key="plusTierFeature2">
+                  <li
+                    class="list-item-with-checkicon active-pricing-list-item"
+                    data-key="plusTierFeature2"
+                  >
                     Access to premium topics
                   </li>
-                  <li class="list-item-with-checkicon active-pricing-list-item" data-key="plusTierFeature3">
+                  <li
+                    class="list-item-with-checkicon active-pricing-list-item"
+                    data-key="plusTierFeature3"
+                  >
                     High level of personalization
                   </li>
                 </ul>
@@ -1273,15 +1313,36 @@
                     >
                   </div>
                   <p class="black-paragraph" data-key="premiumTierDesc">
-                    Get unlimited daily messages, and all the features of Ghain, plus early access to new features and topics.
+                    Get unlimited daily messages, and all the features of Ghain,
+                    plus early access to new features and topics.
                   </p>
                 </div>
               </div>
               <ul role="list" class="list">
-                <li class="list-item-with-checkicon" data-key="premiumTierFeature1">Unlimited daily messages</li>
-                <li class="list-item-with-checkicon" data-key="premiumTierFeature2">All topics</li>
-                <li class="list-item-with-checkicon" data-key="premiumTierFeature3">In addition to early access to experimental features</li>
-                <li class="list-item-with-checkicon" data-key="premiumTierFeature4">Maximum level of personalization</li>
+                <li
+                  class="list-item-with-checkicon"
+                  data-key="premiumTierFeature1"
+                >
+                  Unlimited daily messages
+                </li>
+                <li
+                  class="list-item-with-checkicon"
+                  data-key="premiumTierFeature2"
+                >
+                  All topics
+                </li>
+                <li
+                  class="list-item-with-checkicon"
+                  data-key="premiumTierFeature3"
+                >
+                  In addition to early access to experimental features
+                </li>
+                <li
+                  class="list-item-with-checkicon"
+                  data-key="premiumTierFeature4"
+                >
+                  Maximum level of personalization
+                </li>
               </ul>
               <div class="pricing-button-holder">
                 <a
@@ -1292,7 +1353,6 @@
               </div>
             </div>
           </div>
-          
         </div>
       </div>
     </div>
@@ -1677,7 +1737,7 @@
             <div class="fade-in-move-on-scroll" style="height: 100%">
               <div class="footer-brand-content">
                 <div class="footer-description">
-                  <img src="/images/logo-long-2.png" alt="" />
+                  <img src="./images/logo-long-2.png" alt="" />
                 </div>
 
                 <p class="copyright" data-key="copyright">
