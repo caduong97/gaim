@@ -216,7 +216,7 @@ html[lang="ar"] .tab-content-col.image img {
 		height: 56px;
 	}
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 	.tab-button {
 		padding: 0.5em 0.7em;
 		p {
