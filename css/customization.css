@@ -216,12 +216,13 @@ html[lang="ar"] .tab-content-col.image img {
 		height: 56px;
 	}
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
 	.tab-button {
 		padding: 0.5em 0.7em;
-		p {
-			font-size: 14px;
-		}
+		
+	}
+	.tab-button p {
+		font-size: 14px;
 	}
 }
 @media (max-width: 375px) {
