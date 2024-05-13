@@ -524,7 +524,7 @@ const translations = {
     ar: "متعلم",
   },
   uniqueToYou: {
-    en: "Unique to you",
+    en: "Truly yours",
     ar: "فريد لك",
   },
   intelligentTitle1: {
