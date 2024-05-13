@@ -90662,7 +90662,7 @@ Webflow.require("ix2").init({
               id: "a-126-n-2",
               actionTypeId: "TRANSFORM_ROTATE",
               config: {
-                delay: 500,
+                delay: 0,
                 easing: "ease",
                 duration: 1000,
                 target: {
@@ -90679,7 +90679,7 @@ Webflow.require("ix2").init({
               id: "a-126-n-5",
               actionTypeId: "TRANSFORM_SCALE",
               config: {
-                delay: 500,
+                delay: 0,
                 easing: "ease",
                 duration: 1000,
                 target: {
@@ -90695,7 +90695,7 @@ Webflow.require("ix2").init({
               id: "a-126-n-6",
               actionTypeId: "STYLE_OPACITY",
               config: {
-                delay: 500,
+                delay: 0,
                 easing: "ease",
                 duration: 1000,
                 target: {
