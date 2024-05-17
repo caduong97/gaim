@@ -1520,6 +1520,9 @@ html[lang="ar"] .wp-link.black {
 .section.overflow-hidden {
   overflow: hidden;
 }
+.section.auto-height {
+  /* min-height: auto; */
+}
 
 .section.overflow-hidden.ghost-white-color,
 .section.ghost-white-color {
@@ -1565,6 +1568,14 @@ html[lang="ar"] .wp-link.black {
 .container.extra-large {
   max-width: none;
   padding-top: 0;
+}
+
+
+.container.small {
+  max-width: 1050px;
+}
+.container.extra-small {
+  max-width: 860px;
 }
 
 .container.no-padding-top {
@@ -1727,6 +1738,10 @@ html[lang="ar"] .wp-link.black {
 }
 .feature-section {
   padding-top: 80px;
+  @media (max-width: 640px) {
+    padding-top: 50px;
+    
+  }
 }
 
 
@@ -5769,6 +5784,9 @@ html[lang="ar"] .list-item-with-checkicon {
 .dark-grey-text {
   color: #403C3A;
 }
+.grey-text {
+  color: #858585;
+}
 
 .main-features-grid-holder {
   margin-top: 2em;
@@ -5786,10 +5804,10 @@ html[lang="ar"] .list-item-with-checkicon {
 .collaboration-platform-holder {
   grid-column-gap: 30px;
   grid-row-gap: 30px;
-  background-color: #faf9f8;
+  background-color: #fff;
   border-radius: 23px;
   grid-template-rows: auto;
-  padding: 1rem;
+  padding: 1.5rem;
   position: relative;
   overflow: hidden;
 }
@@ -6300,7 +6318,7 @@ html[lang="ar"] .list-item-with-checkicon {
 
 .features-image {
   height: 100%;
-  max-height: 454px;
+  /* max-height: 454px; */
 }
 
 .features-image.second {
@@ -10430,6 +10448,7 @@ html[lang="ar"] .list-item-with-checkicon {
     border-radius: 16px;
     flex-direction: column;
     display: flex;
+    padding: 1rem;
   }
 
   .collaboration-platform-holder.second {

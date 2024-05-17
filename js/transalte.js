@@ -25,10 +25,11 @@ const translations = {
     ar: "مدونة",
   },
 
-  careers: {
-    en: "Careers",
+  career: {
+    en: "Career",
     ar: "وظائف",
   },
+
   contact: {
     en: "Contact",
     ar: "اتصل بنا",
@@ -164,56 +165,7 @@ const translations = {
     en: "Learn more",
     ar: `تعرف اكثر`,
   },
-  werempower: {
-    en: "We empower companies to",
-    ar: "نحن نمكن الشركات من",
-  },
-  informed: {
-    en: "make informed decisions ",
-    ar: "اتخاذ قرارات مستنيرة",
-  },
-  throughmarket: {
-    en: `Through tailored market research, we utilize AI to
-    unearth actionable insights into consumer behavior and
-    trends,`,
-    ar: `من خلال أبحاث السوق المخصصة، نستخدم الذكاء الاصطناعي لتحقيق
-    اكتشاف رؤى قابلة للتنفيذ في سلوك المستهلك و
-    اتجاهات،`,
-  },
-  guidebusiness: {
-    en: "We guide businesses through the maze of",
-    ar: "نحن نوجه الشركات عبر متاهة",
-  },
-
-  aiint: {
-    en: "AI integration",
-    ar: "تكامل الذكاء الاصطناعي",
-  },
-
-  weoffer: {
-    en: "We offer",
-    ar: "نحن نقدم",
-  },
-
-  customai: {
-    en: "custom AI solution",
-    ar: "حل الذكاء الاصطناعي المخصص",
-  },
-  development: {
-    en: "development",
-    ar: "تطوير",
-  },
-  ourteam: {
-    en: `Our team of experts is passionate about adding value to
-    your business.`,
-    ar: `فريق الخبراء لدينا متحمس لإضافة قيمة إلى
-    عملك.`,
-  },
-
-  reach: {
-    en: "Reach out to GAIM to book a meeting or demo.",
-    ar: "تواصل مع غيم لحجز اجتماع أو عرض توضيحي.",
-  },
+  
   contactus: {
     en: "Contact us",
     ar: "اتصل بنا",
@@ -410,6 +362,8 @@ const translations = {
     لهذه المبادئ لا يتزعزع، وضمان الثقة و
     النزاهة في جميع عملياتنا.`,
   },
+
+  // Products page text
   pricing: {
     en: "Pricing",
     ar: "التسعير",
@@ -562,7 +516,89 @@ const translations = {
   uniqueToYouDesc: {
     en: "You can choose to receive tailored suggestions based on your preferences and past interactions. From updates on recent news that may matter to you, to event recommendations and new product suggestions, Ghain adapts to your needs, offering genuinely personalized assistance.",
     ar: "يمكنك اختيار تلقي اقتراحات مصممة خصيصًا استنادًا إلى تفضيلاتك وتفاعلاتك السابقة. من التحديثات حول الأخبار الأخيرة التي قد تكون مهمة بالنسبة لك، إلى توصيات الأحداث واقتراحات المنتجات الجديدة، يتكيف غيم مع احتياجاتك، مقدمًا مساعدة شخصية حقًا.",
-  }
+  },
+  //  End of products page text
+
+  // Start of services page text
+  servicesIntroText1: {
+    en: "Start your journey towards simplifying lifes and adding value to your business by using Gaim's artificial intelligence services.",
+    ar: "ابدأ رحلتك نحو تبسيط الحياة وإضافة قيمة لعملك من خلال استخدام خدمات الذكاء الاصطناعي لغيم."
+  },
+  servicesIntroText2: {
+    en: "GAIM offers a suite of AI-driven services tailored to empower companies across various industries. Leveraging our cutting-edge AI technology, we specialize in delivering customized solutions that enhance decision-making, operational efficiency, and customer engagement.",
+    ar: "تقدم GAIM مجموعة من الخدمات التي تعمل بالذكاء الاصطناعي مصممة لتمكين الشركات في مختلف الصناعات. باستخدام تكنولوجيا الذكاء الاصطناعي الرائدة لدينا، نتخصص في تقديم حلول مخصصة تعزز اتخاذ القرارات والكفاءة التشغيلية والتفاعل مع العملاء."
+  },
+  dataengineering: {
+    en: "Data Engineering",
+    ar: "هندسة البيانات"
+  },
+  naturallanguageprocessing: {
+    en: "Natural Language Processing",
+    ar: "معالجة اللغة الطبيعية"
+  },
+  automateddocumentprocessing: {
+    en: "Automated Document Processing",
+    ar: "معالجة الوثائق الآلية"
+  },
+  chatbotsfromdocuments: {
+    en: "Chatbots from Documents",
+    ar: "الدردشة الآلية من الوثائق"
+  },
+  getintouch: {
+    en: "Get in touch with GAIM experts",
+    ar: "تواصل مع خبراء GAIM"
+  },
+  werempower: {
+    en: "We empower companies to",
+    ar: "نحن نمكن الشركات من",
+  },
+  informed: {
+    en: "make informed decisions ",
+    ar: "اتخاذ قرارات مستنيرة",
+  },
+  throughmarket: {
+    en: `Through tailored market research, we utilize AI to
+    unearth actionable insights into consumer behavior and
+    trends,`,
+    ar: `من خلال أبحاث السوق المخصصة، نستخدم الذكاء الاصطناعي لتحقيق
+    اكتشاف رؤى قابلة للتنفيذ في سلوك المستهلك و
+    اتجاهات،`,
+  },
+  guidebusiness: {
+    en: "We guide businesses through the maze of",
+    ar: "نحن نوجه الشركات عبر متاهة",
+  },
+
+  aiint: {
+    en: "AI integration",
+    ar: "تكامل الذكاء الاصطناعي",
+  },
+
+  weoffer: {
+    en: "We offer",
+    ar: "نحن نقدم",
+  },
+
+  customai: {
+    en: "custom AI solution",
+    ar: "حل الذكاء الاصطناعي المخصص",
+  },
+  development: {
+    en: "development",
+    ar: "تطوير",
+  },
+  ourteam: {
+    en: `Our team of experts is passionate about adding value to
+    your business.`,
+    ar: `فريق الخبراء لدينا متحمس لإضافة قيمة إلى
+    عملك.`,
+  },
+
+  reach: {
+    en: "Reach out to GAIM to book a meeting or demo.",
+    ar: "تواصل مع غيم لحجز اجتماع أو عرض توضيحي.",
+  },
+
 };
 
 function toggleLanguage() {
