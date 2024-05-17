@@ -5063,10 +5063,6 @@ html[lang="ar"] .list-item-with-checkicon {
   display: flex;
 }
 
-.grey-text-2 {
-  color: #878d95;
-}
-
 .notification-button {
   color: var(--notification-bg);
   background-color: #fff;
@@ -5787,6 +5783,9 @@ html[lang="ar"] .list-item-with-checkicon {
 .grey-text {
   color: #858585;
 }
+.grey-text-2 {
+  color: #878d95;
+}
 
 .main-features-grid-holder {
   margin-top: 2em;
@@ -6207,6 +6206,12 @@ html[lang="ar"] .list-item-with-checkicon {
   color: #101111;
 
   font-size: 40px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.title-medium {
+  font-size: 36px;
   font-weight: 600;
   line-height: 1.2;
 }
@@ -9126,6 +9131,9 @@ html[lang="ar"] .list-item-with-checkicon {
   .title-big {
     font-size: 32px;
   }
+  .title-medium {
+    font-size: 28px;
+  }
 
   .key-features.features {
     flex-direction: column;
@@ -10516,6 +10524,9 @@ html[lang="ar"] .list-item-with-checkicon {
 
   .title-big {
     font-size: 26px;
+  }
+  .title-medium {
+    font-size: 24px;
   }
 
   .grid-item-text-holder {

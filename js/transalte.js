@@ -568,17 +568,14 @@ const translations = {
     en: "We guide businesses through the maze of",
     ar: "نحن نوجه الشركات عبر متاهة",
   },
-
   aiint: {
     en: "AI integration",
     ar: "تكامل الذكاء الاصطناعي",
   },
-
   weoffer: {
     en: "We offer",
     ar: "نحن نقدم",
   },
-
   customai: {
     en: "custom AI solution",
     ar: "حل الذكاء الاصطناعي المخصص",
@@ -593,12 +590,57 @@ const translations = {
     ar: `فريق الخبراء لدينا متحمس لإضافة قيمة إلى
     عملك.`,
   },
-
   reach: {
     en: "Reach out to GAIM to book a meeting or demo.",
     ar: "تواصل مع غيم لحجز اجتماع أو عرض توضيحي.",
   },
+  // End of services page text
 
+
+  // Start of career page text
+  joinourteam: {
+    en: "Want to join our team?",
+    ar: "هل ترغب في الانضمام إلى فريقنا؟"
+  },
+  careerHeroText: {
+    en: "Potter ipsum wand elf parchment wingardium. It fire-whisky plums large seek. Hermione venom firs’ hall hat. Newt you’ve owl peg-leg mewing candles cup. Thieves it wizard of a his pumpkin.",
+    ar: "Potter ipsum wand elf parchment wingardium. It fire-whisky plums large seek. Hermione venom firs’ hall hat. Newt you’ve owl peg-leg mewing candles cup. Thieves it wizard of a his pumpkin."
+  },
+  openpositions: {
+    en: "Open Positions",
+    ar: "المناصب المفتوحة"
+  },
+  businessdeveloper: {
+    en: "Business Developer",
+    ar: "مطور أعمال"
+  },
+  businessdeveloperDesc: {
+    en: "We are looking for a Business Developer to join our team. The ideal candidate will have a passion for technology and a desire to help businesses grow.",
+    ar: "نحن نبحث عن مطور أعمال للانضمام إلى فريقنا. المرشح المثالي سيكون لديه شغف للتكنولوجيا ورغبة في مساعدة الشركات على النمو."
+  },
+  location: {
+    en: "Location:",
+    ar: "الموقع:"
+  },
+  london: {
+    en: "London",
+    ar: "لندن"
+  },
+  address: {
+    en: "Address:",
+    ar: "العنوان:"
+  },
+  londonAddress: {
+    en: "123 Baker Street, London",
+    ar: "123 شارع بيكر، لندن"
+  },
+
+  applynow: {
+    en: "Apply Now",
+    ar: "قدم الآن"
+  },
+  // End of career page text
+  
 };
 
 function toggleLanguage() {

@@ -39,7 +39,7 @@
 
 
 
-
+/* Products page */
 
 .tab-container.only-tablet-n-laptop {
 	display: block;
@@ -244,9 +244,6 @@ html[lang="ar"] .tab-content-col.image img {
 }
 
 
-
-
-
 .pricing-switch {
 	display: flex;
 	justify-content: space-between;
@@ -272,4 +269,18 @@ html[lang="ar"] .tab-content-col.image img {
 .pricing-switch-button.active {
 	background-color: #EF7123;
 	color: #fff;
+}
+/* End of products page */
+
+
+/* Career page */
+.position-item {
+	background-color: #faf9f8;
+	color: var(--text-color);
+	padding: 1.5rem;
+	border-radius: 10px;
+	min-height: 400px;
+	display: flex;
+	flex-direction: column;
+	
 }
