@@ -221,25 +221,40 @@ const translations = {
     ar: "إمكانيات الغد، اليوم.",
   },
 
-  gaimc: {
-    en: "GAIM",
-    ar: "غيم",
+  
+  
+  technology: {
+    en: "Technology",
+    ar: "تكنولوجيا",
   },
-  founded: {
-    en: "was founded in",
-    ar: "تم انشاءه في",
+  heart: {
+    en: `At the heart of our innovations lies a commitment to harnessing AI
+    technology, driving progress and efficiency in every facet of
+    modern life. Our solutions are designed to meet the dynamic needs
+    of individuals and businesses, making the complex simple and the
+    ordinary extraordinary.`,
+    ar: `في قلب ابتكاراتنا يكمن الالتزام بتسخير الذكاء الاصطناعي
+    التكنولوجيا، ودفع التقدم والكفاءة في كل جانب من جوانب
+    حياة عصرية. تم تصميم حلولنا لتلبية الاحتياجات الديناميكية
+    للأفراد والشركات، مما يجعل المعقد بسيطًا و
+    عادية غير عادية.`,
+  },
+  
+
+
+
+  // Start of about page text
+  gaimfound: {
+    en: "Gaim was founded",
+    ar: "تأسست غيم في",
   },
   2023: {
-    en: "2023",
-    ar: "٢٠٢٣",
+    en: "in 2023",
+    ar: "في 2023",
   },
   byteam: {
-    en: "by a team of passionate",
-    ar: "من قبل فريق شغوف",
-  },
-  omanis: {
-    en: "Omanis",
-    ar: "عمانيون",
+    en: "by a team of passionate Omanis",
+    ar: "من قبل فريق من العمانيين المتحمسين",
   },
   who: {
     en: `who chose to leverage their multidisciplinary skill set to
@@ -249,9 +264,14 @@ const translations = {
     إضافة الحد الأقصى من القيمة إلى كل من حولهم ومساعدتهم
     تمكين الشركات المحلية.`,
   },
+
   team: {
     en: "Team",
     ar: "فريق",
+  },
+  meettheteam: {
+    en: "Meet the Team",
+    ar: "تعرف على الفريق",
   },
   founding: {
     en: "Our founding team combines expertise in AI, physics, and project management, forming a talented and multidisciplinary force. Their diverse skills allow us to navigate complex challenges and innovate at the forefront of technology.",
@@ -265,6 +285,10 @@ const translations = {
     en: "Chief Executive Officer",
     ar: "الرئيس التنفيذي",
   },
+  jabirDesc: {
+    en: "Jabir brings a unique blend of expertise in engineering operations, computational physics, scientific research and advanced AI solutions.",
+    ar: "يجلب جابر مزيجًا فريدًا من الخبرة في عمليات الهندسة، والفيزياء الحسابية، والبحث العلمي، وحلول الذكاء الاصطناعي المتقدمة."
+  },
   ali: {
     en: "Ali Al Khaifi, PMP",
     ar: "علي الخايفي",
@@ -273,12 +297,16 @@ const translations = {
     en: "Chief Operations Officer",
     ar: "كبير مسؤولي العمليات",
   },
+  aliDesc: {
+    en: "Ali is a seasoned professional in management and operations with a strong background in leading complex projects and improving operational efficiency. ",
+    ar: "علي محترف ذو خبرة في الإدارة والعمليات مع خلفية قوية في قيادة المشاريع المعقدة وتحسين الكفاءة التشغيلية."
+  },
   values: {
     en: "Values",
     ar: "قيمنا",
   },
   vision: {
-    en: "Vission",
+    en: "Vision",
     ar: "رؤيتنا",
   },
   our: {
@@ -302,22 +330,35 @@ const translations = {
     en: "Be a company that makes amazing products leveraging and developing cutting-edge technologies that everybody uses to make their lives richer and easier.",
     ar: "كن شركة تصنع منتجات مذهلة تستفيد من أحدث التقنيات وتطورها والتي يستخدمها الجميع لجعل حياتهم أكثر ثراءً وسهولة.",
   },
-  technology: {
-    en: "Technology",
-    ar: "تكنولوجيا",
+  principleandvalues1: {
+    en: "Our company is founded on the principles and values deeply rooted in local culture,",
+    ar: "تأسست شركتنا على المبادئ والقيم المتجذرة في الثقافة المحلية،",
   },
-  heart: {
-    en: `At the heart of our innovations lies a commitment to harnessing AI
-    technology, driving progress and efficiency in every facet of
-    modern life. Our solutions are designed to meet the dynamic needs
-    of individuals and businesses, making the complex simple and the
-    ordinary extraordinary.`,
-    ar: `في قلب ابتكاراتنا يكمن الالتزام بتسخير الذكاء الاصطناعي
-    التكنولوجيا، ودفع التقدم والكفاءة في كل جانب من جوانب
-    حياة عصرية. تم تصميم حلولنا لتلبية الاحتياجات الديناميكية
-    للأفراد والشركات، مما يجعل المعقد بسيطًا و
-    عادية غير عادية.`,
+  principleandvalues2: {
+    en: "emphasizing innovation, simplicity, and empowerment. ",
+    ar: "مع التركيز على الابتكار والبساطة والتمكين.",
   },
+  goal1: {
+    en: "Our goal is to craft remarkable products that ",
+    ar: "هدفنا هو صياغة منتجات رائعة ت",
+  },
+  goal2: {
+    en: "not only make lives richer and easier but also stand as a testament to the ingenuity and forward-thinking spirit of Oman.",
+    ar: "تجعل الحياة أكثر ثراءً وسهولة وتقف كشهادة على الإبداع وروح التفكير المستقبلي في عمان.",
+  },
+  committed1: {
+    en: "We are committed to ",
+    ar: "نحن ملتزمون بـ",
+  },
+  committed2: {
+    en: "transforming the way businesses and individuals interact with local data, ",
+    ar: "تحويل الطريقة التي يتفاعل بها الشركات والأفراد مع البيانات المحلية،",
+  },
+  committed3: {
+    en: "utilizing cutting-edge AI technologies.",
+    ar: "استخدام تقنيات الذكاء الاصطناعي الرائدة.",
+  },
+
   ourtech: {
     en: "Our AI Technology",
     ar: "تكنولوجيا الذكاء الاصطناعي لدينا",
@@ -362,6 +403,8 @@ const translations = {
     لهذه المبادئ لا يتزعزع، وضمان الثقة و
     النزاهة في جميع عملياتنا.`,
   },
+
+  // End of about page text
 
   // Products page text
   pricing: {
@@ -640,7 +683,8 @@ const translations = {
     ar: "قدم الآن"
   },
   // End of career page text
-  
+
+
 };
 
 function toggleLanguage() {

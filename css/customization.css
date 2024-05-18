@@ -282,5 +282,234 @@ html[lang="ar"] .tab-content-col.image img {
 	min-height: 400px;
 	display: flex;
 	flex-direction: column;
+
+}
+/* End of career page */
+
+/* About page */
+.about-hero {
+	background-image: url("../images/about-hero-bg.png");
+	background-repeat: no-repeat;
+	background-size: auto 55%;
+	background-position: top right;
+	/* background-color: yellow;  */
+	background-color: #fff;
+	border-radius: 10px;
+	min-height: 500px;
+	padding: 3rem 10rem 5rem 10rem; 
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.about-hero-text {
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: 0;
+}
+.about-hero-icons {
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: repeat(5, 1fr);
+	width: 300px;
+}
+
+@media (max-width: 1400px) {
+	.about-hero {
+		padding: 3rem 6rem 4rem 6rem;
+	}
 	
 }
+@media (max-width: 1024px) {
+	.about-hero {
+		padding: 3rem;
+		background-size: auto 40%;
+	}
+	.about-hero-text {
+		max-width: 550px;
+	}
+}
+@media (max-width: 550px) {
+	.about-hero {
+		padding: 3rem 2rem;
+		min-height: 600px;
+		background-size: 80% auto;
+	}
+	.about-hero-icons {
+		width: 200px;
+	
+	}
+}
+
+
+
+.abouttext p {
+  font-size: 18px;
+  color: #000;
+}
+
+.about-cards {
+  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) ;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1rem;
+  max-width: 960px;
+  margin: auto;
+}
+
+.about-card {
+  border: 1px solid #CACACA;
+  border-radius: 24px;
+  padding: 20px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+  gap: 10px;
+
+}
+.about-card:nth-of-type(1),
+.about-card:nth-of-type(2),
+.about-card:nth-of-type(6) {
+  background-color: #fff;
+}
+.about-card:nth-of-type(6) {
+  grid-column-start: 2;
+  grid-column-end: span 2;
+  grid-row-start: 2;
+  grid-row-end: span 2;
+}
+.about-card-img {
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-card-title {
+  width: 100%;
+  font-size: 26px;
+  font-weight: 600;
+  color: var(--orange-text-color);
+  margin-bottom: 2rem;
+}
+.about-card-text {
+  /* text-align: center; */
+  font-size: 18px;
+}
+.mission-container {
+  display: grid;
+  gap: 50px;
+}
+@media (max-width: 1024px) {
+	.about-cards {
+	}
+	
+}
+@media (max-width: 640px) {
+	.about-cards {
+		/* grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(2, 1fr); */
+		display: block;
+	}
+	.about-card {
+		margin-bottom: 1rem;
+	}
+	/* .card:nth-of-type(3) {
+		grid-column-start: 2;
+		grid-column-end: span;
+		grid-row-start: 1;
+		grid-row-end: span 1;
+	} */
+	.card:nth-of-type(5) {
+		/* grid-column-start: 1;
+		grid-column-end: span 1;
+		grid-row-start: 3;
+		grid-row-end: span 1; */
+	}
+}
+
+
+.about-carousel-wrapper {
+	width: 100%;
+	height: 400px;
+	margin: auto;
+	position: relative;
+	overflow: hidden;
+}
+.swiper {
+  max-width: 900px !important;
+	width: 100% !important;
+	/* min-height: 350px; */
+	height: 100%;
+  /* height: 300px; */
+}
+.swiper-slide {
+	background-color: transparent;
+}
+.swiper-button-next, .swiper-button-prev {
+	color: var(--orange-text-color) !important;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+	background-color: var(--orange-text-color);
+}
+.swiper-slide-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: rgba(255,255,255, 0.8);
+	border-radius: 24px;
+	width: 80%;
+	margin: auto;
+	height: 100%;
+	padding: 2rem;
+}
+.swiper-content-title {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	/* margin-bottom: 1.5rem; */
+}
+.swiper-content-title img {
+	height: 70px;
+	margin-right: 1.5rem;
+	width: auto;
+}
+html[lang="ar"] .swiper-content-title img {
+	margin-right: 0;
+	margin-left: 1.5rem;
+}
+.swiper-content-text {
+	text-align: center;
+	max-width: 550px;
+	margin: auto;
+}
+
+
+@media (max-width: 1024px) {
+	.about-carousel-wrapper {
+		/* margin: 5rem auto 7rem; */
+	}
+	.swiper {
+		max-width: 700px !important;
+	}
+}
+@media (max-width: 768px) {
+	
+	.swiper-content-title img {
+		height: 50px;
+	}
+}
+@media (max-width: 500px) {
+	.about-carousel-wrapper {
+		height: 500px;
+	}
+	.swiper-slide-content {
+		padding: 1.5rem;
+	}
+	:root {
+		--swiper-navigation-size: 30px !important;
+	}
+
+}
+
+/* End of about page */

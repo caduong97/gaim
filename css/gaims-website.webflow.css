@@ -1424,6 +1424,9 @@ blockquote {
   align-items: center;
   justify-content: center;
 }
+.section.about-carousel {
+  display: block;
+}
 
 .chat-ghain {
   background-color: var(--orange-text-color);
@@ -1555,7 +1558,9 @@ html[lang="ar"] .wp-link.black {
   display: flex;
   max-width: 1250px;
 }
-
+.container.relative {
+  position: relative;
+}
 .container.hero-container {
   display: flex;
   justify-content: space-between;
@@ -1566,8 +1571,8 @@ html[lang="ar"] .wp-link.black {
 }
 
 .container.extra-large {
-  max-width: none;
-  padding-top: 0;
+  max-width: 1550px;
+  /* padding-top: 0; */
 }
 
 
@@ -1590,6 +1595,7 @@ html[lang="ar"] .wp-link.black {
 .container.blog {
   padding-top: 0;
 }
+
 
 .blog-cards,
 .blog-cards-2 {
@@ -5766,6 +5772,14 @@ html[lang="ar"] .list-item-with-checkicon {
   align-items: center;
   display: flex;
 }
+.left-tittle {
+  grid-column-gap: 11px;
+  grid-row-gap: 11px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
 
 .medium-text {
   text-align: center;
@@ -7026,7 +7040,7 @@ html[lang="ar"] .list-item-with-checkicon {
   width: 100%;
   height: 100%;
   background-color: #ff7a1c;
-  border-radius: 100px;
+border-radius: 100px;
   position: absolute;
   top: 0%;
   bottom: 0%;
@@ -7039,6 +7053,13 @@ html[lang="ar"] .list-item-with-checkicon {
   justify-content: center;
   align-items: flex-start;
   display: flex;
+  background-color: #fff;
+  /* background-image: url("../images/CTA-Noise_1CTA Noise.webp"); */
+  /* background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  border: 1px solid #e8e3dc;
+  border-radius: 24px;
 }
 
 .our-team-position {
@@ -7046,25 +7067,34 @@ html[lang="ar"] .list-item-with-checkicon {
   font-size: 18px;
 }
 
+.our-team-desc {
+  color: #858585;
+  font-size: 18px;
+
+}
+
 .our-team-name-holder {
-  width: 140%;
+  /* width: 140%; */
   grid-column-gap: 5px;
   grid-row-gap: 5px;
   flex-direction: column;
   align-items: center;
   display: flex;
+
+  padding: 1.5rem;
+  box-sizing: border-box;
 }
 
 .our-team-grid-item {
-  width: 70%;
+  /* width: 70%; */
   grid-column-gap: 1em;
   grid-row-gap: 1em;
   text-align: center;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
   padding-bottom: 20px;
   display: flex;
 }
@@ -7078,12 +7108,12 @@ html[lang="ar"] .list-item-with-checkicon {
 .our-team-image-holder {
   width: 370px;
   height: 370px;
-  background-image: url("../images/CTA-Noise_1CTA Noise.webp");
+  /* background-image: url("../images/CTA-Noise_1CTA Noise.webp");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 1px solid #e8e3dc;
-  border-radius: 24px;
+  border: 1px solid #e8e3dc; */
+  /* border-radius: 24px; */
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -7098,7 +7128,9 @@ html[lang="ar"] .list-item-with-checkicon {
   grid-row-gap: 3em;
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr;
-  margin-top: 3em;
+  margin: 3em auto;
+  max-width: 760px;
+  width: 100%;
 }
 
 .faq-container {
@@ -11347,51 +11379,9 @@ html[lang="ar"] .list-item-with-checkicon {
   visibility: hidden;
 }
 
-/* ABOUT PAGE */
 
-.abouttext p {
-  font-size: 18px;
-  color: #000;
-}
 
-.cards {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 50px;
-}
 
-.card {
-  border: 1px solid var(--orange-text-color);
-  border-radius: 24px;
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.card-img {
-  border-radius: 24px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.card-title {
-  font-size: 20px;
-  font-weight: 600;
-}
-
-.card-text {
-  text-align: center;
-  font-size: 18px;
-}
-
-.mission-container {
-  display: grid;
-  gap: 50px;
-}
 /* RESPONSIVE */
 
 @media only screen and (max-width: 1200px) {
@@ -11466,9 +11456,6 @@ html[lang="ar"] .nav-dropdown-item {
     transform: translateX(-50%);
   }
 
-  .cards {
-    grid-template-columns: 1fr;
-  }
 }
 @media only screen and (max-width: 700px) {
   .blog-cards-2 {

@@ -47,6 +47,11 @@
       rel="stylesheet"
       type="text/css"
     />
+    <link
+      href="css/customization.css"
+      rel="stylesheet"
+      type="text/css"
+    />
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link
       href="https://fonts.gstatic.com"
@@ -102,6 +107,13 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   
   </head>
   <body>
     <div class="page-wrapper">
@@ -141,192 +153,74 @@
               <nav role="navigation" class="nav-menu w-nav-menu">
                 <div class="nav-links-left-space"></div>
                 <div class="nav-links">
+      
+                  <!-- Home nav item -->
                   <div class="nav-link-holder">
                     <a
                       href="index.html"
                       aria-current="page"
-                      class="nav-link w-inline-block w--current"
+                      class="nav-link w-inline-block"
                     >
                       <div data-key="home">Home</div>
                     </a>
                   </div>
-
+      
+                  <!-- About nav item -->
                   <div class="nav-link-holder">
-                    <div
-                      data-hover="true"
-                      data-delay="300"
-                      class="nav-dropdown w-dropdown"
+                    <a
+                      href="about.html"
+                      aria-current="page"
+                      class="nav-link w-inline-block"
                     >
-                      <div class="nav-link nav-link-dropdown w-dropdown-toggle">
-                        <div
-                          class="nav-dropdown-icon w-icon-dropdown-toggle"
-                        ></div>
-                        <div data-key="about"></div>
-                        <div class="nav-dropdown-link-arrow-holder">
-                          <div class="nav-dropdown-link-arrow-animated">
-                            <div class="nav-dropdown-link-arrow"></div>
-                          </div>
-                        </div>
-                      </div>
-                      <nav class="nav-dropdown-list w-dropdown-list">
-                        <div class="nav-dropdown-list-content">
-                          <div class="w-layout-grid nav-dropdown-grid">
-                            <div class="nav-dropdown-column">
-                              <ul role="list" class="nav-list">
-                                <li class="nav-dropdown-item">
-                                  <a
-                                    href="about.html"
-                                    class="nav-link white-nav-link w-inline-block"
-                                  >
-                                    <div data-key="aboutus">About us</div>
-                                    <div
-                                      class="link-background link-bg-on-dark"
-                                    ></div>
-                                  </a>
-                                </li>
-                                <li class="nav-dropdown-item">
-                                  <a
-                                    href="#"
-                                    aria-current="page"
-                                    class="nav-link white-nav-link w-inline-block w--current"
-                                  >
-                                    <div data-key="careers">Careers</div>
-                                    <div
-                                      class="link-background link-bg-on-dark"
-                                    ></div>
-                                  </a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                      </nav>
-                    </div>
-                  </div>
-                  <div class="nav-link-holder">
-                    <div
-                      data-hover="true"
-                      data-delay="300"
-                      class="nav-dropdown w-dropdown"
-                    >
-                      <div class="nav-link nav-link-dropdown w-dropdown-toggle">
-                        <div
-                          class="nav-dropdown-icon w-icon-dropdown-toggle"
-                        ></div>
-                        <div data-key="products">Products</div>
-                        <div class="nav-dropdown-link-arrow-holder">
-                          <div class="nav-dropdown-link-arrow-animated">
-                            <div class="nav-dropdown-link-arrow"></div>
-                          </div>
-                        </div>
-                      </div>
-                      <nav class="nav-dropdown-list w-dropdown-list">
-                        <div class="nav-dropdown-list-content">
-                          <div class="w-layout-grid nav-dropdown-grid">
-                            <div class="nav-dropdown-column">
-                              <ul role="list" class="nav-list">
-                                <li class="nav-dropdown-item">
-                                  <a
-                                    href="index.html"
-                                    class="nav-link white-nav-link w-inline-block"
-                                  >
-                                    <div data-key="aboutus"></div>
-                                    <div
-                                      class="link-background link-bg-on-dark"
-                                    ></div>
-                                  </a>
-                                </li>
-                                <li class="nav-dropdown-item">
-                                  <a
-                                    href="home.html"
-                                    aria-current="page"
-                                    class="nav-link white-nav-link w-inline-block w--current"
-                                  >
-                                    <div data-key="aboutus"></div>
-                                    <div
-                                      class="link-background link-bg-on-dark"
-                                    ></div>
-                                  </a>
-                                </li>
-                                <li class="nav-dropdown-item">
-                                  <a
-                                    href="features.html"
-                                    class="nav-link white-nav-link w-inline-block"
-                                  >
-                                    <div data-key="aboutus"></div>
-                                    <div
-                                      class="link-background link-bg-on-dark"
-                                    ></div>
-                                  </a>
-                                </li>
-                                <li class="nav-dropdown-item">
-                                  <a
-                                    href="about.html"
-                                    class="nav-link white-nav-link w-inline-block"
-                                  >
-                                    <div data-key="aboutus"></div>
-                                    <div
-                                      class="link-background link-bg-on-dark"
-                                    ></div>
-                                  </a>
-                                </li>
-                                <li class="nav-dropdown-item">
-                                  <a
-                                    href="blog.html"
-                                    class="nav-link white-nav-link w-inline-block"
-                                  >
-                                    <div data-key="aboutus"></div>
-                                    <div
-                                      class="link-background link-bg-on-dark"
-                                    ></div>
-                                  </a>
-                                </li>
-                                <li class="nav-dropdown-item">
-                                  <a
-                                    href="shop.html"
-                                    class="nav-link white-nav-link w-inline-block"
-                                  >
-                                    <div data-key="aboutus"></div>
-                                    <div
-                                      class="link-background link-bg-on-dark"
-                                    ></div>
-                                  </a>
-                                </li>
-                                <li class="nav-dropdown-item">
-                                  <a
-                                    href="contact.html"
-                                    class="nav-link white-nav-link w-inline-block"
-                                  >
-                                    <div data-key="aboutus"></div>
-                                    <div
-                                      class="link-background link-bg-on-dark"
-                                    ></div>
-                                  </a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                      </nav>
-                    </div>
-                  </div>
-
-                  <div class="nav-link-holder">
-                    <a href="services.html" class="nav-link w-inline-block">
-                      <div data-key="services"></div>
+                      <div data-key="aboutus">About us</div>
                     </a>
                   </div>
+      
+                  <!-- Products nav item -->
                   <div class="nav-link-holder">
-                    <a href="blog.html" class="nav-link w-inline-block">
+                    <a
+                      href="products.html"
+                      aria-current="page"
+                      class="nav-link w-inline-block"
+                    >
+                      <div data-key="products">Products</div>
+                    </a>
+                  </div>
+      
+                  <!-- Services nav item -->
+                  <div class="nav-link-holder">
+                    <a 
+                      href="services.html" 
+                      aria-current="page"
+                      class="nav-link w-inline-block"
+                    >
+                      <div data-key="services">Services</div>
+                    </a>
+                  </div>
+      
+                  <!-- Blog nav item -->
+                  <div class="nav-link-holder">
+                    <a 
+                      href="blog.html" 
+                      aria-current="page"
+                      class="nav-link w-inline-block"
+                    >
                       <div data-key="blog">Blog</div>
                     </a>
                   </div>
-
+      
+                  <!-- Career nav item -->
                   <div class="nav-link-holder">
-                    <a href="shop.html" class="nav-link w-inline-block">
-                      <div data-key="contact">Contact</div>
+                    <a 
+                      href="career.html" 
+                      aria-current="page"
+                      class="nav-link w-inline-block"
+                    >
+                      <div data-key="career">Career</div>
                     </a>
                   </div>
+      
+                  <!-- Language switch -->
                   <div class="nav-link-holder">
                     <a
                       class="nav-link w-inline-block ar-btn mobile-btn-ar"
@@ -335,6 +229,7 @@
                       <div data-key="arabic">العربية</div>
                     </a>
                   </div>
+      
                 </div>
                 <div class="nav-links-right-space"></div>
               </nav>
@@ -344,7 +239,7 @@
                 </a>
               </div>
               <div class="nav-menu-overlay-mobile"></div>
-
+      
               <div class="menu-button w-nav-button">
                 <img
                   src="images/menu-icon.svg"
@@ -362,283 +257,251 @@
         <div class="nav-size-animation-trigger"></div>
       </div>
 
+
+      <!-- Main content -->
+
+
+
       <div
         data-w-id="06cffb5c-6b93-dd69-b1e3-5346123c7d0c"
-        class="section ghost-white-color overflow-hidden hero-section"
+        class="section hero-section ghost-white-color"
+        style="padding-left: 1rem; padding-right: 1rem;"
       >
-        <div class="container stats">
-          <div class="center-tittle"></div>
-          <div class="w-layout-grid features-hero-grid">
-            <div
-              id="w-node-_06cffb5c-6b93-dd69-b1e3-5346123c7d0f-e6dd7e33"
-              class="content"
-            >
-              <div
-                style="
-                  -webkit-transform: translate3d(0, 30%, 0) scale3d(0.7, 0.7, 1)
-                    rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-                  -moz-transform: translate3d(0, 30%, 0) scale3d(0.7, 0.7, 1)
-                    rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-                  -ms-transform: translate3d(0, 30%, 0) scale3d(0.7, 0.7, 1)
-                    rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-                  transform: translate3d(0, 30%, 0) scale3d(0.7, 0.7, 1)
-                    rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-                  opacity: 0;
-                "
-                class="animation-on-load-1"
-              >
-                <img src="/images/aboutsection1.png" alt="" />
+        <div class="container large about-hero">
+          <div class="about-hero-icons animation-on-load-1" style="opacity: 0;">
+            <div class="animation-on-load-1 _1"><img src="images/about-hero-icon1.svg" alt=""></div>
+            <div class="animation-on-load-1 _2"><img src="images/about-hero-icon2.svg" alt=""></div>
+            <div class="animation-on-load-1 _3"><img src="images/about-hero-icon3.svg" alt=""></div>
+            <div class="animation-on-load-1 _4"><img src="images/about-hero-icon4.svg" alt=""></div>
+            <div class="animation-on-load-1 _4"><img src="images/about-hero-icon5.svg" alt=""></div>
+          </div>
+
+
+          <div class="about-hero-text-wrapper">
+            <div class="left-tittle">
+              <div class="title-big">
+                <div class="fade-in-move-on-scroll">
+                  <span data-key="gaimfound">Gaim was founded</span>
+                  <span class="orange-text" data-key="2023">in 2023</span><br>
+                </div>
               </div>
             </div>
-            <div
-              id="w-node-_06cffb5c-6b93-dd69-b1e3-5346123c7d15-e6dd7e33"
-              class="content"
-            >
+            <div class="center-tittle">
               <div class="title-big">
-                <span data-key="aboutgaim" data-key="aboutgaim"></span>
-                <span class="orange-text" data-key="gaimc"></span>
+                <div class="fade-in-move-on-scroll">
+                  <span data-key="byteam">by a team of passionate Omanis</span>
+                </div>
               </div>
-              <div class="fade-in-move-on-scroll abouttext">
-                <p>
-                  <span class="orange-text" data-key="gaimc"></span>
-                  <span data-key="founded"></span>
-                  <span class="orange-text" data-key="2023"></span>
-                  <span data-key="byteam"></span>
-                  <span class="orange-text" data-key="omanis">Omanis</span>
-                  <span data-key="who">
-                    who chose to leverage their multidisciplinary skill set to
-                    add the maximum value to everybody around them and help
-                    empower local businesses.
-                  </span>
+            </div>
+            <br>
+            <div class="fade-in-move-on-scroll about-hero-text">
+              <p
+                class="grey-text "
+                data-key="who"
+              >
+                who chose to leverage their multidisciplinary skill set to
+                add the maximum value to everybody around them and help
+                empower local businesses.
                 </p>
               </div>
-              <div class="chat-ghain">
-                <div class="chat-row1">
-                  <div style="font-weight: bold" data-key="live">
-                    Ghain is live!
-                  </div>
-                  <a href="#" class="wp-link">
-                    <div data-key="contactus">Contact us</div>
-                  </a>
-                </div>
-                <div class="chat-row2">
-                  <div>
-                    <span data-key="start">
-                      You can start using it for free,
-                    </span>
-                    <br />
-                    <span data-key="tiers">
-                      and explore different usage tiers.
-                    </span>
-                  </div>
-
-                  <a
-                    href="#team-section"
-                    class="more-btn w-inline-block"
-                    data-key="more"
-                  >
-                    Learn more
-                  </a>
-                </div>
+            </div>
+          </div>
+          <div class="container" style="margin-top: 3rem;">
+            <div class="center-tittle">
+              <div class="medium-text">
+                <span data-key="meettheteam">Meet the team</span>
               </div>
+              <!-- <p class="center-paragraph" data-key="founding">
+                Our founding team combines expertise in AI, physics, and project
+                management, forming a talented and multidisciplinary force. Their
+                diverse skills allow us to navigate complex challenges and
+                innovate at the forefront of technology.
+              </p> -->
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="section" id="team-section">
-        <div class="container">
-          <div class="center-text-holder">
-            <div class="medium-text">
-              <span data-key="team"></span>
-              <span class="orange-text" data-key="gaimc"></span>
-            </div>
-            <p class="center-paragraph" data-key="founding">
-              Our founding team combines expertise in AI, physics, and project
-              management, forming a talented and multidisciplinary force. Their
-              diverse skills allow us to navigate complex challenges and
-              innovate at the forefront of technology.
-            </p>
-          </div>
-          <div
-            data-w-id="33f67b92-8769-0048-765d-01ec59139461"
-            class="w-layout-grid our-team-grid"
-          >
             <div
-              id="w-node-_33f67b92-8769-0048-765d-01ec59139462-e6dd7e33"
-              class="team-item"
+              data-w-id="33f67b92-8769-0048-765d-01ec59139461"
+              class="w-layout-grid our-team-grid"
             >
               <div
-                id="w-node-_33f67b92-8769-0048-765d-01ec59139463-e6dd7e33"
-                class="our-team-grid-item"
+                id="w-node-_33f67b92-8769-0048-765d-01ec59139462-e6dd7e33"
+                class="team-item"
               >
-                <div class="our-team-image-holder">
-                  <div
-                    style="
-                      opacity: 0;
-                      -webkit-transform: translate3d(0, 0, 0)
-                        scale3d(0.8, 0.8, 1) rotateX(0) rotateY(0) rotateZ(0)
-                        skew(0, 0);
-                      -moz-transform: translate3d(0, 0, 0) scale3d(0.8, 0.8, 1)
-                        rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-                      -ms-transform: translate3d(0, 0, 0) scale3d(0.8, 0.8, 1)
-                        rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-                      transform: translate3d(0, 0, 0) scale3d(0.8, 0.8, 1)
-                        rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-                    "
-                    class="team-person-image-holder _1"
-                  >
-                    <img
-                      src="images/jabir_pic.png"
-                      loading="lazy"
-                      sizes="200px"
-                      alt="Saas Webflow Template - Whistler - Designed by Azwedo.com and Wedoflow.com"
-                      class="team-person-image"
-                    />
-                    <div style="opacity: 0" class="bg-blury-div"></div>
-                  </div>
-                </div>
-                <div class="our-team-name-holder">
-                  <div class="our-team-name" data-key="jabir">
-                    Jabir Al Salami, PhD
-                  </div>
-                  <div class="our-team-position" data-key="ceo">
-                    Chief Executive Officer
-                  </div>
-                  <div class="social-links">
-                    <a
-                      href="https://www.linkedin.com/in/jabir-al-salami-phd-09873b73/"
-                      target="_blank"
-                      class="social-media-link w-inline-block"
-                      ><img
-                        src="images/linkedin.svg"
+                <div
+                  id="w-node-_33f67b92-8769-0048-765d-01ec59139463-e6dd7e33"
+                  class="our-team-grid-item"
+                >
+                  <div class="our-team-image-holder">
+                    <div
+                      style="
+                        opacity: 0;
+                        -webkit-transform: translate3d(0, 0, 0)
+                          scale3d(0.8, 0.8, 1) rotateX(0) rotateY(0) rotateZ(0)
+                          skew(0, 0);
+                        -moz-transform: translate3d(0, 0, 0) scale3d(0.8, 0.8, 1)
+                          rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                        -ms-transform: translate3d(0, 0, 0) scale3d(0.8, 0.8, 1)
+                          rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                        transform: translate3d(0, 0, 0) scale3d(0.8, 0.8, 1)
+                          rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                      "
+                      class="team-person-image-holder _1"
+                    >
+                      <img
+                        src="images/jabir_pic.png"
                         loading="lazy"
+                        sizes="200px"
                         alt="Saas Webflow Template - Whistler - Designed by Azwedo.com and Wedoflow.com"
-                        class="social-media-icon"
+                        class="team-person-image"
                       />
-                      <div
-                        class="link-background"
-                        style="
-                          opacity: 0;
-                          transform: translate3d(0px, 0px, 0px)
-                            scale3d(0.7, 0.7, 1) rotateX(0deg) rotateY(0deg)
-                            rotateZ(0deg) skew(0deg, 0deg);
-                          transform-style: preserve-3d;
-                        "
-                      ></div>
-                    </a>
-
-                    <a
-                      href="https://twitter.com"
-                      target="_blank"
-                      class="social-media-link w-inline-block"
-                      ><img
-                        src="images/x-twitter.svg"
-                        loading="lazy"
-                        alt="Saas Webflow Template - Whistler - Designed by Azwedo.com and Wedoflow.com"
-                        class="social-media-icon"
-                      />
-                      <div
-                        class="link-background"
-                        style="
-                          opacity: 0.9501;
-                          transform: translate3d(0px, 0px, 0px)
-                            scale3d(0.98503, 0.98503, 1) rotateX(0deg)
-                            rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-                          transform-style: preserve-3d;
-                          will-change: transform, opacity;
-                        "
-                      ></div>
-                    </a>
+                      <div style="opacity: 0" class="bg-blury-div"></div>
+                    </div>
+                  </div>
+                  <div class="our-team-name-holder fade-in-move-on-scroll">
+                    <div class="our-team-name" data-key="jabir">
+                      Jabir Al Salami, PhD
+                    </div>
+                    <div class="our-team-position" data-key="ceo">
+                      Chief Executive Officer
+                    </div>
+                    <div class="social-links">
+                      <a
+                        href="https://www.linkedin.com/in/jabir-al-salami-phd-09873b73/"
+                        target="_blank"
+                        class="social-media-link w-inline-block"
+                        ><img
+                          src="images/linkedin.svg"
+                          loading="lazy"
+                          alt="Saas Webflow Template - Whistler - Designed by Azwedo.com and Wedoflow.com"
+                          class="social-media-icon"
+                        />
+                        <div
+                          class="link-background"
+                          style="
+                            opacity: 0;
+                            transform: translate3d(0px, 0px, 0px)
+                              scale3d(0.7, 0.7, 1) rotateX(0deg) rotateY(0deg)
+                              rotateZ(0deg) skew(0deg, 0deg);
+                            transform-style: preserve-3d;
+                          "
+                        ></div>
+                      </a>
+  
+                      <a
+                        href="https://twitter.com"
+                        target="_blank"
+                        class="social-media-link w-inline-block"
+                        ><img
+                          src="images/x-twitter.svg"
+                          loading="lazy"
+                          alt="Saas Webflow Template - Whistler - Designed by Azwedo.com and Wedoflow.com"
+                          class="social-media-icon"
+                        />
+                        <div
+                          class="link-background"
+                          style="
+                            opacity: 0.9501;
+                            transform: translate3d(0px, 0px, 0px)
+                              scale3d(0.98503, 0.98503, 1) rotateX(0deg)
+                              rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+                            transform-style: preserve-3d;
+                            will-change: transform, opacity;
+                          "
+                        ></div>
+                      </a>
+                    </div>
+                    <div class="our-team-desc" data-key="jabirDesc"></div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div
-              id="w-node-_00e83420-5f2d-edc7-3bf9-8b2fe374392e-e6dd7e33"
-              class="team-item"
-            >
+  
               <div
-                id="w-node-_00e83420-5f2d-edc7-3bf9-8b2fe374392f-e6dd7e33"
-                class="our-team-grid-item"
+                id="w-node-_00e83420-5f2d-edc7-3bf9-8b2fe374392e-e6dd7e33"
+                class="team-item"
               >
-                <div class="our-team-image-holder">
-                  <div
-                    style="
-                      -webkit-transform: translate3d(0, 0, 0)
-                        scale3d(0.8, 0.8, 1) rotateX(0) rotateY(0) rotateZ(0)
-                        skew(0, 0);
-                      -moz-transform: translate3d(0, 0, 0) scale3d(0.8, 0.8, 1)
-                        rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-                      -ms-transform: translate3d(0, 0, 0) scale3d(0.8, 0.8, 1)
-                        rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-                      transform: translate3d(0, 0, 0) scale3d(0.8, 0.8, 1)
-                        rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-                      opacity: 0;
-                    "
-                    class="team-person-image-holder _2"
-                  >
-                    <img
-                      src="images/img_ali_alkhaifi.png"
-                      loading="lazy"
-                      sizes="200px"
-                      alt="Saas Webflow Template - Whistler - Designed by Azwedo.com and Wedoflow.com"
-                      class="team-person-image"
-                    />
-                    <div style="opacity: 0" class="bg-blury-div"></div>
-                  </div>
-                </div>
-                <div class="our-team-name-holder">
-                  <div class="our-team-name" data-key="ali">
-                    Ali Al Khaifi, PMP
-                  </div>
-                  <div class="our-team-position" data-key="coo">
-                    Chief Operations Officer
-                  </div>
-                  <div class="social-links">
-                    <a
-                      href="https://www.linkedin.com/in/ali-alkhaifi-1a1348b0/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                      target="_blank"
-                      class="social-media-link w-inline-block"
-                      ><img
-                        src="images/linkedin.svg"
+                <div
+                  id="w-node-_00e83420-5f2d-edc7-3bf9-8b2fe374392f-e6dd7e33"
+                  class="our-team-grid-item"
+                >
+                  <div class="our-team-image-holder">
+                    <div
+                      style="
+                        -webkit-transform: translate3d(0, 0, 0)
+                          scale3d(0.8, 0.8, 1) rotateX(0) rotateY(0) rotateZ(0)
+                          skew(0, 0);
+                        -moz-transform: translate3d(0, 0, 0) scale3d(0.8, 0.8, 1)
+                          rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                        -ms-transform: translate3d(0, 0, 0) scale3d(0.8, 0.8, 1)
+                          rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                        transform: translate3d(0, 0, 0) scale3d(0.8, 0.8, 1)
+                          rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                        opacity: 0;
+                      "
+                      class="team-person-image-holder _2"
+                    >
+                      <img
+                        src="images/img_ali_alkhaifi.png"
                         loading="lazy"
+                        sizes="200px"
                         alt="Saas Webflow Template - Whistler - Designed by Azwedo.com and Wedoflow.com"
-                        class="social-media-icon"
+                        class="team-person-image"
                       />
-                      <div
-                        class="link-background"
-                        style="
-                          opacity: 0;
-                          transform: translate3d(0px, 0px, 0px)
-                            scale3d(0.7, 0.7, 1) rotateX(0deg) rotateY(0deg)
-                            rotateZ(0deg) skew(0deg, 0deg);
-                          transform-style: preserve-3d;
-                        "
-                      ></div>
-                    </a>
-
-                    <a
-                      href="https://twitter.com/"
-                      target="_blank"
-                      class="social-media-link w-inline-block"
-                      ><img
-                        src="images/x-twitter.svg"
-                        loading="lazy"
-                        alt="Saas Webflow Template - Whistler - Designed by Azwedo.com and Wedoflow.com"
-                        class="social-media-icon"
-                      />
-                      <div
-                        class="link-background"
-                        style="
-                          opacity: 0.9501;
-                          transform: translate3d(0px, 0px, 0px)
-                            scale3d(0.98503, 0.98503, 1) rotateX(0deg)
-                            rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-                          transform-style: preserve-3d;
-                          will-change: transform, opacity;
-                        "
-                      ></div>
-                    </a>
+                      <div style="opacity: 0" class="bg-blury-div"></div>
+                    </div>
+                  </div>
+                  <div class="our-team-name-holder fade-in-move-on-scroll">
+                    <div class="our-team-name" data-key="ali">
+                      Ali Al Khaifi, PMP
+                    </div>
+                    <div class="our-team-position" data-key="coo">
+                      Chief Operations Officer
+                    </div>
+                    <div class="social-links">
+                      <a
+                        href="https://www.linkedin.com/in/ali-alkhaifi-1a1348b0/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                        target="_blank"
+                        class="social-media-link w-inline-block"
+                        ><img
+                          src="images/linkedin.svg"
+                          loading="lazy"
+                          alt="Saas Webflow Template - Whistler - Designed by Azwedo.com and Wedoflow.com"
+                          class="social-media-icon"
+                        />
+                        <div
+                          class="link-background"
+                          style="
+                            opacity: 0;
+                            transform: translate3d(0px, 0px, 0px)
+                              scale3d(0.7, 0.7, 1) rotateX(0deg) rotateY(0deg)
+                              rotateZ(0deg) skew(0deg, 0deg);
+                            transform-style: preserve-3d;
+                          "
+                        ></div>
+                      </a>
+  
+                      <a
+                        href="https://twitter.com/"
+                        target="_blank"
+                        class="social-media-link w-inline-block"
+                        ><img
+                          src="images/x-twitter.svg"
+                          loading="lazy"
+                          alt="Saas Webflow Template - Whistler - Designed by Azwedo.com and Wedoflow.com"
+                          class="social-media-icon"
+                        />
+                        <div
+                          class="link-background"
+                          style="
+                            opacity: 0.9501;
+                            transform: translate3d(0px, 0px, 0px)
+                              scale3d(0.98503, 0.98503, 1) rotateX(0deg)
+                              rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+                            transform-style: preserve-3d;
+                            will-change: transform, opacity;
+                          "
+                        ></div>
+                      </a>
+                    </div>
+                    <div class="our-team-desc" data-key="aliDesc"></div>
                   </div>
                 </div>
               </div>
@@ -646,46 +509,213 @@
           </div>
         </div>
       </div>
+
 
       <div class="section ghost-white-color">
         <div class="container">
           <div class="mission-container">
             <div class="center-text-holder">
-              <div class="medium-text">
-                <span data-key="our"></span>
-                <span class="orange-text" data-key="values">Values</span>
-                <span data-key="and"></span>
-                <span class="orange-text" data-key="vision">Vision</span>
-              </div>
-              <p class="center-paragraph" data-key="rooted"></p>
+              <!-- <p class="center-paragraph" data-key="rooted"></p> -->
             </div>
-            <div class="cards">
-              <div class="card fade-in-move-on-scroll">
-                <div class="card-img">
-                  <img src="/images/mission.svg" alt="" />
-                </div>
-                <div class="card-title" data-key="mission"></div>
-                <div class="card-text" data-key="simplifylives"></div>
+
+            <div class="about-cards">
+
+              <div class="about-card fade-in-move-on-scroll">
+                <div class="about-card-title" data-key="vision">Vision</div>
+                <div class="about-card-text" data-key="simplifylives"></div>
               </div>
-              <div class="card fade-in-move-on-scroll">
-                <div class="card-img">
-                  <img src="/images/vission.svg" alt="" />
-                </div>
-                <div class="card-title" data-key="vision">Vision</div>
-                <div class="card-text" data-key="beacompany"></div>
+
+              <div class="about-card fade-in-move-on-scroll">
+                <div class="about-card-title" data-key="mission">Mission</div>
+                <div class="about-card-text" data-key="beacompany"></div>
               </div>
+
+              <div class="about-card fade-in-move-on-scroll">
+                <div class="about-card-text">
+                  <span data-key="principleandvalues1" class="grey-text"></span>
+                  <span data-key="principleandvalues2"></span>
+                </div>
+              </div>
+
+              <div class="about-card fade-in-move-on-scroll">
+                <div class="about-card-text">
+                  <span data-key="goal1" class="grey-text"></span>
+                  <span data-key="goal2"></span>
+                </div>
+              </div>
+
+              <div class="about-card fade-in-move-on-scroll">
+                <div class="about-card-text">
+                  <span data-key="committed1" class="grey-text"></span>
+                  <span data-key="committed2"></span>
+                  <span data-key="committed3" class="grey-text"></span>
+                </div>
+              </div>
+
+              <div class="about-card fade-in-move-on-scroll">
+                <!-- <div class="about-card-img"> -->
+                  <!-- <div
+                    id="w-node-_53e7f305-7734-ecac-e664-170bcda12b5e-e6dd7e48"
+                    class=""
+                  > -->
+                    <div class="features-image animation-on-load-1 " style="margin-bottom: 1rem">
+                      <img 
+                        class="design-ui-image"
+                        style="
+                          -webkit-transform: translate3d(0, 0, 0) scale3d(0.7, 0.7, 1)
+                            rotateX(-35deg) rotateY(null) rotateZ(null) skew(0, 0);
+                          -moz-transform: translate3d(0, 0, 0) scale3d(0.7, 0.7, 1)
+                            rotateX(-35deg) rotateY(null) rotateZ(null) skew(0, 0);
+                          -ms-transform: translate3d(0, 0, 0) scale3d(0.7, 0.7, 1)
+                            rotateX(-35deg) rotateY(null) rotateZ(null) skew(0, 0);
+                          transform: translate3d(0, 0, 0) scale3d(0.7, 0.7, 1)
+                            rotateX(-35deg) rotateY(null) rotateZ(null) skew(0, 0);
+                          transform-style: preserve-3d;
+                          opacity: 1;
+                        "
+                        sizes="(max-width: 479px) 94vw, (max-width: 767px) 96vw, (max-width: 991px) 94vw, (max-width: 1279px) 45vw, (max-width: 1439px) 530.5px, 620.5px"
+                        data-w-id="0e12b166-2af4-caf0-4ccf-5214d2af1541"
+                        loading="lazy"
+                        src="/images/About GAIM 2.png" 
+                        alt="About GAIM" 
+                      />
+                    </div>
+                  <!-- </div> -->
+                <!-- </div> -->
+                
+              </div>
+              
+             
+
             </div>
           </div>
         </div>
       </div>
 
-      <div class="section">
-        <div class="container">
+      <div class="section about-carousel ghost-white-color" style="position: relative; padding-top: 50px;">
+        <div class="container extra-small">
           <div class="center-text-holder">
             <div class="medium-text" data-key="technology"></div>
             <p class="center-paragraph" data-key="heart"></p>
           </div>
-          <div class="main-working-benefit-holder">
+        </div>
+        <div
+          class="blury-orange-holder features"
+          style="
+            transform: translate3d(0px, 5%, 0px) scale3d(1, 1, 1)
+              rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+            transform-style: preserve-3d;
+            opacity: 1;
+            height: 120%;
+          "
+        >
+          <img
+            src="./images/Ellipse 8.png"
+            loading="lazy"
+            alt="Saas Webflow Template - Whistler - Designed by Azwedo.com and Wedoflow.com"
+            class="blury-orange-image"
+          />
+        </div>
+        <div class="container relative about-carousel">
+          
+          <div class="about-carousel-wrapper">
+            
+
+
+            <!-- Slider main container -->
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div class="swiper-slide-content">
+                    <div class="swiper-content-title">
+                      <img src="images/Vector.png" alt="">
+                      <div
+                        class="title-medium"
+                        data-key="ourtech"
+                      >
+                        Our AI Technology
+                      </div>
+                    </div>
+                    <p class="swiper-content-text" data-key="ourprop"></p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide-content">
+                    <div class="swiper-content-title">
+                      <img src="images/r&d.png" alt="">
+                      <div
+                        class="title-medium"
+                        data-key="research"
+                      >
+                        Research and Development
+                      </div>
+                    </div>
+                    <p class="swiper-content-text" data-key="ourrd"></p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide-content">
+                    <div class="swiper-content-title">
+                      <img src="images/security.png" alt="">
+                      <div
+                        class="title-medium"
+                        data-key="data"
+                      >
+                        Data Security and Privacy
+                      </div>
+                    </div>
+                    <p class="swiper-content-text" data-key="wepri"></p>
+                  </div>
+                </div>
+                
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next" onclick="swipeNext"></div>
+
+              <!-- If we need scrollbar -->
+              <!-- <div class="swiper-scrollbar"></div> -->
+            </div>
+            <script type="text/javascript">
+              var swiper = new Swiper('.swiper', {
+                // Optional parameters
+                direction: 'horizontal',
+                loop: true,
+                autoplay: {
+                  delay: 5000,
+                },
+                slidePerView: 1,
+        
+                // If we need pagination
+                pagination: {
+                  el: '.swiper-pagination',
+                },
+        
+                // Navigation arrows
+                navigation: {
+                  nextEl: '.swiper-button-next',
+                  prevEl: '.swiper-button-prev',
+                },
+        
+                // And if we need scrollbar
+                // scrollbar: {
+                //   el: '.swiper-scrollbar',
+                // },
+              });
+        
+              function swipeNext() {
+                swiper.slideNext();
+              }
+            </script>
+
+          </div>
+
+          <!-- <div class="main-working-benefit-holder">
             <div class="w-layout-grid working-cms">
               <div
                 id="w-node-_72f87c63-8ecb-7127-294c-c33be68d9f87-e6dd7e33"
@@ -747,9 +777,14 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
+
+
+
+      <!-- End of main content -->
+
 
       <div class="footer" style="background-color: #f3f3f3">
         <div class="container footer-container">
@@ -881,10 +916,10 @@
             </div>
           </div>
 
-          <div
+          <!-- <div
             id="w-node-_38525bc7-d3ba-6fe4-3df6-17cb7676c4ff-0a144c54"
             class="footer-line"
-          ></div>
+          ></div> -->
         </div>
       </div>
     </div>
