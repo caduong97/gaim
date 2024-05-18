@@ -2929,6 +2929,8 @@ html[lang="ar"] .wp-link.black {
   display: flex;
 }
 
+
+
 .blog-item-link3 {
   height: 100%;
   flex-direction: column;
@@ -2963,8 +2965,8 @@ html[lang="ar"] .wp-link.black {
 }
 
 .blog-grid {
-  grid-column-gap: 3em;
-  grid-row-gap: 4em;
+  grid-column-gap: 1.5em;
+  grid-row-gap: 1.5em;
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-columns: 1fr;
@@ -4804,6 +4806,9 @@ html[lang="ar"] .wp-link.black {
 
 .blog-item-link {
   width: 100%;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 15px;
   height: 100%;
   border-radius: 12px;
   flex-direction: column;
@@ -7329,6 +7334,8 @@ border-radius: 100px;
 
 .featured-blog-post-holder {
   z-index: 9;
+  max-width: 1000px;
+  margin: auto;
   width: 100%;
   height: 100%;
   background-color: #fff;
@@ -7379,7 +7386,7 @@ border-radius: 100px;
 }
 
 .thumbnail-image-holder {
-  width: 60%;
+  width: 55%;
   height: 400px;
   position: relative;
 }

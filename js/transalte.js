@@ -639,6 +639,32 @@ const translations = {
   },
   // End of services page text
 
+  // Start of blog page text
+  blogHeroText: {
+    en: "Stay up to date with the latest AI trends and insights.",
+    ar: "ابق على اطلاع بآخر الاتجاهات والأفكار في مجال الذكاء الاصطناعي."
+  },
+  insight: {
+    en: "Insight",
+    ar: "رؤية",
+  },
+  bygaim: {
+    en: "By Gaim",
+    ar: "بواسطة غيم",
+  },
+  ai: {
+    en: "AI",
+    ar: "الذكاء الاصطناعي",
+  },
+  blog1Desc: {
+    en: "OpenAI is a non-profit research group of industry experts. It aims to not only bring the power of AI to the masses, but also to make it accessible to everyone.",
+    ar: "OpenAI هي مجموعة بحثية غير ربحية تضم خبراء صناعة. تهدف لجلب قوة الذكاء الاصطناعي للجماهير، ولكن أيضًا لجعلها متاحة للجميع."
+  },
+  
+
+
+  // End of blog page text
+
 
   // Start of career page text
   joinourteam: {
