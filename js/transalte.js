@@ -96,36 +96,7 @@ const translations = {
     ar: "يمكن أن تساعدك في العثور على:",
   },
 
-  healthcare: {
-    en: "Healthcare professionals",
-    ar: "متخصصو الرعاية الصحية",
-  },
-
-  pands: {
-    en: "Products & services",
-    ar: "المنتجات والخدمات",
-  },
-
-  laws: {
-    en: "Laws & regulations",
-    ar: "القوانين واللوائح",
-  },
-  government: {
-    en: "Government services",
-    ar: "خدمات حكومية",
-  },
-  events: {
-    en: "Events & attractions",
-    ar: "الأحداث والمعالم السياحية",
-  },
-  latest: {
-    en: "Latest news matching your interests",
-    ar: "آخر الأخبار التي تطابق اهتماماتك",
-  },
-  andmore: {
-    en: "...and much more!",
-    ar: "...وأكثر من ذلك بكثير!",
-  },
+  
 
   productPageHero1: {
     en: "Ghain is your AI-powered best friend",
@@ -240,6 +211,91 @@ const translations = {
     عادية غير عادية.`,
   },
   
+
+  // start of home page text
+  localevents: {
+    en: "Local Events",
+    ar: "الأحداث المحلية",
+  },
+  healthcare: {
+    en: "Healthcare professionals",
+    ar: "متخصصو الرعاية الصحية",
+  },
+  pands: {
+    en: "Products & services",
+    ar: "المنتجات والخدمات",
+  },
+  laws: {
+    en: "Laws & regulations",
+    ar: "القوانين واللوائح",
+  },
+  government: {
+    en: "Government services",
+    ar: "خدمات حكومية",
+  },
+  events: {
+    en: "Events & attractions",
+    ar: "الأحداث والمعالم السياحية",
+  },
+  latest: {
+    en: "Latest news matching your interests",
+    ar: "آخر الأخبار التي تطابق اهتماماتك",
+  },
+  trivia: {
+    en: "Trivia",
+    ar: "معلومات عامة",
+  },
+  touristattractions: {
+    en: "Tourist attractions",
+    ar: "معالم سياحية",
+  },
+  generalinquiries: {
+    en: "General inquiries",
+    ar: "استفسارات عامة",
+  },
+  uniqueToYou: {
+    en: "Unique to you",
+    ar: "فريد لك",
+  },
+  friendly: {
+    en: "Friendly",
+    ar: "ودود",
+  },
+  upToDate: {
+    en: "Up-to-date",
+    ar: "محدث",
+  },
+  alwaysThereForYou: {
+    en: "Always there for you",
+    ar: "دائمًا هنا من أجلك",
+  },
+  cheerful: {
+    en: "Cheerful",
+    ar: "مرح",
+  },
+  alwaysEvolving: {
+    en: "Always evolving",
+    ar: "دائم التطور",
+  },
+  andmore: {
+    en: "...and much more!",
+    ar: "...وأكثر من ذلك بكثير!",
+  },
+  homePageSection2Title1: {
+    en: "Innovative AI Solutions to Simplify Your Life,",
+    ar: "حلول الذكاء الاصطناعي المبتكرة لتبسيط حياتك،",
+  },
+  homePageSection2Title2: {
+    en: "Empower Your Business.",
+    ar: "تمكين عملك.",
+  },
+  homePageSection2SubTitle: {
+    en: "GAIM leverages sophisticated Data Engineering and Artificial Intelligence algorithms to craft unique solutions that simplify daily hassles and empower businesses.",
+    ar: "تستفيد GAIM من بنية البيانات المتطورة وخوارزميات الذكاء الاصطناعي لصياغة حلول فريدة من نوعها تبسط المتاعب اليومية وتمكن الشركات.",
+  },  
+    
+
+  // end of home page text
 
 
 
@@ -520,7 +576,7 @@ const translations = {
     en: "Knowledgable",
     ar: "متعلم",
   },
-  uniqueToYou: {
+  trulyYours: {
     en: "Truly yours",
     ar: "فريد لك",
   },
@@ -540,11 +596,11 @@ const translations = {
     en: "wide array of information across different domains.",
     ar: "مجموعة واسعة من المعلومات عبر مجالات مختلفة",
   },
-  uniqueToYouTitle1: {
+  trulyYoursTitle1: {
     en: "As you continue to talk to Ghain,",
     ar: "كما تستمر في الحديث إلى غيم،",
   },
-  uniqueToYouTitle2: {
+  trulyYoursTitle2: {
     en: " it gets to know you better.",
     ar: "يتعرف عليك بشكل أفضل.",
   },
@@ -556,7 +612,7 @@ const translations = {
     en: "Powered by the latest advances in Agentic Artificial Intelligence, it draws from a vast knowledge base, delivering accurate, comprehensive, and up-to-date data. If it doesn’t know, it will scour the internet in real-time to try its best to find accurate answers to your questions!",
     ar: "مدعومًا بأحدث التطورات في الذكاء الاصطناعي الوكيل، يستمد من قاعدة معرفية واسعة، ويقدم بيانات دقيقة وشاملة ومحدثة. إذا لم يكن يعرف، فسيقوم بتصفح الإنترنت في الوقت الحقيقي لمحاولة العثور على إجابات دقيقة على أسئلتك!",
   },
-  uniqueToYouDesc: {
+  trulyYoursDesc: {
     en: "You can choose to receive tailored suggestions based on your preferences and past interactions. From updates on recent news that may matter to you, to event recommendations and new product suggestions, Ghain adapts to your needs, offering genuinely personalized assistance.",
     ar: "يمكنك اختيار تلقي اقتراحات مصممة خصيصًا استنادًا إلى تفضيلاتك وتفاعلاتك السابقة. من التحديثات حول الأخبار الأخيرة التي قد تكون مهمة بالنسبة لك، إلى توصيات الأحداث واقتراحات المنتجات الجديدة، يتكيف غيم مع احتياجاتك، مقدمًا مساعدة شخصية حقًا.",
   },
