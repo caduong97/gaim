@@ -1620,7 +1620,7 @@ html[lang="ar"] .wp-link.black {
 
 .blogimg1 {
   background-image: linear-gradient(rgba(239, 113, 35, 0.4), rgba(0, 0, 0, 0.4)),
-    url(/images/Rectangle\ 39.png);
+    url("../images/Rectangle\ 39.png");
 
   background-color: transparent;
   height: 500px;
@@ -1641,7 +1641,7 @@ html[lang="ar"] .wp-link.black {
 
 .blogimg2 {
   background-image: linear-gradient(rgba(239, 113, 35, 0.4), rgba(0, 0, 0, 0.4)),
-    url(/images/Rectangle\ 40.png);
+    url("../images/Rectangle\ 40.png");
   background-color: transparent;
   width: 100%;
   height: 380px;
@@ -1658,7 +1658,7 @@ html[lang="ar"] .wp-link.black {
 }
 .blogimg3 {
   background-image: linear-gradient(rgba(239, 113, 35, 0.4), rgba(0, 0, 0, 0.4)),
-    url(/images/Rectangle\ 37.png);
+    url("../images/Rectangle\ 37.png");
   background-color: transparent;
   width: 100%;
   height: 380px;
