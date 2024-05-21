@@ -5745,9 +5745,9 @@ html[lang="ar"] .list-item-with-checkicon {
 
 .logo-grid .dynamic-collaboration:last-of-type {
   /* padding-right: 15px; */
-
   margin-right: 15px;
 }
+
 
 .logo {
   width: 100%;
@@ -5768,7 +5768,7 @@ html[lang="ar"] .list-item-with-checkicon {
 
 .logo-grid-holder {
   width: 100%;
-  grid-row-gap: 60px;
+  grid-row-gap: 30px;
   flex-direction: column;
   flex: none;
   padding-top: 36px;
@@ -9568,12 +9568,12 @@ border-radius: 100px;
   }
 
   .logo-grid {
-    width: 100%;
+    /* width: 100%; */
     /* width: max-content; */
   }
 
   .logo-grid.first {
-    width: 100%;
+    /* width: 100%; */
     padding-bottom: 10px;
   }
 
@@ -9583,11 +9583,12 @@ border-radius: 100px;
   }
 
   .logo-grid-container.bottom {
-    width: 140%;
+    /* width: 140%; */
+
   }
 
   .logo-grid-container.top {
-    width: 145%;
+    /* width: 145%; */
   }
 
   .medium-text {
@@ -10505,11 +10506,10 @@ border-radius: 100px;
 
   .logo-grid-container.bottom,
   .logo-grid-container.top {
-    width: 100%;
+    /* width: 100%; */
   }
 
   .logo-grid-holder {
-    width: 100%;
     padding-bottom: 36px;
   }
 

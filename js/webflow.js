@@ -91201,7 +91201,7 @@ Webflow.require("ix2").init({
               config: {
                 delay: 0,
                 easing: "",
-                duration: 35000,
+                duration: 45000,
                 target: {
                   selector: ".logo-grid-container.top",
                   selectorGuids: [
@@ -91221,7 +91221,7 @@ Webflow.require("ix2").init({
               config: {
                 delay: 0,
                 easing: "",
-                duration: 35000,
+                duration: 45000,
                 target: {
                   selector: ".logo-grid-container.bottom",
                   selectorGuids: [
