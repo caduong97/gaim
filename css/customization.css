@@ -45,7 +45,7 @@
 }
 .header__floating__image {
 	position: absolute;
-	animation: float 6s ease-in-out infinite;
+	/* animation: float 6s ease-in-out infinite; */
 	width: 190px;
 	height: auto;
 	opacity: 0; 
@@ -588,7 +588,7 @@ html[lang="ar"] .tab-content-col.image img {
 
 .about-carousel-wrapper {
 	width: 100%;
-	height: 400px;
+	height: 300px;
 	margin: auto;
 	position: relative;
 	overflow: hidden;
@@ -622,12 +622,12 @@ html[lang="ar"] .tab-content-col.image img {
 }
 .swiper-content-title {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: center;
 	align-items: center;
 	/* margin-bottom: 1.5rem; */
 }
 .swiper-content-title img {
-	height: 70px;
+	height: 60px;
 	margin-right: 1.5rem;
 	width: auto;
 }
@@ -658,7 +658,7 @@ html[lang="ar"] .swiper-content-title img {
 }
 @media (max-width: 500px) {
 	.about-carousel-wrapper {
-		height: 500px;
+		height: 450px;
 	}
 	.swiper-slide-content {
 		padding: 1.5rem;
