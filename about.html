@@ -676,6 +676,8 @@
               <!-- <div class="swiper-scrollbar"></div> -->
             </div>
             <script type="text/javascript">
+              var lang = localStorage.getItem("language");
+
               var swiper = new Swiper('.swiper', {
                 // Optional parameters
                 direction: 'horizontal',
@@ -701,6 +703,12 @@
                 //   el: '.swiper-scrollbar',
                 // },
               });
+
+              if (lang == "ar") {
+                swiper.changeLanguageDirection('rtl')
+              } else {
+                swiper.changeLanguageDirection('ltr')
+              }
         
               function swipeNext() {
                 swiper.slideNext();
