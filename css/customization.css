@@ -488,7 +488,7 @@ html[lang="ar"] .tab-content-col.image img {
 @media (max-width: 550px) {
 	.about-hero {
 		padding: 3rem 2rem;
-		min-height: 600px;
+		min-height: 550px;
 		background-size: 80% auto;
 	}
 	.about-hero-icons {
@@ -636,7 +636,6 @@ html[lang="ar"] .swiper-content-title img {
 	margin-left: 1.5rem;
 }
 .swiper-content-text {
-	text-align: center;
 	max-width: 550px;
 	margin: auto;
 }

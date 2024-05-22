@@ -2982,7 +2982,7 @@ html[lang="ar"] .wp-link.black {
   flex: 0 auto;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 1em 2em 2em 0.1em;
+  padding: 1em 2em 2em 0;
   display: flex;
 }
 
@@ -4949,6 +4949,15 @@ html[lang="ar"] .list-item-with-checkicon {
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr 1fr;
 }
+.job-grid {
+  grid-column-gap: 2em;
+  grid-row-gap: 0em;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: relative;
+  margin: 3rem auto;
+
+}
 
 .pricing-grid.pricing-page {
   grid-column-gap: 2em;
@@ -6259,6 +6268,7 @@ html[lang="ar"] .list-item-with-checkicon {
   font-size: 40px;
   font-weight: 600;
   line-height: 1.2;
+  margin-bottom: 1rem;
 }
 
 .title-medium {
@@ -7380,7 +7390,7 @@ border-radius: 100px;
   border-radius: 30px;
   justify-content: space-between;
   align-items: center;
-  padding: 30px;
+  padding: 1.5rem;
   transition: transform 0.35s, box-shadow 0.35s;
   display: flex;
   overflow: hidden;
@@ -9118,6 +9128,9 @@ border-radius: 100px;
   .pricing-grid {
     grid-template-columns: 1fr 1fr;
   }
+  .job-grid {
+    grid-template-columns: 1fr 1fr;
+  }
 
   .pricing-grid.pricing-page {
     /* display: flex; */
@@ -9508,6 +9521,12 @@ border-radius: 100px;
 
   .pricing-grid {
     grid-template-columns: 1fr;
+  }
+  .job-grid {
+    grid-column-gap: 1.5em;
+    grid-row-gap: 1.5em;
+    flex-direction: column;
+    /* margin-top: 3em; */
   }
 
   .pricing-grid.pricing-page {
@@ -9980,7 +9999,7 @@ border-radius: 100px;
   }
 
   .blog-item-content {
-    padding-left: 0.1em;
+    padding: 1em 1em 1em 0;
   }
 
   .blog-item-title {
@@ -10850,7 +10869,7 @@ border-radius: 100px;
   }
 
   .blog-description-holder-copy {
-    padding: 1.5em 1.5rem 0 1.5rem;
+    padding: 1em 1em 1em 0;
   }
 
   .privacy-policy-sticky {
