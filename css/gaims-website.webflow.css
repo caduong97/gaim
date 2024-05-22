@@ -5769,6 +5769,11 @@ html[lang="ar"] .list-item-with-checkicon {
   margin-right: 15px;
 }
 
+/* html[lang="ar"] .logo-grid .dynamic-collaboration:last-of-type {
+  margin-right: 0;
+  margin-left: 15px;
+} */
+
 
 .logo {
   width: 100%;
