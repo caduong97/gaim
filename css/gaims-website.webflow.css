@@ -1885,7 +1885,7 @@ html[lang="ar"] .wp-link.black {
 
 .footer-heading {
   color: #000;
-  margin-bottom: 1rem;
+  margin-bottom: 0.6rem;
   font-size: 18px;
   font-weight: 500;
 }
@@ -1991,7 +1991,15 @@ html[lang="ar"] .wp-link.black {
   font-size: 14px;
   line-height: 1.4;
   text-align: start;
-  margin-bottom: 0;
+  margin-bottom: 0.5rem;
+}
+.copyright.only-tablet-n-desktop {
+  display: block;
+}
+.copyright.only-mobile {
+  display: none;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
 }
 
 .rich-text {
@@ -5428,6 +5436,10 @@ html[lang="ar"] .list-item-with-checkicon {
 .footer-content-holder {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+}
+
+.footer-grid-content-holder {
+  margin-top: 0rem;
 }
 
 .footer-content {
@@ -9180,9 +9192,7 @@ border-radius: 100px;
     right: auto;
   }
 
-  .footer-content-holder {
-    grid-template-columns: 1fr 1fr;
-  }
+  
 
   .footer-link-2 {
     padding-top: 0;
@@ -9704,6 +9714,19 @@ border-radius: 100px;
   .cart-container-2 {
     max-width: 500px;
     min-width: 500px;
+  }
+
+  .footer-content-holder {
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer-grid-content-holder {
+    margin-top: 1.5rem;
+  }
+  .copyright.only-mobile {
+    display: block;
+  }
+  .copyright.only-tablet-n-desktop {
+    display: none;
   }
 }
 
