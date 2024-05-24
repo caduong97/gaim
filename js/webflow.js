@@ -96975,7 +96975,7 @@ Webflow.require("ix2").init({
                       selector: ".brand-logo-text",
                       selectorGuids: ["e58cf681-8a35-aeed-47ca-8bf78cb15c32"],
                     },
-                    xValue: -50,
+                    xValue: 0,
                     xUnit: "%",
                     yUnit: "PX",
                     zUnit: "PX",
