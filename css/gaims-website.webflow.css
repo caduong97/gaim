@@ -1531,6 +1531,9 @@ html[lang="ar"] .wp-link.black {
 .section.ghost-white-color {
   background-color: #FAF9F8;
 }
+.ghost-white-color {
+  background-color: #FAF9F8;
+}
 
 .section.trusted-by {
   background-color: #faf9f8;
@@ -2635,7 +2638,7 @@ html[lang="ar"] .wp-link.black {
 .brand-logo {
   z-index: 2;
   height: 100%;
-  max-height: 30px;
+  max-height: 25px;
   max-width: 150px;
   position: relative;
 }
@@ -9346,7 +9349,7 @@ border-radius: 100px;
   .brand-link-holder {
     justify-content: center;
     align-items: center;
-    margin-left: 15px;
+    /* margin-left: 15px; */
     padding-top: 0;
     padding-bottom: 0;
   }
@@ -9863,7 +9866,9 @@ border-radius: 100px;
   }
 
   .nav-link-holder.nav-button-holder {
-    display: none;
+    /* display: none; */
+    margin-left: auto;
+    margin-right: 10px;
   }
 
   .menu-button.w--open {
@@ -9977,7 +9982,7 @@ border-radius: 100px;
 
   .brand-logo {
     max-width: 100%;
-    margin: 9px;
+    margin-right: 0;
   }
 
   .brand-link {
@@ -10558,6 +10563,7 @@ border-radius: 100px;
 
   .logo-grid-holder {
     padding-bottom: 36px;
+    grid-row-gap: 20px;
   }
 
   .logo-holder {
@@ -11019,7 +11025,7 @@ border-radius: 100px;
   .brand-text-holder {
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
 
   .main-quantity-holder {

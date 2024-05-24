@@ -1,4 +1,5 @@
 const translations = {
+  // general content
   arabic: {
     en: "العربية",
     ar: "English",
@@ -96,42 +97,6 @@ const translations = {
     ar: "يمكن أن تساعدك في العثور على:",
   },
 
-  
-
-  productPageHero1: {
-    en: "Ghain is your AI-powered best friend",
-    ar: "غيم هو صديقك الأفضل مدعوم بالذكاء الاصطناعي",
-  },
-  productPageHero2: {
-    en: "who can help you find the most accurate and latest information.",
-    ar: "الذي يمكنه مساعدتك في العثور على أدق وأحدث المعلومات.",
-  },
-  live: {
-    en: "Ghain is live!",
-    ar: "غيم حي!",
-  },
-  chatcta: {
-    en: "You can chat to it casually on your",
-    ar: "يمكنك الدردشة معه بشكل عادي على",
-  },
-  chatapp: {
-    en: "favorite messaging app.",
-    ar: "تطبيق المراسلة المفضل لديك.",
-  },
-  chatghain: {
-    en: "Chat to Ghain now!",
-    ar: "الدردشة مع غيم الآن!",
-  },
-
-  start: {
-    en: " You can start using it for free,",
-    ar: "يمكنك البدء في استخدامه مجانًا،",
-  },
-  tiers: {
-    en: "and explore different usage tiers.",
-    ar: "واستكشف مستويات الاستخدام المختلفة.",
-  },
-
   more: {
     en: "Learn more",
     ar: `تعرف اكثر`,
@@ -210,9 +175,22 @@ const translations = {
     للأفراد والشركات، مما يجعل المعقد بسيطًا و
     عادية غير عادية.`,
   },
-  
+  // end of general content
 
   // start of home page text
+  heroTitleP1: {
+    en: "Ghain: a personal AI-powered",
+    ar: "غيم: شخصي مدعوم بالذكاء الاصطناعي",
+  },
+  assistant: {
+    en: "assistant",
+    ar: "مساعد",
+  },
+  heroTitleP2: {
+    en: "at your fingertips",
+    ar: "عندما تحتاجه",
+  },
+    
   localevents: {
     en: "Local Events",
     ar: "الأحداث المحلية",
@@ -463,6 +441,39 @@ const translations = {
   // End of about page text
 
   // Products page text
+  productPageHero1: {
+    en: "Ghain is your AI-powered best friend",
+    ar: "غيم هو صديقك الأفضل مدعوم بالذكاء الاصطناعي",
+  },
+  productPageHero2: {
+    en: "who can help you find the most accurate and latest information.",
+    ar: "الذي يمكنه مساعدتك في العثور على أدق وأحدث المعلومات.",
+  },
+  live: {
+    en: "Ghain is live!",
+    ar: "غيم حي!",
+  },
+  chatcta: {
+    en: "You can chat to it casually on your",
+    ar: "يمكنك الدردشة معه بشكل عادي على",
+  },
+  chatapp: {
+    en: "favorite messaging app.",
+    ar: "تطبيق المراسلة المفضل لديك.",
+  },
+  chatghain: {
+    en: "Chat to Ghain now!",
+    ar: "الدردشة مع غيم الآن!",
+  },
+
+  start: {
+    en: " You can start using it for free,",
+    ar: "يمكنك البدء في استخدامه مجانًا،",
+  },
+  tiers: {
+    en: "and explore different usage tiers.",
+    ar: "واستكشف مستويات الاستخدام المختلفة.",
+  },
   pricing: {
     en: "Pricing",
     ar: "التسعير",
@@ -766,7 +777,202 @@ const translations = {
   },
   // End of career page text
 
+  // Terms page text
+  termsandconditions: {
+    en: "Terms and Conditions",
+    ar: "الأحكام والشروط"
+  },
+  termsSubtitle: {
+    en: "Please read these Terms and Conditions carefully before using our Service",
+    ar: "يرجى قراءة هذه الأحكام والشروط بعناية قبل استخدام خدمتنا"
+  },
+  agrmt: {
+    en: "Agreement to our legal terms",
+    ar: "موافقة على شروطنا القانونية"
+  },
+  agrmtDesc: {
+    en: "Welcome to Gaim! These Terms and Conditions govern your access to and use of the Gaim application and related services provided by Gaim.",
+    ar: "مرحبًا بك في غيم! تحكم هذه الأحكام والشروط في وصولك إلى تطبيق غيم واستخدامه والخدمات ذات الصلة التي تقدمها غيم."
+  },
+  ourservice: {
+    en: "OUR SERVICE",
+    ar: "خدمتنا"
+  }, 
+  ourserviceDesc: {
+    en: "The information provided when using the Services is not intended for distribution to or use by any person or entity in any jurisdiction or country where such distribution or use would be contrary to law or regulation or which would subject us to any registration requirement within such jurisdiction or country. Accordingly, those persons who choose to access the Services from other locations do so on their own initiative and are solely responsible for compliance with local laws, if and to the extent local laws are applicable.",
+    ar: ""
+  },
+  intellectual: {
+    en: "INTELLECTUAL PROPERTY RIGHTS",
+    ar: "حقوق الملكية الفكرية"
+  },
+  intellectualDesc1: {
+    en: "We are the owner or the licensee of all intellectual property rights in our Services, including all source code, databases, functionality, software, website designs, audio, video, text, photographs, and graphics in the Services (collectively, the 'Content').",
+    ar: ""
+  },
+  intellectualDesc2: {
+    en: "ur Content and Marks are protected by copyright and trademark laws (and various other intellectual property rights and unfair competition laws) and treaties in the United States and around the world.",
+    ar: ""
+  
+  },
 
+  userregistration: {
+    en: "USER REGISTRATION",
+    ar: "تسجيل المستخدم"
+  },
+  userregistrationDesc: {
+    en: "You may be required to register to use the Services. You agree to keep your password confidential and will be responsible for all use of your account and password. We reserve the right to remove, reclaim, or change a username you select if we determine, in our sole discretion, that such username is inappropriate, obscene, or otherwise objectionable",
+    ar: "",
+  },
+  prohibitedactivities: {
+    en: "PROHIBITED ACTIVITIES",
+    ar: "الأنشطة المحظورة"
+  },
+  prohibitedactivitiesDesc: {
+    en: "You may not access or use the Services for any purpose other than that for which we make the Services available. The Services may not be used in connection with any commercial.",
+    ar: "",
+  },
+  guidelinesforreviews: {
+    en: "GUIDELINES FOR REVIEWS",
+    ar: "إرشادات للمراجعات"
+  },
+  guidelinesforreviewsDesc: {
+    en: "We may provide you areas on the Services to leave reviews or ratings. When posting a review, you must comply with the following criteria: (1) you should have firsthand experience with the person/entity being reviewed; (2) your reviews should not contain offensive profanity, or abusive, racist, offensive, or hateful language; (3) your reviews should not contain discriminatory references based on religion, race, gender, national origin, age, marital status, sexual orientation, or disability; (4) your reviews should not contain references to illegal activity; (5) you should not be affiliated with competitors if posting negative reviews; (6) you should not make any conclusions as to the legality of conduct; (7) you may not post any false or misleading statements; and (8) you may not",
+    ar: "",
+  },
+  servicesmanagement: {
+    en: "SERVICES MANAGEMENT",
+    ar: "إدارة الخدمات"
+  },
+  servicesmanagementDesc: {
+    en: "We reserve the right, but not the obligation, to: (1) monitor the Services for violations of these Legal Terms; (2) take appropriate legal action against anyone who, in our sole discretion, violates the law or these Legal Terms, including without limitation, reporting such user to law enforcement authorities; (3) in our sole discretion and without limitation, refuse, restrict access to, limit the availability of, or disable (to the extent technologically feasible) any of your Contributions or any portion thereof; (4) in our sole discretion and without limitation, notice, or liability, to remove from the Services or otherwise disable all files and content that are excessive in size or are in any way burdensome to our systems; and (5) otherwise manage the Services in a manner designed to protect our rights and property and to facilitate the proper functioning of the Services.",
+    ar: "",
+  },
+  termandtermination: {
+    en: "TERM AND TERMINATION",
+    ar: "المدة والإنهاء"
+  },
+  termandterminationDesc: {
+    en: "These Legal Terms shall remain in full force and effect while you use the Services. WITHOUT LIMITING ANY OTHER PROVISION OF THESE LEGAL TERMS, WE RESERVE THE RIGHT TO, IN OUR SOLE DISCRETION AND WITHOUT NOTICE OR LIABILITY, DENY ACCESS TO AND USE OF THE SERVICES (INCLUDING BLOCKING CERTAIN IP ADDRESSES), TO ANY PERSON FOR ANY REASON OR FOR NO REASON, INCLUDING WITHOUT LIMITATION FOR BREACH OF ANY REPRESENTATION, WARRANTY, OR COVENANT CONTAINED IN THESE LEGAL TERMS OR OF ANY APPLICABLE LAW OR REGULATION. WE MAY TERMINATE YOUR USE OR PARTICIPATION IN THE SERVICES OR DELETE",
+    ar: "",
+  },
+  governinglaw: {
+    en: "GOVERNING LAW",
+    ar: "القانون الساري"
+  },
+  governinglawDesc: {
+    en: "These Legal Terms shall be governed by and defined following the laws of oman gaim and yourself irrevocably consent that the courts of shall have exclusive jurisdiction to resolve any dispute which may arise in connection with these Legal Terms.",
+    ar: "",
+  },
+  userdata: {
+    en: "USER DATA",
+    ar: "بيانات المستخدم"
+  },
+  userdataDesc: {
+    en: "We will maintain certain data that you transmit to the Services for the purpose of managing the performance of the Services, as well as data relating to your use of the Services. Although we perform regular routine backups of data, you are solely responsible for all data that you transmit or that relates to any activity you have undertaken using the Services. You agree that we shall have no liability to you for any loss or corruption of any such data, and you hereby waive any right of action against us arising from any such loss or corruption of such data.",
+    ar: "",
+  },
+  comms: {
+    en: "ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES",
+    ar: "الاتصالات والمعاملات والتواقيع الإلكترونية"
+  },
+  commsDesc: {
+    en: "Visiting the Services, sending us emails, and completing online forms constitute electronic communications. You consent to receive electronic communications, and you agree that all agreements, notices, disclosures, and other communications we provide to you electronically, via email and on the Services, satisfy any legal requirement that such communication be in writing. YOU HEREBY AGREE TO THE USE OF ELECTRONIC SIGNATURES, CONTRACTS, ORDERS, AND OTHER RECORDS, AND TO ELECTRONIC DELIVERY OF NOTICES, POLICIES, AND RECORDS OF TRANSACTIONS INITIATED OR COMPLETED BY US OR VIA THE SERVICES. You hereby waive any rights or requirements under any statutes, regulations, rules, ordinances, or other laws in any jurisdiction which require an original signature or delivery or retention of non-electronic records, or to payments or the granting of credits by any means other than electronic means.",
+    ar: "",
+  },
+  miscellaneous: {
+    en: "MISCELLANEOUS",
+    ar: "متنوع",
+  },
+  miscellaneousDesc: {
+    en: "These Legal Terms and any policies or operating rules posted by us on the Services or in respect to the Services constitute the entire agreement and understanding between you and us. Our failure to exercise or enforce any right or provision of these Legal Terms shall not operate as a waiver of such right or provision. These Legal Terms operate to the fullest extent permissible by law. We may assign any or all of our rights and obligations to others at any time. We shall not be responsible or liable for any loss, damage, delay, or failure to act caused by any cause beyond our reasonable control. If any provision or part of a provision of these Legal Terms is determined to be unlawful, void, or unenforceable, that provision or part of the provision is deemed severable from these Legal Terms and does not affect the validity and enforceability of any remaining provisions. There is no joint venture, partnership, employment or agency relationship created between you and us as a result of these Legal Terms or use of the Services. You agree that these Legal Terms will not be construed against us by virtue of having drafted them. You hereby waive any and all ",
+    ar: "",
+  },
+
+
+  // Terms page text
+
+
+  // Privacy page text
+  privacyTitle: {
+    en: "Privacy Policy",
+    ar: "سياسة الخصوصية"
+  },
+  privacySubtitle1: {
+    en: "informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.",
+    ar: "يُعلمك بسياساتنا بشأن جمع البيانات الشخصية واستخدامها وكشفها عند استخدام خدمتنا والخيارات التي تتوفر لديك المتعلقة بهذه البيانات.",
+  },
+  privacySubtitle2: {
+    en: "We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Sensitive Information.All personal information that you provide to us must be true, complete, and accurate, and you must notify us of any changes to such personal information.",
+    ar: "نحن نستخدم بياناتك لتوفير الخدمة وتحسينها. من خلال استخدام الخدمة، فإنك توافق على جمع واستخدام المعلومات وفقًا لهذه السياسة. المعلومات الحساسة.يجب أن تكون جميع المعلومات الشخصية التي تقدمها لنا صحيحة وكاملة ودقيقة، ويجب عليك إخطارنا بأي تغييرات في مثل هذه المعلومات الشخصية."
+  },
+  informationCollection: {
+    en: "WHAT INFORMATION DO WE COLLECT?",
+    ar: "ما نوع المعلومات التي نجمعها؟"
+  },
+  informationCollectionDesc: {
+    en: "We collect personal information that you provide to us. We collect personal information that you voluntarily provide to us when you register on the Services, express an interest in obtaining information about us or our products and Services, when you participate in activities on the Services, or otherwise when you contact us.",
+    ar: "نحن نجمع المعلومات الشخصية التي تقدمها لنا. نجمع المعلومات الشخصية التي تقدمها بمحض إرادتك لنا عند تسجيلك في الخدمات، أو التعبير عن رغبتك في الحصول على معلومات حولنا أو منتجاتنا وخدماتنا، عند مشاركتك في الأنشطة على الخدمات، أو غير ذلك عندما تتصل بنا."
+  },
+  informationprocessing: {
+    en: "HOW DO WE PROCESS YOUR INFORMATION?",
+    ar: "كيف نعالج معلوماتك؟"
+  },
+  informationprocessingDesc: {
+    en: "e process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent. We process your personal information for a variety of reasons, depending on how you interact with our Services.",
+    ar: "نحن نعالج معلوماتك لتوفير، وتحسين، وإدارة خدماتنا، والتواصل معك، لأغراض الأمان ومنع الاحتيال، وللامتثال للقانون. قد نعالج معلوماتك أيضًا لأغراض أخرى بموافقتك. نعالج معلوماتك الشخصية لأسباب متنوعة، اعتمادًا على كيفية تفاعلك مع خدماتنا."
+  },
+  cookiesandtracking: {
+    en: "DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?",
+    ar: "هل نستخدم ملفات تعريف الارتباط وغيرها من تقنيات التتبع؟"
+  },
+  cookiesandtrackingDesc: {
+    en: "We may use cookies and other tracking technologies to collect and store your information. We may use cookies and similar tracking technologies (like web beacons and pixels) to access or store information. Specific information about how we use such technologies and how you can refuse certain cookies is set out in our Cookie Notice",
+    ar: "قد نستخدم ملفات تعريف الارتباط وغيرها من تقنيات التتبع لجمع وتخزين معلوماتك. قد نستخدم ملفات تعريف الارتباط وتقنيات التتبع المماثلة (مثل العلامات البيضاء والبكسلات) للوصول إلى المعلومات أو تخزينها. يتم تحديد معلومات محددة حول كيفية استخدامنا لمثل هذه التقنيات وكيف يمكنك رفض بعض ملفات تعريف الارتباط في إشعار ملفات تعريف الارتباط لدينا"
+  },
+  sociallogin: {
+    en: "HOW DO WE HANDLE YOUR SOCIAL LOGINS?",
+    ar: "كيف نعالج تسجيل الدخول الاجتماعي الخاص بك؟"
+  },
+  socialloginDesc1: {
+    en: "If you choose to register or log in to our Services using a social media account, we may have access to certain information about you.",
+    ar: "إذا اخترت التسجيل أو تسجيل الدخول إلى خدماتنا باستخدام حساب وسائل التواصل الاجتماعي، فقد يكون لدينا وصول إلى معلومات معينة عنك."
+  },
+  socialloginDesc2: {
+    en: "Our Services offer you the ability to register and log in using your third-party social media account details (like your Facebook or Twitter logins). Where you choose to do this, we will receive certain profile information about you from your social media provider. The profile information we receive may vary depending on the social media provider concerned, but will often include your name, email address, friends list, and profile picture, as well as other information you choose to make public on such a social media platform.",
+    ar: ""
+  },
+  socialloginDesc3: {
+    en: "We will use the information we receive only for the purposes that are described in this privacy notice or that are otherwise made clear to you on the relevant Services. Please note that we do not control, and are not responsible for, other uses of your personal information by your third-party social media provider. We recommend that you review their privacy notice to understand how they collect, use, and share your personal information, and how you can set your privacy preferences on their sites and apps.",
+    ar: ""
+  },
+  informationtransfer: {
+    en: "IS YOUR INFORMATION TRANSFERRED INTERNATIONALLY?",
+    ar: "هل تنقل معلوماتك دوليًا؟"
+  },
+  informationtransferDesc: {
+    en: "We may transfer, store, and process your information in countries other than your own. Please be aware that your information may be transferred to, stored, and processed by us in our facilities and by those third parties with whom we may share your personal information. ",
+    ar: ""
+  },
+  informationkeeping: {
+    en: "HOW LONG DO WE KEEP YOUR INFORMATION?",
+    ar: "كم من الوقت نحتفظ بمعلوماتك؟"
+  },
+  informationkeepingDesc: {
+    en: "We keep your information for as long as necessary to We will only keep your personal information for as long as it is necessary for the purposes set out in this privacy notice, unless a longer retention period is required or permitted by law (such as tax, accounting, or other legal requirements). When we have no ongoing legitimate business need to process your personal information, we will either delete or   such information, or, if this is not possible (for example, because your personal information has been stored in backup archives), then we will securely store your personal information and isolate it from any further processing until deletion is possible.",
+    ar: ""
+  },
+  privacyrights: {
+    en: "WHAT ARE YOUR PRIVACY RIGHTS?",
+    ar: "ما هي حقوق الخصوصية الخاصة بك؟"
+  },
+  privacyrightsDesc: {
+    en: "You may review, change, or terminate your account at any time. If we are relying on your consent to process your personal information, which may be express and/or implied consent depending on the applicable law, you have the right to withdraw your consent at any time. You can withdraw your consent at any time by contacting us by using the contact details provided in the section. However, please note that this will not affect the lawfulness of the processing before its withdrawal nor, when applicable law allows, will it affect the processing of your personal information conducted in reliance on lawful processing grounds other than consent.",
+    ar: ""
+  }
+
+
+  // Privacy page text
 };
 
 function toggleLanguage() {
