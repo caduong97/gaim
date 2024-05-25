@@ -590,8 +590,8 @@ const translations = {
     ar: "أقصى مستوى من التخصيص"
   },
   demoVideoDesc: {
-    en: "Watch: Ghain in 90 seconds",
-    ar: "شاهد: غَـين في 90 ثانية"
+    en: "Watch: Ghain in Real Life",
+    ar: "شاهد: غين في الحياة الحقيقية"
   },
 
   intelligent: {
