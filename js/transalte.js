@@ -10,11 +10,11 @@ const translations = {
   },
   about: {
     en: "About",
-    ar: "حولنا",
+    ar: "عن غَـيْم",
   },
   products: {
     en: "Products",
-    ar: "منتجات",
+    ar: "المنتجات",
   },
   aboutus: {
     en: "About us",
@@ -40,8 +40,8 @@ const translations = {
     ar: "اتصل بنا",
   },
   innovative: {
-    en: "Innovative AI Solution",
-    ar: "حل الذكاء الاصطناعي المبتكر",
+    en: "Innovative AI Solutions", 
+    ar: "حلول الذكاء الاصطناعي المبتكر",
   },
   simplify: {
     en: "to Simplify Your Life,",
@@ -49,20 +49,20 @@ const translations = {
   },
   empower: {
     en: "Empower Your Business.",
-    ar: "تمكين عملك.",
+    ar: "تمكين أعمالك.",
   },
   leverages: {
     en: `GAIM leverages sophisticated Data Engineering and Artificial
     Intelligence algorithms to craft unique solutions that simplify
     daily hassles and empower businesses.`,
-    ar: `يستفيد غيم من بنية البيانات المتطورة والهندسة الاصطناعية
-    خوارزميات الذكاء لصياغة حلول فريدة من نوعها تبسط
-    المتاعب اليومية وتمكين الشركات.`,
+    ar: `توظِّفُ غَـيْم أحدث تقنيات هندسة البيانات و
+    خوارزميات الذكاء الاصطناعي المبتكرة لصياغة حلول فريدة من نوعها تبسط
+    المتاعب اليومية وتُمكِّن الشركات من زيادة فاعليتها وجودة وتمكين أعمالها.`,
   },
 
   explore: {
     en: "Explore our amazing",
-    ar: "اكتشف لدينا",
+    ar: "اكتشف أحدث ما لدينا من",
   },
 
   products: {
@@ -74,6 +74,14 @@ const translations = {
     en: "Services",
     ar: "خدمات",
   },
+  terms: {
+    en: "Terms",
+    ar: "الشروط",
+  },
+  privacy: {
+    en: "Privacy",
+    ar: "الخصوصية",
+  },
 
   and: {
     en: "and",
@@ -84,22 +92,22 @@ const translations = {
   },
   personal: {
     en: "Your personal assistant",
-    ar: "مساعدك الشخصي",
+    ar: "مُساعدك الشخصي",
   },
 
   ghain: {
     en: "Ghain",
-    ar: "غيم",
+    ar: "غـين",
   },
 
   can: {
     en: "can help you to find:",
-    ar: "يمكن أن تساعدك في العثور على:",
+    ar: "يمكن أن يساعدك على الوصول إلى:",
   },
 
   more: {
     en: "Learn more",
-    ar: `تعرف اكثر`,
+    ar: `تعرف أكثر`,
   },
   
   contactus: {
@@ -112,16 +120,16 @@ const translations = {
   },
   aboutgaim: {
     en: "About",
-    ar: "عن",
+    ar: "عن غَـيم",
   },
   gaim: {
     en: "Gaim",
-    ar: "غيم",
+    ar: "غَـيْم",
   },
 
   forefront: {
     en: "At the forefront of AI innovation, Gaim revolutionizes how individuals and professionals access and interact with information. We're dedicated to creating cutting-edge AI solutions that transform daily hassles into intuitive, seamless experiences. Our flagship products exemplify our commitment to enhancing productivity, accuracy, and ecision-making across various domains.",
-    ar: "في طليعة ابتكارات الذكاء الاصطناعي، تُحدث Gaim ثورة في كيفية وصول الأفراد والمهنيين إلى المعلومات والتفاعل معها. نحن ملتزمون بإنشاء حلول الذكاء الاصطناعي المتطورة التي تحول المتاعب اليومية إلى تجارب سلسة وبديهية. تجسد منتجاتنا الرئيسية التزامنا بتعزيز الإنتاجية والدقة واتخاذ القرار في مختلف المجالات.",
+    ar: "في طليعة ابتكارات الذكاء الاصطناعي، تُحدث شركة غَـيْم ثورة في كيفية وصول الأفراد والمهنيين إلى المعلومات والتفاعل معها. نحن ملتزمون بإنشاء حلول مبتكرة تستند على الذكاء الاصطناعي  لتحويل المتاعب اليومية إلى تجارب سلسة وبديهية. تجسد منتجاتنا الرئيسية التزامنا بتعزيز الإنتاجية والدقة واتخاذ القرار في مختلف المجالات.",
   },
   explorforefront: {
     en: `Explore the forefront of AI innovation with insights from
@@ -131,7 +139,7 @@ const translations = {
   },
   something: {
     en: "Something about AI",
-    ar: "شيء عن الذكاء الاصطناعي",
+    ar: "معلومات عن الذكاء الاصطناعي",
   },
   insights: {
     en: "Insights",
@@ -139,7 +147,7 @@ const translations = {
   },
   copyright: {
     en: "Copyright © 2024 GAIM Tech. LLC. All rights reserved.",
-    ar: "حقوق الطبع والنشر © 2024 GAIM Tech. ذ م م. كل الحقوق محفوظة.",
+    ar: "حقوق الطبع والنشر محفوظة © 2024 GAIM Tech. ش م م. كل الحقوق محفوظة.",
   },
 
   infotitle: {
@@ -150,7 +158,7 @@ const translations = {
 
   infotitle21: {
     en: "Join us in navigating the ",
-    ar: "انضم إلينا في تنقل",
+    ar: "انضم إلينا في استكشاف",
   },
   infotitle22: {
     en: "possibilities of tomorrow, today. ",
@@ -169,18 +177,18 @@ const translations = {
     modern life. Our solutions are designed to meet the dynamic needs
     of individuals and businesses, making the complex simple and the
     ordinary extraordinary.`,
-    ar: `في قلب ابتكاراتنا يكمن الالتزام بتسخير الذكاء الاصطناعي
-    التكنولوجيا، ودفع التقدم والكفاءة في كل جانب من جوانب
-    حياة عصرية. تم تصميم حلولنا لتلبية الاحتياجات الديناميكية
-    للأفراد والشركات، مما يجعل المعقد بسيطًا و
-    عادية غير عادية.`,
+    ar: `في صميم ابتكاراتنا يكمن الالتزام بتسخير تقنيات الذكاء الاصطناعي
+    ، ودفع التقدم والكفاءة في كل جانب من جوانب
+    الحياة العصرية. تم تصميم حلولنا لتلبية الاحتياجات المتغيرة
+    للأفراد والشركات، مما يجعل الصعب و المعقد يبدوا بسيطًا و
+    في المتناول.`,
   },
   // end of general content
 
   // start of home page text
   heroTitleP1: {
     en: "Ghain: a personal AI-powered",
-    ar: "غيم: شخصي مدعوم بالذكاء الاصطناعي",
+    ar: "غَـين: شخصي مدعوم بالذكاء الاصطناعي",
   },
   assistant: {
     en: "assistant",
@@ -188,7 +196,7 @@ const translations = {
   },
   heroTitleP2: {
     en: "at your fingertips",
-    ar: "عندما تحتاجه",
+    ar: "يلبي كل ما تحتاجه",
   },
     
   localevents: {
@@ -197,11 +205,11 @@ const translations = {
   },
   healthcare: {
     en: "Healthcare professionals",
-    ar: "متخصصو الرعاية الصحية",
+    ar: "الأطباء والمؤسسات الصحية",
   },
   pands: {
     en: "Products & services",
-    ar: "المنتجات والخدمات",
+    ar: "المنتجات والخدمات التجارية",
   },
   laws: {
     en: "Laws & regulations",
@@ -209,11 +217,11 @@ const translations = {
   },
   government: {
     en: "Government services",
-    ar: "خدمات حكومية",
+    ar: "الخدمات الحكومية",
   },
   events: {
     en: "Events & attractions",
-    ar: "الأحداث والمعالم السياحية",
+    ar: "الفعاليات والمعالم السياحية",
   },
   latest: {
     en: "Latest news matching your interests",
@@ -241,7 +249,7 @@ const translations = {
   },
   upToDate: {
     en: "Up-to-date",
-    ar: "محدث",
+    ar: "يُحَدَّث باستمرار",
   },
   alwaysThereForYou: {
     en: "Always there for you",
@@ -253,7 +261,7 @@ const translations = {
   },
   alwaysEvolving: {
     en: "Always evolving",
-    ar: "دائم التطور",
+    ar: "سريع التطور",
   },
   andmore: {
     en: "...and much more!",
@@ -265,11 +273,13 @@ const translations = {
   },
   homePageSection2Title2: {
     en: "Empower Your Business.",
-    ar: "تمكين عملك.",
+    ar: "تمكين أعمالك.",
   },
   homePageSection2SubTitle: {
     en: "GAIM leverages sophisticated Data Engineering and Artificial Intelligence algorithms to craft unique solutions that simplify daily hassles and empower businesses.",
-    ar: "تستفيد GAIM من بنية البيانات المتطورة وخوارزميات الذكاء الاصطناعي لصياغة حلول فريدة من نوعها تبسط المتاعب اليومية وتمكن الشركات.",
+    ar: `توظِّفُ غَـيْم أحدث تقنيات هندسة البيانات و
+    خوارزميات الذكاء الاصطناعي المبتكرة لصياغة حلول فريدة من نوعها تبسط
+    المتاعب اليومية وتُمكِّن الشركات من زيادة فاعليتها وجودة وتمكين أعمالها.`,
   },  
     
 
@@ -284,24 +294,24 @@ const translations = {
   },
   2023: {
     en: "in 2023",
-    ar: "في 2023",
+    ar: "في عام 2023",
   },
   byteam: {
     en: "by a team of passionate Omanis",
-    ar: "من قبل فريق من العمانيين المتحمسين",
+    ar: "من قبل فريق شغوف",
   },
   who: {
     en: `who chose to leverage their multidisciplinary skill set to
     add the maximum value to everybody around them and help
     empower local businesses.`,
-    ar: `لذين اختاروا الاستفادة من مهاراتهم متعددة التخصصات
-    إضافة الحد الأقصى من القيمة إلى كل من حولهم ومساعدتهم
-    تمكين الشركات المحلية.`,
+    ar: `من الذين اختاروا الاستفادة من مهاراتهم في مختلف التخصصات التقنية
+    لإضافة الحد الأقصى من القيمة إلى كل من حولهم ومساعدتهم
+    و تمكين الشركات المحلية.`,
   },
 
   team: {
     en: "Team",
-    ar: "فريق",
+    ar: "الفريق",
   },
   meettheteam: {
     en: "Meet the Team",
@@ -309,7 +319,7 @@ const translations = {
   },
   founding: {
     en: "Our founding team combines expertise in AI, physics, and project management, forming a talented and multidisciplinary force. Their diverse skills allow us to navigate complex challenges and innovate at the forefront of technology.",
-    ar: "يجمع فريقنا المؤسس بين الخبرة في الذكاء الاصطناعي والفيزياء وإدارة المشاريع، مما يشكل قوة موهوبة ومتعددة التخصصات. تتيح لنا مهاراتهم المتنوعة التغلب على التحديات المعقدة والابتكار في طليعة التكنولوجيا.",
+    ar: "يجمع فريق المؤسسيين بين الخبرة في الذكاء الاصطناعي وإدارة المشاريع، مما يشكل قوة موهوبة ومتعددة التخصصات. تتيح لنا مهاراتهم المتنوعة التغلب على مغتلف التحديات المعقدة والابتكار في طليعة التكنولوجيا.",
   },
   jabir: {
     en: "Jabir Al Salami, PhD",
@@ -321,19 +331,19 @@ const translations = {
   },
   jabirDesc: {
     en: "Jabir brings a unique blend of expertise in engineering operations, computational physics, scientific research and advanced AI solutions.",
-    ar: "يجلب جابر مزيجًا فريدًا من الخبرة في عمليات الهندسة، والفيزياء الحسابية، والبحث العلمي، وحلول الذكاء الاصطناعي المتقدمة."
+    ar: "يجلب جابر مزيجًا فريدًا من الخبرة في ادارة العمليات الهندسية، والعلوم الحسابية، والبحث العلمي، وتطوير حلول الذكاء الاصطناعي المتقدمة."
   },
   ali: {
     en: "Ali Al Khaifi, PMP",
-    ar: "علي الخايفي",
+    ar: "م. علي الخايفي",
   },
   coo: {
     en: "Chief Operations Officer",
-    ar: "كبير مسؤولي العمليات",
+    ar: "مدير عام العمليات",
   },
   aliDesc: {
     en: "Ali is a seasoned professional in management and operations with a strong background in leading complex projects and improving operational efficiency. ",
-    ar: "علي محترف ذو خبرة في الإدارة والعمليات مع خلفية قوية في قيادة المشاريع المعقدة وتحسين الكفاءة التشغيلية."
+    ar: "يمتلك علي خبرة واسعة في الإدارة والعمليات مع خلفية قوية في قيادة المشاريع المعقدة وتحسين الكفاءة التشغيلية."
   },
   values: {
     en: "Values",
@@ -358,11 +368,11 @@ const translations = {
   },
   simplifylives: {
     en: "Simplify lives and empower businesses by unlocking the full potential of local data with AI",
-    ar: "قم بتبسيط الحياة وتمكين الشركات من خلال إطلاق الإمكانات الكاملة للبيانات المحلية باستخدام الذكاء الاصطناعي",
+    ar: "أن نبسط حياة الجميع ونمكن الشركات من خلال إستغلال الإمكانيات القصوى للبيانات المحلية باستخدام الذكاء الاصطناعي",
   },
   beacompany: {
     en: "Be a company that makes amazing products leveraging and developing cutting-edge technologies that everybody uses to make their lives richer and easier.",
-    ar: "كن شركة تصنع منتجات مذهلة تستفيد من أحدث التقنيات وتطورها والتي يستخدمها الجميع لجعل حياتهم أكثر ثراءً وسهولة.",
+    ar: "أن نكون شركة تصنع منتجات مذهلة تستفيد من أحدث التقنيات وتطورها والتي يستخدمها الجميع لجعل حياتهم أكثر ثراءً وسهولة.",
   },
   principleandvalues1: {
     en: "Our company is founded on the principles and values deeply rooted in local culture,",
@@ -374,7 +384,7 @@ const translations = {
   },
   goal1: {
     en: "Our goal is to craft remarkable products that ",
-    ar: "هدفنا هو صياغة منتجات رائعة ت",
+    ar: "هدفنا هو صياغة منتجات رائعة ",
   },
   goal2: {
     en: "not only make lives richer and easier but also stand as a testament to the ingenuity and forward-thinking spirit of Oman.",
@@ -390,7 +400,7 @@ const translations = {
   },
   committed3: {
     en: "utilizing cutting-edge AI technologies.",
-    ar: "استخدام تقنيات الذكاء الاصطناعي الرائدة.",
+    ar: "باستخدام تقنيات الذكاء الاصطناعي الرائدة.",
   },
 
   ourtech: {
@@ -443,19 +453,19 @@ const translations = {
   // Products page text
   productPageHero1: {
     en: "Ghain is your AI-powered best friend",
-    ar: "غيم هو صديقك الأفضل مدعوم بالذكاء الاصطناعي",
+    ar: "غين هو صديقك المفضل المدعوم بالذكاء الاصطناعي",
   },
   productPageHero2: {
     en: "who can help you find the most accurate and latest information.",
-    ar: "الذي يمكنه مساعدتك في العثور على أدق وأحدث المعلومات.",
+    ar: "والذي يمكنه مساعدتك في العثور على أدق وأحدث المعلومات.",
   },
   live: {
     en: "Ghain is live!",
-    ar: "غيم حي!",
+    ar: "بإمكانك التحدث مع غَـين الآن!",
   },
   chatcta: {
     en: "You can chat to it casually on your",
-    ar: "يمكنك الدردشة معه بشكل عادي على",
+    ar: "يمكنك الدردشة معه بشكل عفوي على",
   },
   chatapp: {
     en: "favorite messaging app.",
@@ -463,7 +473,7 @@ const translations = {
   },
   chatghain: {
     en: "Chat to Ghain now!",
-    ar: "الدردشة مع غيم الآن!",
+    ar: "دردش مع غَـين الآن!",
   },
 
   start: {
@@ -472,7 +482,7 @@ const translations = {
   },
   tiers: {
     en: "and explore different usage tiers.",
-    ar: "واستكشف مستويات الاستخدام المختلفة.",
+    ar: "واستكشف باقات الاشتراك المختلفة.",
   },
   pricing: {
     en: "Pricing",
@@ -524,15 +534,15 @@ const translations = {
   },
   freeTierDesc: {
     en: "Get access to Ghain for free.",
-    ar: "احصل على وصول إلى غيم مجانًا."
+    ar: "احصل على وصول إلى غين مجانًا."
   },
   plusTierDesc: {
     en: "Our most popular tier.",
-    ar: "طبقتنا الأكثر شعبية."
+    ar: "باقتنا الأكثر شعبية."
   },
   premiumTierDesc: {
     en: "Get unlimited daily messages, and all the features of Ghain, plus early access to new features and topics.",
-    ar: "احصل على رسائل يومية غير محدودة، وجميع ميزات غيم، بالإضافة إلى الوصول المبكر إلى الميزات والمواضيع الجديدة."
+    ar: "احصل على رسائل يومية غير محدودة، وجميع ميزات غين، بالإضافة إلى الوصول المبكر إلى الميزات والمواضيع الجديدة."
   },
   freeTierFeature1: {
     en: "Up to X messages per day",
@@ -576,7 +586,7 @@ const translations = {
   },
   demoVideoDesc: {
     en: "Watch: Ghain in 90 seconds",
-    ar: "شاهد: غيم في 90 ثانية"
+    ar: "شاهد: غَـين في 90 ثانية"
   },
 
   intelligent: {
@@ -585,7 +595,7 @@ const translations = {
   },
   knowledgable: {
     en: "Knowledgable",
-    ar: "متعلم",
+    ar: "يعرف الكثير",
   },
   trulyYours: {
     en: "Truly yours",
@@ -597,27 +607,27 @@ const translations = {
   },
   intelligentTitle2: {
     en: "with your personal assistant Ghain.",
-    ar: "مع مساعدك الشخصي غيم.",
+    ar: "مع مساعدك الشخصي غَـين.",
   },
   knowledgableTitle1: {
     en: "Ghain has access to a",
-    ar: "غيم لديه وصول إلى",
+    ar: "غَـين يستطيع الوصول إلى",
   },
   knowledgableTitle2: {
     en: "wide array of information across different domains.",
-    ar: "مجموعة واسعة من المعلومات عبر مجالات مختلفة",
+    ar: "مجموعة واسعة من المعلومات في مجالات مختلفة",
   },
   trulyYoursTitle1: {
     en: "As you continue to talk to Ghain,",
-    ar: "كما تستمر في الحديث إلى غيم،",
+    ar: "كلما تحدثت مع غَـين أكثر",
   },
   trulyYoursTitle2: {
     en: " it gets to know you better.",
-    ar: "يتعرف عليك بشكل أفضل.",
+    ar: "يتعرف احتياجاتك بشكل أفضل.",
   },
   intelligentDesc: {
     en: "You can talk to Ghain like you’d talk to your knowledgeable best friend, in any language you choose!",
-    ar: "يمكنك التحدث إلى غيم كما تتحدث إلى صديقك المعرف، باللغة التي تختارها!",
+    ar: "يمكنك التحدث إلى غَـين كما تتحدث إلى صديقك المفضل، باللغة التي تختارها!",
   },
   knowledgableDesc: {
     en: "Powered by the latest advances in Agentic Artificial Intelligence, it draws from a vast knowledge base, delivering accurate, comprehensive, and up-to-date data. If it doesn’t know, it will scour the internet in real-time to try its best to find accurate answers to your questions!",
@@ -625,14 +635,14 @@ const translations = {
   },
   trulyYoursDesc: {
     en: "You can choose to receive tailored suggestions based on your preferences and past interactions. From updates on recent news that may matter to you, to event recommendations and new product suggestions, Ghain adapts to your needs, offering genuinely personalized assistance.",
-    ar: "يمكنك اختيار تلقي اقتراحات مصممة خصيصًا استنادًا إلى تفضيلاتك وتفاعلاتك السابقة. من التحديثات حول الأخبار الأخيرة التي قد تكون مهمة بالنسبة لك، إلى توصيات الأحداث واقتراحات المنتجات الجديدة، يتكيف غيم مع احتياجاتك، مقدمًا مساعدة شخصية حقًا.",
+    ar: "يمكنك اختيار تلقي اقتراحات مصممة خصيصًا لك استنادًا إلى تفضيلاتك وتفاعلاتك السابقة. من آخر الأخبار المحلية التي قد تكون مهمة بالنسبة لك، إلى مقترحات بخصوص الفعاليات و المنتجات الجديدة، يتكيف غيم مع احتياجاتك، مقدمًا مساعدة شخصية حقًا.",
   },
   //  End of products page text
 
   // Start of services page text
   servicesIntroText1: {
     en: "Start your journey towards simplifying lifes and adding value to your business by using Gaim's artificial intelligence services.",
-    ar: "ابدأ رحلتك نحو تبسيط الحياة وإضافة قيمة لعملك من خلال استخدام خدمات الذكاء الاصطناعي لغيم."
+    ar: "ابدأ رحلتك نحو تبسيط حياتك وإضافة قيمة لعملك الخاص من خلال استخدام خدمات الذكاء الاصطناعي لغيم."
   },
   servicesIntroText2: {
     en: "GAIM offers a suite of AI-driven services tailored to empower companies across various industries. Leveraging our cutting-edge AI technology, we specialize in delivering customized solutions that enhance decision-making, operational efficiency, and customer engagement.",
@@ -652,15 +662,15 @@ const translations = {
   },
   chatbotsfromdocuments: {
     en: "Chatbots from Documents",
-    ar: "الدردشة الآلية من الوثائق"
+    ar: "الدردشة الآلية استناداً على بياناتك"
   },
   getintouch: {
     en: "Get in touch with GAIM experts",
-    ar: "تواصل مع خبراء GAIM"
+    ar: "تواصل مع خبراء غَـيْم"
   },
   werempower: {
     en: "We empower companies to",
-    ar: "نحن نمكن الشركات من",
+    ar: "نحن نُمكِّنُ الشركات من",
   },
   informed: {
     en: "make informed decisions ",
@@ -670,9 +680,9 @@ const translations = {
     en: `Through tailored market research, we utilize AI to
     unearth actionable insights into consumer behavior and
     trends,`,
-    ar: `من خلال أبحاث السوق المخصصة، نستخدم الذكاء الاصطناعي لتحقيق
+    ar: `من خلال الأبحاث التجارية، نستخدم الذكاء الاصطناعي لتحقيق
     اكتشاف رؤى قابلة للتنفيذ في سلوك المستهلك و
-    اتجاهات،`,
+    التوجهات المحلية،`,
   },
   guidebusiness: {
     en: "We guide businesses through the maze of",
@@ -680,7 +690,7 @@ const translations = {
   },
   aiint: {
     en: "AI integration",
-    ar: "تكامل الذكاء الاصطناعي",
+    ar: "الاتسفادة من الذكاء الاصطناعي",
   },
   weoffer: {
     en: "We offer",
@@ -688,7 +698,7 @@ const translations = {
   },
   customai: {
     en: "custom AI solution",
-    ar: "حل الذكاء الاصطناعي المخصص",
+    ar: "حلول الذكاء الاصطناعي المتخصصة",
   },
   development: {
     en: "development",
@@ -698,26 +708,26 @@ const translations = {
     en: `Our team of experts is passionate about adding value to
     your business.`,
     ar: `فريق الخبراء لدينا متحمس لإضافة قيمة إلى
-    عملك.`,
+    أعمالك.`,
   },
   reach: {
     en: "Reach out to GAIM to book a meeting or demo.",
-    ar: "تواصل مع غيم لحجز اجتماع أو عرض توضيحي.",
+    ar: "تواصل مع فريق غَـيْم لحجز اجتماع أو عرض توضيحي.",
   },
   // End of services page text
 
   // Start of blog page text
   blogHeroText: {
     en: "Stay up to date with the latest AI trends and insights.",
-    ar: "ابق على اطلاع بآخر الاتجاهات والأفكار في مجال الذكاء الاصطناعي."
+    ar: "ابق على اطلاع بآخر التوجهات والأفكار في مجال الذكاء الاصطناعي."
   },
   insight: {
     en: "Insight",
-    ar: "رؤية",
+    ar: "رؤى",
   },
   bygaim: {
     en: "By Gaim",
-    ar: "بواسطة غيم",
+    ar: "من غَـيْم",
   },
   ai: {
     en: "AI",
@@ -744,7 +754,7 @@ const translations = {
   },
   openpositions: {
     en: "Open Positions",
-    ar: "المناصب المفتوحة"
+    ar: "الوظائف المفتوحة"
   },
   businessdeveloper: {
     en: "Business Developer",
@@ -792,7 +802,7 @@ const translations = {
   },
   agrmtDesc: {
     en: "Welcome to Gaim! These Terms and Conditions govern your access to and use of the Gaim application and related services provided by Gaim.",
-    ar: "مرحبًا بك في غيم! تحكم هذه الأحكام والشروط في وصولك إلى تطبيق غيم واستخدامه والخدمات ذات الصلة التي تقدمها غيم."
+    ar: "مرحبًا بك في غيم! تحكم هذه الأحكام والشروط في وصولك إلى تطبيقات غيم واستخدامها والخدمات ذات الصلة التي تقدمها غيم."
   },
   ourservice: {
     en: "OUR SERVICE",
@@ -800,7 +810,7 @@ const translations = {
   }, 
   ourserviceDesc: {
     en: "The information provided when using the Services is not intended for distribution to or use by any person or entity in any jurisdiction or country where such distribution or use would be contrary to law or regulation or which would subject us to any registration requirement within such jurisdiction or country. Accordingly, those persons who choose to access the Services from other locations do so on their own initiative and are solely responsible for compliance with local laws, if and to the extent local laws are applicable.",
-    ar: ""
+    ar: "المعلومات المقدمة عند استخدام الخدمات ليست مخصصة للتوزيع أو الاستخدام من قبل أي شخص أو كيان في أي ولاية قضائية أو بلد حيث يكون هذا التوزيع أو الاستخدام مخالفًا للقانون أو اللوائح أو قد يعرضنا لأي متطلبات تسجيل داخل تلك الولاية القضائية أو دولة. وبناء على ذلك، فإن هؤلاء الأشخاص الذين يختارون الوصول إلى الخدمات من مواقع أخرى يفعلون ذلك بمبادرة منهم ويكونون مسؤولين وحدهم عن الامتثال للقوانين المحلية، إذا كانت القوانين المحلية قابلة للتطبيق وإلى الحد الذي تنطبق عليه.",
   },
   intellectual: {
     en: "INTELLECTUAL PROPERTY RIGHTS",
@@ -808,11 +818,11 @@ const translations = {
   },
   intellectualDesc1: {
     en: "We are the owner or the licensee of all intellectual property rights in our Services, including all source code, databases, functionality, software, website designs, audio, video, text, photographs, and graphics in the Services (collectively, the 'Content').",
-    ar: ""
+    ar: "نحن المالك أو المرخص له لجميع حقوق الملكية الفكرية في خدماتنا، بما في ذلك جميع التعليمات البرمجية المصدر وقواعد البيانات والوظائف والبرامج وتصميمات مواقع الويب والصوت والفيديو والنصوص والصور الفوتوغرافية والرسومات في الخدمات (يُشار إليها إجمالاً بـ ‘المحتوى’). )."
   },
   intellectualDesc2: {
-    en: "ur Content and Marks are protected by copyright and trademark laws (and various other intellectual property rights and unfair competition laws) and treaties in the United States and around the world.",
-    ar: ""
+    en: "Your Content and Marks are protected by copyright and trademark laws (and various other intellectual property rights and unfair competition laws) and treaties in the United States and around the world.",
+    ar: "المحتوى الخاص بك وعلاماتك محمية بموجب قوانين حقوق الطبع والنشر والعلامات التجارية (ومختلف حقوق الملكية الفكرية الأخرى وقوانين المنافسة غير العادلة) والمعاهدات في الولايات المتحدة وحول العالم.",
   
   },
 
@@ -822,7 +832,7 @@ const translations = {
   },
   userregistrationDesc: {
     en: "You may be required to register to use the Services. You agree to keep your password confidential and will be responsible for all use of your account and password. We reserve the right to remove, reclaim, or change a username you select if we determine, in our sole discretion, that such username is inappropriate, obscene, or otherwise objectionable",
-    ar: "",
+    ar: "قد يُطلب منك التسجيل لاستخدام الخدمات. أنت توافق على الحفاظ على سرية كلمة المرور الخاصة بك وستكون مسؤولاً عن جميع استخدامات حسابك وكلمة المرور الخاصة بك. نحن نحتفظ بالحق في إزالة أو استعادة أو تغيير اسم المستخدم الذي تحدده إذا قررنا، وفقًا لتقديرنا الخاص، أن اسم المستخدم هذا غير مناسب أو فاحش أو مرفوض بأي شكل آخر"
   },
   prohibitedactivities: {
     en: "PROHIBITED ACTIVITIES",
@@ -830,7 +840,7 @@ const translations = {
   },
   prohibitedactivitiesDesc: {
     en: "You may not access or use the Services for any purpose other than that for which we make the Services available. The Services may not be used in connection with any commercial.",
-    ar: "",
+    ar: "لا يجوز لك الوصول إلى الخدمات أو استخدامها لأي غرض آخر غير الذي نوفر الخدمات من أجله. لا يجوز استخدام الخدمات فيما يتعلق بأي إعلان تجاري.",
   },
   guidelinesforreviews: {
     en: "GUIDELINES FOR REVIEWS",
@@ -838,7 +848,7 @@ const translations = {
   },
   guidelinesforreviewsDesc: {
     en: "We may provide you areas on the Services to leave reviews or ratings. When posting a review, you must comply with the following criteria: (1) you should have firsthand experience with the person/entity being reviewed; (2) your reviews should not contain offensive profanity, or abusive, racist, offensive, or hateful language; (3) your reviews should not contain discriminatory references based on religion, race, gender, national origin, age, marital status, sexual orientation, or disability; (4) your reviews should not contain references to illegal activity; (5) you should not be affiliated with competitors if posting negative reviews; (6) you should not make any conclusions as to the legality of conduct; (7) you may not post any false or misleading statements; and (8) you may not",
-    ar: "",
+    ar: "قد نوفر لك مناطق في الخدمات لترك تعليقات أو تقييمات. عند نشر مراجعة، يجب عليك الالتزام بالمعايير التالية: (1) يجب أن يكون لديك خبرة مباشرة مع الشخص/الكيان الذي تتم مراجعته؛ (2) يجب ألا تحتوي مراجعاتك على ألفاظ نابية مسيئة أو لغة مسيئة أو عنصرية أو مسيئة أو تحض على الكراهية؛ (3) يجب ألا تحتوي مراجعاتك على إشارات تمييزية على أساس الدين أو العرق أو الجنس أو الأصل القومي أو العمر أو الحالة الاجتماعية أو التوجه الجنسي أو الإعاقة؛ (4) يجب ألا تحتوي مراجعاتك على إشارات إلى نشاط غير قانوني؛ (5) يجب ألا تكون تابعًا لمنافسين في حالة نشر تعليقات سلبية؛ (6) لا يجوز لك التوصل إلى أي استنتاجات بشأن مشروعية السلوك؛ (7) لا يجوز لك نشر أي بيانات كاذبة أو مضللة؛ و (8) لا يجوز لك",
   },
   servicesmanagement: {
     en: "SERVICES MANAGEMENT",
@@ -846,7 +856,7 @@ const translations = {
   },
   servicesmanagementDesc: {
     en: "We reserve the right, but not the obligation, to: (1) monitor the Services for violations of these Legal Terms; (2) take appropriate legal action against anyone who, in our sole discretion, violates the law or these Legal Terms, including without limitation, reporting such user to law enforcement authorities; (3) in our sole discretion and without limitation, refuse, restrict access to, limit the availability of, or disable (to the extent technologically feasible) any of your Contributions or any portion thereof; (4) in our sole discretion and without limitation, notice, or liability, to remove from the Services or otherwise disable all files and content that are excessive in size or are in any way burdensome to our systems; and (5) otherwise manage the Services in a manner designed to protect our rights and property and to facilitate the proper functioning of the Services.",
-    ar: "",
+    ar: "نحن نحتفظ بالحق، ولكن ليس الالتزام، في: (1) مراقبة الخدمات بحثًا عن انتهاكات لهذه الشروط القانونية؛ (2) اتخاذ الإجراءات القانونية المناسبة ضد أي شخص، وفقًا لتقديرنا الخاص، ينتهك القانون أو هذه الشروط القانونية، بما في ذلك على سبيل المثال لا الحصر، إبلاغ هذا المستخدم إلى سلطات إنفاذ القانون؛ (3) وفقًا لتقديرنا الخاص ودون حصر، رفض أو تقييد الوصول إلى أو الحد من توفر أو تعطيل (إلى الحد الممكن من الناحية التكنولوجية) أي من مساهماتك أو أي جزء منها؛ (4) وفقًا لتقديرنا الخاص ودون أي قيود أو إشعار أو مسؤولية، للإزالة من الخدمات أو تعطيل جميع الملفات والمحتوى الزائد في الحجم أو الذي يشكل عبئًا بأي شكل من الأشكال على أنظمتنا؛ و(5) إدارة الخدمات بطريقة مصممة لحماية حقوقنا وممتلكاتنا وتسهيل حسن سير الخدمات.",
   },
   termandtermination: {
     en: "TERM AND TERMINATION",
@@ -854,7 +864,7 @@ const translations = {
   },
   termandterminationDesc: {
     en: "These Legal Terms shall remain in full force and effect while you use the Services. WITHOUT LIMITING ANY OTHER PROVISION OF THESE LEGAL TERMS, WE RESERVE THE RIGHT TO, IN OUR SOLE DISCRETION AND WITHOUT NOTICE OR LIABILITY, DENY ACCESS TO AND USE OF THE SERVICES (INCLUDING BLOCKING CERTAIN IP ADDRESSES), TO ANY PERSON FOR ANY REASON OR FOR NO REASON, INCLUDING WITHOUT LIMITATION FOR BREACH OF ANY REPRESENTATION, WARRANTY, OR COVENANT CONTAINED IN THESE LEGAL TERMS OR OF ANY APPLICABLE LAW OR REGULATION. WE MAY TERMINATE YOUR USE OR PARTICIPATION IN THE SERVICES OR DELETE",
-    ar: "",
+    ar: "تظل هذه الشروط القانونية سارية المفعول والتأثير بالكامل أثناء استخدامك للخدمات. دون تقييد أي شرط آخر لهذه الشروط القانونية، نحن نحتفظ بالحق، وفقًا لتقديرنا الخاص ودون إشعار أو مسؤولية، في رفض الوصول إلى الخدمات واستخدامها (بما في ذلك حظر عناوين IP معينة)، لأي شخص لأي سبب أو لـ بدون سبب، بما في ذلك على سبيل المثال لا الحصر، انتهاك أي تمثيل أو ضمان أو ميثاق وارد في هذه الشروط القانونية أو أي قانون أو لائحة معمول بها. يجوز لنا إنهاء استخدامك أو مشاركتك في الخدمات أو حذفها",
   },
   governinglaw: {
     en: "GOVERNING LAW",
@@ -862,7 +872,7 @@ const translations = {
   },
   governinglawDesc: {
     en: "These Legal Terms shall be governed by and defined following the laws of oman gaim and yourself irrevocably consent that the courts of shall have exclusive jurisdiction to resolve any dispute which may arise in connection with these Legal Terms.",
-    ar: "",
+    ar: "تخضع هذه الشروط القانونية ويتم تعريفها وفقًا لقوانين غايم عمان، وتوافق بنفسك بشكل لا رجعة فيه على أن محاكم عمان ستكون لها السلطة القضائية الحصرية لحل أي نزاع قد ينشأ فيما يتعلق بهذه الشروط القانونية.",
   },
   userdata: {
     en: "USER DATA",
@@ -870,7 +880,7 @@ const translations = {
   },
   userdataDesc: {
     en: "We will maintain certain data that you transmit to the Services for the purpose of managing the performance of the Services, as well as data relating to your use of the Services. Although we perform regular routine backups of data, you are solely responsible for all data that you transmit or that relates to any activity you have undertaken using the Services. You agree that we shall have no liability to you for any loss or corruption of any such data, and you hereby waive any right of action against us arising from any such loss or corruption of such data.",
-    ar: "",
+    ar: "سنحتفظ ببعض البيانات التي ترسلها إلى الخدمات بغرض إدارة أداء الخدمات، بالإضافة إلى البيانات المتعلقة باستخدامك للخدمات. على الرغم من أننا نقوم بإجراء نسخ احتياطية روتينية منتظمة للبيانات، إلا أنك المسؤول الوحيد عن جميع البيانات التي ترسلها أو التي تتعلق بأي نشاط قمت به باستخدام الخدمات. أنت توافق على أننا لن نتحمل أي مسؤولية تجاهك عن أي خسارة أو تلف في أي من هذه البيانات، وأنت بموجب هذا تتنازل عن أي حق في رفع دعوى ضدنا ينشأ عن أي خسارة أو تلف في هذه البيانات.",
   },
   comms: {
     en: "ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES",
@@ -878,7 +888,7 @@ const translations = {
   },
   commsDesc: {
     en: "Visiting the Services, sending us emails, and completing online forms constitute electronic communications. You consent to receive electronic communications, and you agree that all agreements, notices, disclosures, and other communications we provide to you electronically, via email and on the Services, satisfy any legal requirement that such communication be in writing. YOU HEREBY AGREE TO THE USE OF ELECTRONIC SIGNATURES, CONTRACTS, ORDERS, AND OTHER RECORDS, AND TO ELECTRONIC DELIVERY OF NOTICES, POLICIES, AND RECORDS OF TRANSACTIONS INITIATED OR COMPLETED BY US OR VIA THE SERVICES. You hereby waive any rights or requirements under any statutes, regulations, rules, ordinances, or other laws in any jurisdiction which require an original signature or delivery or retention of non-electronic records, or to payments or the granting of credits by any means other than electronic means.",
-    ar: "",
+    ar: "تشكل زيارة الخدمات وإرسال رسائل البريد الإلكتروني إلينا واستكمال النماذج عبر الإنترنت اتصالات إلكترونية. أنت توافق على تلقي الاتصالات الإلكترونية، وتوافق على أن جميع الاتفاقيات والإشعارات والإفصاحات وغيرها من الاتصالات التي نقدمها لك إلكترونيًا، عبر البريد الإلكتروني وعلى الخدمات، تلبي أي متطلبات قانونية بأن تكون هذه الاتصالات كتابية. أنت توافق بموجب هذا على استخدام التوقيعات الإلكترونية والعقود والأوامر والسجلات الأخرى، وعلى التسليم الإلكتروني للإشعارات والسياسات وسجلات المعاملات التي بدأناها أو أكملناها بواسطتنا أو عبر الخدمات. أنت تتنازل بموجب هذا عن أي حقوق أو متطلبات بموجب أي قوانين أو لوائح أو قواعد أو مراسيم أو قوانين أخرى في أي ولاية قضائية تتطلب التوقيع الأصلي أو التسليم أو الاحتفاظ بالسجلات غير الإلكترونية، أو المدفوعات أو منح الاعتمادات بأي وسيلة أخرى من الوسائل الإلكترونية.",
   },
   miscellaneous: {
     en: "MISCELLANEOUS",
@@ -886,7 +896,7 @@ const translations = {
   },
   miscellaneousDesc: {
     en: "These Legal Terms and any policies or operating rules posted by us on the Services or in respect to the Services constitute the entire agreement and understanding between you and us. Our failure to exercise or enforce any right or provision of these Legal Terms shall not operate as a waiver of such right or provision. These Legal Terms operate to the fullest extent permissible by law. We may assign any or all of our rights and obligations to others at any time. We shall not be responsible or liable for any loss, damage, delay, or failure to act caused by any cause beyond our reasonable control. If any provision or part of a provision of these Legal Terms is determined to be unlawful, void, or unenforceable, that provision or part of the provision is deemed severable from these Legal Terms and does not affect the validity and enforceability of any remaining provisions. There is no joint venture, partnership, employment or agency relationship created between you and us as a result of these Legal Terms or use of the Services. You agree that these Legal Terms will not be construed against us by virtue of having drafted them. You hereby waive any and all ",
-    ar: "",
+    ar: "تشكل هذه الشروط القانونية وأي سياسات أو قواعد تشغيل ننشرها على الخدمات أو فيما يتعلق بالخدمات كامل الاتفاقية والتفاهم بينك وبيننا. إن فشلنا في ممارسة أو إنفاذ أي حق أو شرط من هذه الشروط القانونية لا يشكل تنازلاً عن هذا الحق أو الحكم. تعمل هذه الشروط القانونية إلى أقصى حد يسمح به القانون. يجوز لنا التنازل عن أي أو كل حقوقنا والتزاماتنا للآخرين في أي وقت. لن نكون مسؤولين أو مسؤولين عن أي خسارة أو ضرر أو تأخير أو فشل في التصرف لأي سبب خارج عن سيطرتنا المعقولة. إذا تم تحديد أي حكم أو جزء من حكم من هذه الشروط القانونية على أنه غير قانوني أو باطل أو غير قابل للتنفيذ، فإن هذا الحكم أو جزء من الحكم يعتبر قابلاً للفصل عن هذه الشروط القانونية ولا يؤثر على صحة وقابلية تنفيذ أي أحكام متبقية. لا توجد علاقة مشروع مشترك أو شراكة أو توظيف أو وكالة بينك وبيننا نتيجة لهذه الشروط القانونية أو استخدام الخدمات. أنت توافق على أن هذه الشروط القانونية لن يتم تفسيرها ضدنا بحكم صياغتها. أنت بموجب هذا تتنازل عن أي وجميع",
   },
 
 
@@ -940,11 +950,11 @@ const translations = {
   },
   socialloginDesc2: {
     en: "Our Services offer you the ability to register and log in using your third-party social media account details (like your Facebook or Twitter logins). Where you choose to do this, we will receive certain profile information about you from your social media provider. The profile information we receive may vary depending on the social media provider concerned, but will often include your name, email address, friends list, and profile picture, as well as other information you choose to make public on such a social media platform.",
-    ar: ""
+    ar: "توفر لك خدماتنا القدرة على التسجيل وتسجيل الدخول باستخدام تفاصيل حساب الوسائط الاجتماعية الخاص بطرف ثالث (مثل تسجيلات الدخول الخاصة بك على Facebook أو Twitter). عندما تختار القيام بذلك، سنتلقى معلومات معينة عنك من مزود الوسائط الاجتماعية الخاص بك. قد تختلف معلومات الملف الشخصي التي نتلقاها اعتمادًا على مزود الوسائط الاجتماعية المعني، ولكنها غالبًا ما تتضمن اسمك وعنوان بريدك الإلكتروني وقائمة الأصدقاء وصورة الملف الشخصي، بالإضافة إلى المعلومات الأخرى التي تختار نشرها للعامة على منصة التواصل الاجتماعي هذه."
   },
   socialloginDesc3: {
     en: "We will use the information we receive only for the purposes that are described in this privacy notice or that are otherwise made clear to you on the relevant Services. Please note that we do not control, and are not responsible for, other uses of your personal information by your third-party social media provider. We recommend that you review their privacy notice to understand how they collect, use, and share your personal information, and how you can set your privacy preferences on their sites and apps.",
-    ar: ""
+    ar: "سنستخدم المعلومات التي نتلقاها فقط للأغراض الموضحة في إشعار الخصوصية هذا أو التي تم توضيحها لك بطريقة أخرى في الخدمات ذات الصلة. يرجى ملاحظة أننا لا نتحكم، ولسنا مسؤولين عن، الاستخدامات الأخرى لمعلوماتك الشخصية من قبل مزود الوسائط الاجتماعية التابع لجهة خارجية. نوصيك بمراجعة إشعار الخصوصية الخاص بهم لفهم كيفية جمع معلوماتك الشخصية واستخدامها ومشاركتها، وكيف يمكنك تعيين تفضيلات الخصوصية الخاصة بك على مواقعهم وتطبيقاتهم."
   },
   informationtransfer: {
     en: "IS YOUR INFORMATION TRANSFERRED INTERNATIONALLY?",
@@ -952,7 +962,7 @@ const translations = {
   },
   informationtransferDesc: {
     en: "We may transfer, store, and process your information in countries other than your own. Please be aware that your information may be transferred to, stored, and processed by us in our facilities and by those third parties with whom we may share your personal information. ",
-    ar: ""
+    ar: "يجوز لنا نقل معلوماتك وتخزينها ومعالجتها في بلدان أخرى غير دولتك. يرجى العلم أنه قد يتم نقل معلوماتك وتخزينها ومعالجتها بواسطتنا في منشآتنا ومن قبل الأطراف الثالثة التي قد نشارك معلوماتك الشخصية معها."
   },
   informationkeeping: {
     en: "HOW LONG DO WE KEEP YOUR INFORMATION?",
@@ -960,7 +970,7 @@ const translations = {
   },
   informationkeepingDesc: {
     en: "We keep your information for as long as necessary to We will only keep your personal information for as long as it is necessary for the purposes set out in this privacy notice, unless a longer retention period is required or permitted by law (such as tax, accounting, or other legal requirements). When we have no ongoing legitimate business need to process your personal information, we will either delete or   such information, or, if this is not possible (for example, because your personal information has been stored in backup archives), then we will securely store your personal information and isolate it from any further processing until deletion is possible.",
-    ar: ""
+    ar: "نحن نحتفظ بمعلوماتك طالما كان ذلك ضروريًا. لن نحتفظ بمعلوماتك الشخصية إلا طالما كان ذلك ضروريًا للأغراض المنصوص عليها في إشعار الخصوصية هذا، ما لم تكن هناك فترة احتفاظ أطول مطلوبة أو مسموح بها بموجب القانون (مثل الضرائب، المحاسبة، أو المتطلبات القانونية الأخرى). عندما لا تكون لدينا حاجة تجارية مشروعة مستمرة لمعالجة معلوماتك الشخصية، فسنقوم إما بحذف هذه المعلومات، أو إذا لم يكن ذلك ممكنًا (على سبيل المثال، بسبب تخزين معلوماتك الشخصية في أرشيفات النسخ الاحتياطي)، فسنقوم بتخزينها بشكل آمن معلوماتك الشخصية وعزلها عن أي معالجة إضافية حتى يصبح الحذف ممكنًا."
   },
   privacyrights: {
     en: "WHAT ARE YOUR PRIVACY RIGHTS?",
@@ -968,7 +978,7 @@ const translations = {
   },
   privacyrightsDesc: {
     en: "You may review, change, or terminate your account at any time. If we are relying on your consent to process your personal information, which may be express and/or implied consent depending on the applicable law, you have the right to withdraw your consent at any time. You can withdraw your consent at any time by contacting us by using the contact details provided in the section. However, please note that this will not affect the lawfulness of the processing before its withdrawal nor, when applicable law allows, will it affect the processing of your personal information conducted in reliance on lawful processing grounds other than consent.",
-    ar: ""
+    ar: "يمكنك مراجعة حسابك أو تغييره أو إنهائه في أي وقت. إذا كنا نعتمد على موافقتك لمعالجة معلوماتك الشخصية، والتي قد تكون موافقة صريحة و/أو ضمنية وفقًا للقانون المعمول به، فلديك الحق في سحب موافقتك في أي وقت. يمكنك سحب موافقتك في أي وقت عن طريق الاتصال بنا باستخدام تفاصيل الاتصال الواردة في القسم. ومع ذلك، يرجى ملاحظة أن هذا لن يؤثر على قانونية المعالجة قبل سحبها، ولن يؤثر، عندما يسمح القانون المعمول به، على معالجة معلوماتك الشخصية التي تتم بالاعتماد على أسباب المعالجة القانونية بخلاف الموافقة."
   }
 
 

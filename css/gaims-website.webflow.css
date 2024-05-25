@@ -1868,6 +1868,8 @@ html[lang="ar"] .wp-link.black {
   padding-top: 1em;
   padding-left: 0;
   padding-right: 0;
+  z-index: 10;
+  position: relative;
 }
 
 .footer-logo-link {
@@ -10542,12 +10544,16 @@ border-radius: 100px;
   }
 
   .logo-grid.first {
+    /* width: 100vw; */
     /* width: 160%;
     grid-column-gap: 30px;
     grid-row-gap: 30px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     padding-bottom: 0;
     padding-left: 20px; */
+  }
+  .logo-grid.first.only-tablet-n-laptop {
+    display: none;
   }
 
   .logo-infinite-loop-holder {
@@ -10559,6 +10565,7 @@ border-radius: 100px;
   .logo-grid-container.bottom,
   .logo-grid-container.top {
     /* width: 100%; */
+   
   }
 
   .logo-grid-holder {
