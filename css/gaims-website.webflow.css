@@ -8907,6 +8907,13 @@ border-radius: 100px;
 
   .nav-link-holder.nav-button-holder {
     padding-left: 0;
+    margin-left: auto;
+    margin-right: 10px;
+  }
+
+  html[lang="ar"] .nav-link-holder.nav-button-holder {
+    margin-left: 10px;
+    margin-right: auto;
   }
 
   .menu-button {
