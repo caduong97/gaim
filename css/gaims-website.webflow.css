@@ -1895,6 +1895,7 @@ html[lang="ar"] .wp-link.black {
   font-weight: 500;
 }
 
+
 .made-by-section {
   grid-column-gap: 1em;
   grid-row-gap: 1em;
@@ -6408,6 +6409,7 @@ html[lang="ar"] .list-item-with-checkicon {
 .features-image {
   height: 100%;
   /* max-height: 454px; */
+  background-color: #fff;
 }
 
 .features-image.second {
@@ -9871,6 +9873,12 @@ border-radius: 100px;
     /* display: none; */
     margin-left: auto;
     margin-right: 10px;
+
+  }
+
+  html[lang="ar"] .nav-link-holder.nav-button-holder {
+    margin-left: 10px;
+    margin-right: auto;
   }
 
   .menu-button.w--open {

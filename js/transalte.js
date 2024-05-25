@@ -110,6 +110,11 @@ const translations = {
     ar: `تعرف أكثر`,
   },
   
+  quicklinks: {
+    en: "Quick Links",
+    ar: "روابط سريعة",
+  },
+
   contactus: {
     en: "Contact us",
     ar: "اتصل بنا",
@@ -664,9 +669,13 @@ const translations = {
     en: "Chatbots from Documents",
     ar: "الدردشة الآلية استناداً على بياناتك"
   },
-  getintouch: {
+  getintouch1: {
     en: "Get in touch with GAIM experts",
     ar: "تواصل مع خبراء غَـيْم"
+  },
+  getintouch2: {
+    en: "Get in touch with GAIM",
+    ar: "تواصل مع غَـيْم"
   },
   werempower: {
     en: "We empower companies to",
@@ -786,6 +795,39 @@ const translations = {
     ar: "قدم الآن"
   },
   // End of career page text
+
+
+  // Start of contact page text
+  contactHeroText: {
+    en: "Explore our innovative solutions today by booking a demo of our capabilities, or get in touch with us for any other inquiries.",
+    ar: "احجز عرض توضيحي لقدراتنا وحلول غيم للذكاء الاصطناعي أو تواصل معنا بخصوص أي استفسارات أخرى"
+  },
+  contactform: {
+    en: "Contact Form",
+    ar: "نموذج الاتصال"
+  },
+  firstname: {
+    en: "First Name",
+    ar: "الاسم الأول"
+  },
+  lastname: {
+    en: "Last Name",
+    ar: "الاسم الأخير"
+  },
+  email: {
+    en: "Email",
+    ar: "البريد الإلكتروني"
+  },
+  message: {
+    en: "Message",
+    ar: "الرسالة"
+  },
+  companyname: {
+    en: "Company Name",
+    ar: "اسم الشركة"
+  },
+  
+  // End of contact page text
 
   // Terms page text
   termsandconditions: {
@@ -1020,8 +1062,8 @@ function getTranslation(key, lang) {
 }
 
 document.getElementById("lang-Btn").addEventListener("click", toggleLanguage);
-document
-  .getElementById("mobile-btn-ar")
-  .addEventListener("click", toggleLanguage);
+// document
+//   .getElementById("mobile-btn-ar")
+//   .addEventListener("click", toggleLanguage);
 
 renderTranslations(localStorage.getItem("language") || "en");
